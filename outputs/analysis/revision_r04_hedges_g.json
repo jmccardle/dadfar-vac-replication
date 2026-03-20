@@ -1,0 +1,103 @@
+{
+  "description": "R4: Hedges' g corrections and confidence intervals",
+  "corrections": [
+    {
+      "label": "Introspection direction (Llama 8B)",
+      "n1": 3,
+      "n2": 3,
+      "n_total": 6,
+      "cohens_d": 8.02,
+      "hedges_J": 0.8,
+      "hedges_g": 6.416,
+      "bias_correction_pct": 19.999999999999996,
+      "se_g": 2.0241264782616724,
+      "ci_95_low": 3.5893455634616633,
+      "ci_95_high": 18.80333924119,
+      "ci_width": 15.213993677728336
+    },
+    {
+      "label": "Forest-vs-Math direction (Llama 8B)",
+      "n1": 3,
+      "n2": 3,
+      "n_total": 6,
+      "cohens_d": 4.48,
+      "hedges_J": 0.8,
+      "hedges_g": 3.5840000000000005,
+      "bias_correction_pct": 19.999999999999996,
+      "se_g": 1.317986342873097,
+      "ci_95_low": 1.6895399199472774,
+      "ci_95_high": 10.923938725846444,
+      "ci_width": 9.234398805899167
+    },
+    {
+      "label": "Dadfar transfer test (reported)",
+      "n1": 5,
+      "n2": 5,
+      "n_total": 10,
+      "cohens_d": 4.27,
+      "hedges_J": 0.9032258064516129,
+      "hedges_g": 3.856774193548387,
+      "bias_correction_pct": 9.677419354838712,
+      "se_g": 1.0694556367615444,
+      "ci_95_low": 2.2491155648459484,
+      "ci_95_high": 7.824801495090127,
+      "ci_width": 5.575685930244179
+    },
+    {
+      "label": "Introspection direction (Llama 70B)",
+      "n1": 3,
+      "n2": 3,
+      "n_total": 6,
+      "cohens_d": 4.05,
+      "hedges_J": 0.8,
+      "hedges_g": 3.24,
+      "bias_correction_pct": 19.999999999999996,
+      "se_g": 1.2415581608070831,
+      "ci_95_low": 1.435104977622227,
+      "ci_95_high": 9.99175198341945,
+      "ci_width": 8.556647005797222
+    },
+    {
+      "label": "Forest-vs-Math direction (Llama 70B)",
+      "n1": 3,
+      "n2": 3,
+      "n_total": 6,
+      "cohens_d": 4.1,
+      "hedges_J": 0.8,
+      "hedges_g": 3.28,
+      "bias_correction_pct": 19.999999999999996,
+      "se_g": 1.2502799686470225,
+      "ci_95_low": 1.4651844425182223,
+      "ci_95_high": 10.099672678096498,
+      "ci_width": 8.634488235578276
+    },
+    {
+      "label": "Lock-in baseline vs nonsense (cycling)",
+      "n1": 6,
+      "n2": 4,
+      "n_total": 10,
+      "cohens_d": 0.59,
+      "hedges_J": 0.9032258064516129,
+      "hedges_g": 0.5329032258064516,
+      "bias_correction_pct": 9.677419354838712,
+      "se_g": 0.6564038079341197,
+      "ci_95_low": -0.8144674927080545,
+      "ci_95_high": 2.231648406697881,
+      "ci_width": 3.0461158994059354
+    },
+    {
+      "label": "Lock-in baseline vs desc_math (cycling)",
+      "n1": 6,
+      "n2": 9,
+      "n_total": 15,
+      "cohens_d": 0.44,
+      "hedges_J": 0.9411764705882353,
+      "hedges_g": 0.41411764705882353,
+      "bias_correction_pct": 5.882352941176472,
+      "se_g": 0.5324417576580206,
+      "ci_95_low": -0.6609274860655564,
+      "ci_95_high": 1.6448022636765338,
+      "ci_width": 2.30572974974209
+    }
+  ]
+}

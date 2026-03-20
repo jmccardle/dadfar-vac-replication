@@ -1,0 +1,10 @@
+{
+  "description": "R2 v2: Corrected F-statistics from activation vectors",
+  "data_source": "/storage/dadfar_model_self_examination/dadfar-vac-replication/outputs/runs/phase_d_layer_sweep/vectors",
+  "n_permutations": 10000,
+  "metrics": {
+    "f_norm": "norm(mean_vector_per_run) \u2014 activation magnitude",
+    "f_cosine": "cosine(run_mean, grand_mean) \u2014 directional alignment"
+  },
+  "layers": {}
+}

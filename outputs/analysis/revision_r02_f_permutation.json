@@ -1,0 +1,215 @@
+{
+  "description": "R2: F-statistic exact p-values and permutation tests",
+  "data_source": "/storage/dadfar_model_self_examination/dadfar-vac-replication/outputs/runs/phase_d_layer_sweep/layer_sweep_results.json",
+  "n_permutations": 10000,
+  "layers": {
+    "2": {
+      "layer": 2,
+      "depth_pct": 3.125,
+      "f_norm": {
+        "F": 0.5712064650521342,
+        "p_parametric": 0.768933281703496,
+        "p_permutation": 0.7874212578742126,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": false,
+        "significant_001": false,
+        "perm_significant_005": false,
+        "perm_significant_001": false
+      },
+      "f_cosine": {
+        "F": 3.0491874573473683,
+        "p_parametric": 0.03068981735540341,
+        "p_permutation": 0.028597140285971403,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": false,
+        "perm_significant_005": true,
+        "perm_significant_001": false
+      }
+    },
+    "3": {
+      "layer": 3,
+      "depth_pct": 4.6875,
+      "f_norm": {
+        "F": 1.0036825868843935,
+        "p_parametric": 0.4640472066758165,
+        "p_permutation": 0.46335366463353667,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": false,
+        "significant_001": false,
+        "perm_significant_005": false,
+        "perm_significant_001": false
+      },
+      "f_cosine": {
+        "F": 3.545913003050456,
+        "p_parametric": 0.01706779861994486,
+        "p_permutation": 0.0136986301369863,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": false,
+        "perm_significant_005": true,
+        "perm_significant_001": false
+      }
+    },
+    "4": {
+      "layer": 4,
+      "depth_pct": 6.25,
+      "f_norm": {
+        "F": 0.8339325573612639,
+        "p_parametric": 0.5748915876865349,
+        "p_permutation": 0.5738426157384262,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": false,
+        "significant_001": false,
+        "perm_significant_005": false,
+        "perm_significant_001": false
+      },
+      "f_cosine": {
+        "F": 3.833371183291073,
+        "p_parametric": 0.01234633363041295,
+        "p_permutation": 0.007799220077992201,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": false,
+        "perm_significant_005": true,
+        "perm_significant_001": true
+      }
+    },
+    "5": {
+      "layer": 5,
+      "depth_pct": 7.8125,
+      "f_norm": {
+        "F": 0.8963882459350269,
+        "p_parametric": 0.5322398317746784,
+        "p_permutation": 0.5368463153684632,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": false,
+        "significant_001": false,
+        "perm_significant_005": false,
+        "perm_significant_001": false
+      },
+      "f_cosine": {
+        "F": 4.635358957594998,
+        "p_parametric": 0.005292724702884956,
+        "p_permutation": 0.0053994600539946005,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": true,
+        "perm_significant_005": true,
+        "perm_significant_001": true
+      }
+    },
+    "6": {
+      "layer": 6,
+      "depth_pct": 9.375,
+      "f_norm": {
+        "F": 1.7873164575436447,
+        "p_parametric": 0.15901729036961731,
+        "p_permutation": 0.1571842815718428,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": false,
+        "significant_001": false,
+        "perm_significant_005": false,
+        "perm_significant_001": false
+      },
+      "f_cosine": {
+        "F": 5.9911856211683805,
+        "p_parametric": 0.001489144367129918,
+        "p_permutation": 0.0012998700129987,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": true,
+        "perm_significant_005": true,
+        "perm_significant_001": true
+      }
+    },
+    "8": {
+      "layer": 8,
+      "depth_pct": 12.5,
+      "f_norm": {
+        "F": 2.24644741094316,
+        "p_parametric": 0.0853561397078957,
+        "p_permutation": 0.08599140085991401,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": false,
+        "significant_001": false,
+        "perm_significant_005": false,
+        "perm_significant_001": false
+      },
+      "f_cosine": {
+        "F": 4.96035711168812,
+        "p_parametric": 0.0038377871702230046,
+        "p_permutation": 0.0040995900409959,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": true,
+        "perm_significant_005": true,
+        "perm_significant_001": true
+      }
+    },
+    "16": {
+      "layer": 16,
+      "depth_pct": 25.0,
+      "f_norm": {
+        "F": 3.0410320158044613,
+        "p_parametric": 0.030996025602024756,
+        "p_permutation": 0.0344965503449655,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": false,
+        "perm_significant_005": true,
+        "perm_significant_001": false
+      },
+      "f_cosine": {
+        "F": 5.798877626326725,
+        "p_parametric": 0.0017629867405087357,
+        "p_permutation": 0.0031996800319968005,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": true,
+        "perm_significant_005": true,
+        "perm_significant_001": true
+      }
+    },
+    "32": {
+      "layer": 32,
+      "depth_pct": 50.0,
+      "f_norm": {
+        "F": 5.199474932789963,
+        "p_parametric": 0.0030519447812609483,
+        "p_permutation": 0.0035996400359964,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": true,
+        "significant_001": true,
+        "perm_significant_005": true,
+        "perm_significant_001": true
+      },
+      "f_cosine": {
+        "F": 2.634855909576548,
+        "p_parametric": 0.05144474951654354,
+        "p_permutation": 0.05549445055494451,
+        "df_between": 7,
+        "df_within": 16,
+        "significant_005": false,
+        "significant_001": false,
+        "perm_significant_005": false,
+        "perm_significant_001": false
+      }
+    }
+  }
+}

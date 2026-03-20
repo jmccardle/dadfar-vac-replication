@@ -1,0 +1,22 @@
+{
+  "description": "R11: Permutation test on cosine similarity difference",
+  "n_permutations": 10000,
+  "full_permutation": {
+    "conditions": [
+      "abstract_philosophical",
+      "baseline",
+      "descriptive_math",
+      "descriptive_music",
+      "factual_iterative",
+      "nonsense_control",
+      "procedural_self"
+    ],
+    "baseline": "baseline",
+    "n_directions": 7,
+    "mean_baseline_vs_others": 0.6397,
+    "mean_others_vs_others": 0.5580466666666667,
+    "observed_difference": 0.08165333333333336,
+    "permutation_p": 0.28477152284771523,
+    "significant": false
+  }
+}

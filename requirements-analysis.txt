@@ -1,0 +1,5 @@
+# Requirements for running analysis scripts (no GPU needed)
+# Install: pip install -r requirements-analysis.txt
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

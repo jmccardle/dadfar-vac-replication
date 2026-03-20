@@ -1,0 +1,5798 @@
+{
+  "n_runs": 50,
+  "obs_cutoffs": [
+    50,
+    100,
+    150,
+    200,
+    300,
+    500
+  ],
+  "analysis_layers": [
+    8,
+    16,
+    32
+  ],
+  "runs": [
+    {
+      "run_id": 0,
+      "n_tokens": 16588,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 36,
+        "cycle_period": 20,
+        "n_unique": 55,
+        "unique_ratio": 0.055,
+        "cycle_vocabulary_size": 20
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 780,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.34,
+            "n_states": 48,
+            "token_position": 780,
+            "frobenius_to_final": 2.439384
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1566,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 54,
+            "unique_ratio": 0.54,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.67,
+            "n_states": 52,
+            "token_position": 1566,
+            "frobenius_to_final": 0.339179
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2401,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 54,
+            "unique_ratio": 0.36,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.78,
+            "n_states": 52,
+            "token_position": 2401,
+            "frobenius_to_final": 0.184577
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3236,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 54,
+            "unique_ratio": 0.27,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.835,
+            "n_states": 52,
+            "token_position": 3236,
+            "frobenius_to_final": 0.135882
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4906,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 54,
+            "unique_ratio": 0.18,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.89,
+            "n_states": 52,
+            "token_position": 4906,
+            "frobenius_to_final": 0.079977
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8246,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 54,
+            "unique_ratio": 0.108,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.934,
+            "n_states": 52,
+            "token_position": 8246,
+            "frobenius_to_final": 0.042391
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 16588,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 55,
+            "unique_ratio": 0.055,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.966,
+            "n_states": 53,
+            "token_position": 16588,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 1,
+      "n_tokens": 14985,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 77,
+        "cycle_period": 26,
+        "n_unique": 79,
+        "unique_ratio": 0.079,
+        "cycle_vocabulary_size": 26
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 645,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.06,
+            "n_states": 50,
+            "token_position": 645,
+            "frobenius_to_final": 5.332022
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1354,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 77,
+            "unique_ratio": 0.77,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.5,
+            "n_states": 75,
+            "token_position": 1354,
+            "frobenius_to_final": 2.959039
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2112,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 77,
+            "unique_ratio": 0.5133,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.6667,
+            "n_states": 75,
+            "token_position": 2112,
+            "frobenius_to_final": 1.353598
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2870,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 77,
+            "unique_ratio": 0.385,
+            "cycle_detected": true,
+            "lock_in_obs": 77,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.75,
+            "n_states": 75,
+            "token_position": 2870,
+            "frobenius_to_final": 0.889723
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4386,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 77,
+            "unique_ratio": 0.2567,
+            "cycle_detected": true,
+            "lock_in_obs": 77,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.8333,
+            "n_states": 75,
+            "token_position": 4386,
+            "frobenius_to_final": 0.471932
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7416,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 77,
+            "unique_ratio": 0.154,
+            "cycle_detected": true,
+            "lock_in_obs": 77,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.9,
+            "n_states": 75,
+            "token_position": 7416,
+            "frobenius_to_final": 0.188313
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 14985,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 79,
+            "unique_ratio": 0.079,
+            "cycle_detected": true,
+            "lock_in_obs": 77,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.949,
+            "n_states": 76,
+            "token_position": 14985,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 2,
+      "n_tokens": 11876,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 76,
+        "cycle_period": 30,
+        "n_unique": 82,
+        "unique_ratio": 0.082,
+        "cycle_vocabulary_size": 30
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 530,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 530,
+            "frobenius_to_final": 5.647876
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1079,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 81,
+            "unique_ratio": 0.81,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.33,
+            "n_states": 82,
+            "token_position": 1079,
+            "frobenius_to_final": 1.368122
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1678,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 81,
+            "unique_ratio": 0.54,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.5533,
+            "n_states": 82,
+            "token_position": 1678,
+            "frobenius_to_final": 0.382423
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2278,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 81,
+            "unique_ratio": 0.405,
+            "cycle_detected": true,
+            "lock_in_obs": 76,
+            "cycle_period": 30,
+            "cycle_obs_fraction": 0.665,
+            "n_states": 82,
+            "token_position": 2278,
+            "frobenius_to_final": 0.227529
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3478,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 81,
+            "unique_ratio": 0.27,
+            "cycle_detected": true,
+            "lock_in_obs": 76,
+            "cycle_period": 30,
+            "cycle_obs_fraction": 0.7767,
+            "n_states": 82,
+            "token_position": 3478,
+            "frobenius_to_final": 0.118041
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 5878,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 81,
+            "unique_ratio": 0.162,
+            "cycle_detected": true,
+            "lock_in_obs": 76,
+            "cycle_period": 30,
+            "cycle_obs_fraction": 0.866,
+            "n_states": 82,
+            "token_position": 5878,
+            "frobenius_to_final": 0.047058
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 11876,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 82,
+            "unique_ratio": 0.082,
+            "cycle_detected": true,
+            "lock_in_obs": 76,
+            "cycle_period": 30,
+            "cycle_obs_fraction": 0.932,
+            "n_states": 83,
+            "token_position": 11876,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 3,
+      "n_tokens": 11744,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 59,
+        "cycle_period": 16,
+        "n_unique": 55,
+        "unique_ratio": 0.055,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 564,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.12,
+            "n_states": 50,
+            "token_position": 564,
+            "frobenius_to_final": 3.361672
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1106,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 54,
+            "unique_ratio": 0.54,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.55,
+            "n_states": 54,
+            "token_position": 1106,
+            "frobenius_to_final": 0.741826
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1698,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 54,
+            "unique_ratio": 0.36,
+            "cycle_detected": true,
+            "lock_in_obs": 59,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.7,
+            "n_states": 54,
+            "token_position": 1698,
+            "frobenius_to_final": 0.344052
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2288,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 54,
+            "unique_ratio": 0.27,
+            "cycle_detected": true,
+            "lock_in_obs": 59,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.775,
+            "n_states": 54,
+            "token_position": 2288,
+            "frobenius_to_final": 0.220089
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3469,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 54,
+            "unique_ratio": 0.18,
+            "cycle_detected": true,
+            "lock_in_obs": 59,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.85,
+            "n_states": 54,
+            "token_position": 3469,
+            "frobenius_to_final": 0.117653
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 5831,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 54,
+            "unique_ratio": 0.108,
+            "cycle_detected": true,
+            "lock_in_obs": 59,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.91,
+            "n_states": 54,
+            "token_position": 5831,
+            "frobenius_to_final": 0.050388
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 11744,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 55,
+            "unique_ratio": 0.055,
+            "cycle_detected": true,
+            "lock_in_obs": 59,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.955,
+            "n_states": 54,
+            "token_position": 11744,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 4,
+      "n_tokens": 12871,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 46,
+        "cycle_period": 16,
+        "n_unique": 61,
+        "unique_ratio": 0.061,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 570,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.12,
+            "n_states": 50,
+            "token_position": 570,
+            "frobenius_to_final": 3.596372
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1169,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 60,
+            "unique_ratio": 0.6,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.56,
+            "n_states": 60,
+            "token_position": 1169,
+            "frobenius_to_final": 0.329983
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1819,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 60,
+            "unique_ratio": 0.4,
+            "cycle_detected": true,
+            "lock_in_obs": 46,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.7067,
+            "n_states": 60,
+            "token_position": 1819,
+            "frobenius_to_final": 0.17846
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2467,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 60,
+            "unique_ratio": 0.3,
+            "cycle_detected": true,
+            "lock_in_obs": 46,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.78,
+            "n_states": 60,
+            "token_position": 2467,
+            "frobenius_to_final": 0.117851
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3770,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 60,
+            "unique_ratio": 0.2,
+            "cycle_detected": true,
+            "lock_in_obs": 46,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.8533,
+            "n_states": 60,
+            "token_position": 3770,
+            "frobenius_to_final": 0.059619
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6369,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 60,
+            "unique_ratio": 0.12,
+            "cycle_detected": true,
+            "lock_in_obs": 46,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.912,
+            "n_states": 60,
+            "token_position": 6369,
+            "frobenius_to_final": 0.025196
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 12871,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 61,
+            "unique_ratio": 0.061,
+            "cycle_detected": true,
+            "lock_in_obs": 46,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.956,
+            "n_states": 60,
+            "token_position": 12871,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 5,
+      "n_tokens": 261,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 6,
+      "n_tokens": 294,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 7,
+      "n_tokens": 12590,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 187,
+        "cycle_period": 9,
+        "n_unique": 249,
+        "unique_ratio": 0.249,
+        "cycle_vocabulary_size": 9
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 533,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 533,
+            "frobenius_to_final": 18.734221
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1091,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 100,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 100,
+            "token_position": 1091,
+            "frobenius_to_final": 17.348516
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1648,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 150,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 150,
+            "token_position": 1648,
+            "frobenius_to_final": 15.842065
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2306,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 195,
+            "unique_ratio": 0.975,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.07,
+            "n_states": 195,
+            "token_position": 2306,
+            "frobenius_to_final": 14.317836
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3572,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 195,
+            "unique_ratio": 0.65,
+            "cycle_detected": true,
+            "lock_in_obs": 187,
+            "cycle_period": 9,
+            "cycle_obs_fraction": 0.38,
+            "n_states": 195,
+            "token_position": 3572,
+            "frobenius_to_final": 14.317836
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6105,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 195,
+            "unique_ratio": 0.39,
+            "cycle_detected": true,
+            "lock_in_obs": 187,
+            "cycle_period": 9,
+            "cycle_obs_fraction": 0.628,
+            "n_states": 195,
+            "token_position": 6105,
+            "frobenius_to_final": 14.317836
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 12590,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 249,
+            "unique_ratio": 0.249,
+            "cycle_detected": true,
+            "lock_in_obs": 187,
+            "cycle_period": 9,
+            "cycle_obs_fraction": 0.608,
+            "n_states": 401,
+            "token_position": 12590,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 8,
+      "n_tokens": 19311,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 51,
+        "cycle_period": 26,
+        "n_unique": 64,
+        "unique_ratio": 0.064,
+        "cycle_vocabulary_size": 26
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 879,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.38,
+            "n_states": 49,
+            "token_position": 879,
+            "frobenius_to_final": 6.028124
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1803,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 62,
+            "unique_ratio": 0.62,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.69,
+            "n_states": 55,
+            "token_position": 1803,
+            "frobenius_to_final": 1.766066
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2778,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 62,
+            "unique_ratio": 0.4133,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.7933,
+            "n_states": 55,
+            "token_position": 2778,
+            "frobenius_to_final": 1.013963
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3749,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 62,
+            "unique_ratio": 0.31,
+            "cycle_detected": true,
+            "lock_in_obs": 51,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.845,
+            "n_states": 55,
+            "token_position": 3749,
+            "frobenius_to_final": 0.692011
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5697,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 62,
+            "unique_ratio": 0.2067,
+            "cycle_detected": true,
+            "lock_in_obs": 51,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.8967,
+            "n_states": 55,
+            "token_position": 5697,
+            "frobenius_to_final": 0.385164
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 9589,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 62,
+            "unique_ratio": 0.124,
+            "cycle_detected": true,
+            "lock_in_obs": 51,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.938,
+            "n_states": 55,
+            "token_position": 9589,
+            "frobenius_to_final": 0.159166
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 19311,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 64,
+            "unique_ratio": 0.064,
+            "cycle_detected": true,
+            "lock_in_obs": 51,
+            "cycle_period": 26,
+            "cycle_obs_fraction": 0.968,
+            "n_states": 56,
+            "token_position": 19311,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 9,
+      "n_tokens": 18618,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 138,
+        "cycle_period": 16,
+        "n_unique": 135,
+        "unique_ratio": 0.135,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 708,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 708,
+            "frobenius_to_final": 8.798916
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1526,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 100,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 100,
+            "token_position": 1526,
+            "frobenius_to_final": 5.236499
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2477,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 134,
+            "unique_ratio": 0.8933,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.22,
+            "n_states": 128,
+            "token_position": 2477,
+            "frobenius_to_final": 0.67141
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3428,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 134,
+            "unique_ratio": 0.67,
+            "cycle_detected": true,
+            "lock_in_obs": 120,
+            "cycle_period": 8,
+            "cycle_obs_fraction": 0.415,
+            "n_states": 128,
+            "token_position": 3428,
+            "frobenius_to_final": 0.297897
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5328,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 134,
+            "unique_ratio": 0.4467,
+            "cycle_detected": true,
+            "lock_in_obs": 138,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.61,
+            "n_states": 128,
+            "token_position": 5328,
+            "frobenius_to_final": 0.135126
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 9128,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 134,
+            "unique_ratio": 0.268,
+            "cycle_detected": true,
+            "lock_in_obs": 138,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.766,
+            "n_states": 128,
+            "token_position": 9128,
+            "frobenius_to_final": 0.048844
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 18618,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 135,
+            "unique_ratio": 0.135,
+            "cycle_detected": true,
+            "lock_in_obs": 138,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.882,
+            "n_states": 129,
+            "token_position": 18618,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 10,
+      "n_tokens": 20127,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 89,
+        "cycle_period": 24,
+        "n_unique": 97,
+        "unique_ratio": 0.097,
+        "cycle_vocabulary_size": 24
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 794,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 794,
+            "frobenius_to_final": 5.160375
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1761,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 93,
+            "unique_ratio": 0.93,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.46,
+            "n_states": 74,
+            "token_position": 1761,
+            "frobenius_to_final": 3.299941
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2782,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 96,
+            "unique_ratio": 0.64,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.64,
+            "n_states": 77,
+            "token_position": 2782,
+            "frobenius_to_final": 1.346539
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3805,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 96,
+            "unique_ratio": 0.48,
+            "cycle_detected": true,
+            "lock_in_obs": 89,
+            "cycle_period": 24,
+            "cycle_obs_fraction": 0.73,
+            "n_states": 77,
+            "token_position": 3805,
+            "frobenius_to_final": 0.941259
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5843,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 96,
+            "unique_ratio": 0.32,
+            "cycle_detected": true,
+            "lock_in_obs": 89,
+            "cycle_period": 24,
+            "cycle_obs_fraction": 0.82,
+            "n_states": 77,
+            "token_position": 5843,
+            "frobenius_to_final": 0.559843
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 9923,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 96,
+            "unique_ratio": 0.192,
+            "cycle_detected": true,
+            "lock_in_obs": 89,
+            "cycle_period": 24,
+            "cycle_obs_fraction": 0.892,
+            "n_states": 77,
+            "token_position": 9923,
+            "frobenius_to_final": 0.245734
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 20127,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 97,
+            "unique_ratio": 0.097,
+            "cycle_detected": true,
+            "lock_in_obs": 89,
+            "cycle_period": 24,
+            "cycle_obs_fraction": 0.945,
+            "n_states": 78,
+            "token_position": 20127,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 11,
+      "n_tokens": 13280,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 107,
+        "cycle_period": 3,
+        "n_unique": 99,
+        "unique_ratio": 0.099,
+        "cycle_vocabulary_size": 3
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 648,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 648,
+            "frobenius_to_final": 7.548956
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1277,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 97,
+            "unique_ratio": 0.97,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.03,
+            "n_states": 100,
+            "token_position": 1277,
+            "frobenius_to_final": 2.645764
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1944,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 97,
+            "unique_ratio": 0.6467,
+            "cycle_detected": true,
+            "lock_in_obs": 107,
+            "cycle_period": 3,
+            "cycle_obs_fraction": 0.32,
+            "n_states": 105,
+            "token_position": 1944,
+            "frobenius_to_final": 1.002901
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2609,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 97,
+            "unique_ratio": 0.485,
+            "cycle_detected": true,
+            "lock_in_obs": 107,
+            "cycle_period": 3,
+            "cycle_obs_fraction": 0.49,
+            "n_states": 105,
+            "token_position": 2609,
+            "frobenius_to_final": 1.000648
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3944,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 97,
+            "unique_ratio": 0.3233,
+            "cycle_detected": true,
+            "lock_in_obs": 107,
+            "cycle_period": 3,
+            "cycle_obs_fraction": 0.66,
+            "n_states": 105,
+            "token_position": 3944,
+            "frobenius_to_final": 1.000107
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6609,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 97,
+            "unique_ratio": 0.194,
+            "cycle_detected": true,
+            "lock_in_obs": 107,
+            "cycle_period": 3,
+            "cycle_obs_fraction": 0.796,
+            "n_states": 105,
+            "token_position": 6609,
+            "frobenius_to_final": 1.000015
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 13280,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 99,
+            "unique_ratio": 0.099,
+            "cycle_detected": true,
+            "lock_in_obs": 107,
+            "cycle_period": 3,
+            "cycle_obs_fraction": 0.897,
+            "n_states": 106,
+            "token_position": 13280,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 12,
+      "n_tokens": 19155,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 169,
+        "cycle_period": 12,
+        "n_unique": 179,
+        "unique_ratio": 0.179,
+        "cycle_vocabulary_size": 12
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 679,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 679,
+            "frobenius_to_final": 7.82603
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1513,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 100,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.04,
+            "n_states": 100,
+            "token_position": 1513,
+            "frobenius_to_final": 3.90472
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2508,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 150,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.3267,
+            "n_states": 111,
+            "token_position": 2508,
+            "frobenius_to_final": 1.16026
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3498,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 177,
+            "unique_ratio": 0.885,
+            "cycle_detected": true,
+            "lock_in_obs": 128,
+            "cycle_period": 12,
+            "cycle_obs_fraction": 0.495,
+            "n_states": 111,
+            "token_position": 3498,
+            "frobenius_to_final": 0.570251
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5456,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 177,
+            "unique_ratio": 0.59,
+            "cycle_detected": true,
+            "lock_in_obs": 169,
+            "cycle_period": 12,
+            "cycle_obs_fraction": 0.6633,
+            "n_states": 111,
+            "token_position": 5456,
+            "frobenius_to_final": 0.248634
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 9373,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 177,
+            "unique_ratio": 0.354,
+            "cycle_detected": true,
+            "lock_in_obs": 169,
+            "cycle_period": 12,
+            "cycle_obs_fraction": 0.798,
+            "n_states": 111,
+            "token_position": 9373,
+            "frobenius_to_final": 0.093647
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 19155,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 179,
+            "unique_ratio": 0.179,
+            "cycle_detected": true,
+            "lock_in_obs": 169,
+            "cycle_period": 12,
+            "cycle_obs_fraction": 0.898,
+            "n_states": 112,
+            "token_position": 19155,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 13,
+      "n_tokens": 12723,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 33,
+        "cycle_period": 20,
+        "n_unique": 52,
+        "unique_ratio": 0.052,
+        "cycle_vocabulary_size": 20
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 568,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.38,
+            "n_states": 50,
+            "token_position": 568,
+            "frobenius_to_final": 1.979907
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1162,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 51,
+            "unique_ratio": 0.51,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.69,
+            "n_states": 51,
+            "token_position": 1162,
+            "frobenius_to_final": 0.325972
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1804,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 51,
+            "unique_ratio": 0.34,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.7933,
+            "n_states": 51,
+            "token_position": 1804,
+            "frobenius_to_final": 0.208845
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2447,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 51,
+            "unique_ratio": 0.255,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.845,
+            "n_states": 51,
+            "token_position": 2447,
+            "frobenius_to_final": 0.13148
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3732,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 51,
+            "unique_ratio": 0.17,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.8967,
+            "n_states": 51,
+            "token_position": 3732,
+            "frobenius_to_final": 0.077712
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6302,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 51,
+            "unique_ratio": 0.102,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.938,
+            "n_states": 51,
+            "token_position": 6302,
+            "frobenius_to_final": 0.041675
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 12723,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 52,
+            "unique_ratio": 0.052,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.968,
+            "n_states": 52,
+            "token_position": 12723,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 14,
+      "n_tokens": 339,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 15,
+      "n_tokens": 13307,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 71,
+        "unique_ratio": 0.071,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 615,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 615,
+            "frobenius_to_final": 5.203699
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1240,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 69,
+            "unique_ratio": 0.69,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 69,
+            "token_position": 1240,
+            "frobenius_to_final": 3.275364
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1911,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 70,
+            "unique_ratio": 0.4667,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 70,
+            "token_position": 1911,
+            "frobenius_to_final": 1.548064
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2582,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 70,
+            "unique_ratio": 0.35,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 70,
+            "token_position": 2582,
+            "frobenius_to_final": 0.944704
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3922,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 70,
+            "unique_ratio": 0.2333,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 70,
+            "token_position": 3922,
+            "frobenius_to_final": 0.554842
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6607,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 70,
+            "unique_ratio": 0.14,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 70,
+            "token_position": 6607,
+            "frobenius_to_final": 0.233748
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 13307,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 71,
+            "unique_ratio": 0.071,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 71,
+            "token_position": 13307,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 16,
+      "n_tokens": 16938,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 254,
+        "cycle_period": 16,
+        "n_unique": 232,
+        "unique_ratio": 0.232,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 724,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 724,
+            "frobenius_to_final": 11.912989
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1529,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 100,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 100,
+            "token_position": 1529,
+            "frobenius_to_final": 9.587455
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2390,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 149,
+            "unique_ratio": 0.9933,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.04,
+            "n_states": 146,
+            "token_position": 2390,
+            "frobenius_to_final": 7.003393
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3225,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 198,
+            "unique_ratio": 0.99,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.13,
+            "n_states": 185,
+            "token_position": 3225,
+            "frobenius_to_final": 4.096621
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4937,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 231,
+            "unique_ratio": 0.77,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.4133,
+            "n_states": 192,
+            "token_position": 4937,
+            "frobenius_to_final": 0.976687
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8363,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 231,
+            "unique_ratio": 0.462,
+            "cycle_detected": true,
+            "lock_in_obs": 254,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.648,
+            "n_states": 192,
+            "token_position": 8363,
+            "frobenius_to_final": 0.309013
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 16938,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 232,
+            "unique_ratio": 0.232,
+            "cycle_detected": true,
+            "lock_in_obs": 254,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.823,
+            "n_states": 193,
+            "token_position": 16938,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 17,
+      "n_tokens": 292,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 18,
+      "n_tokens": 348,
+      "n_observations": 31,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 31,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 19,
+      "n_tokens": 16526,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 70,
+        "cycle_period": 6,
+        "n_unique": 71,
+        "unique_ratio": 0.071,
+        "cycle_vocabulary_size": 6
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 743,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 743,
+            "frobenius_to_final": 4.233738
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1521,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 70,
+            "unique_ratio": 0.7,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.39,
+            "n_states": 67,
+            "token_position": 1521,
+            "frobenius_to_final": 0.576308
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2354,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 70,
+            "unique_ratio": 0.4667,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.5933,
+            "n_states": 67,
+            "token_position": 2354,
+            "frobenius_to_final": 0.26102
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3188,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 70,
+            "unique_ratio": 0.35,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.695,
+            "n_states": 67,
+            "token_position": 3188,
+            "frobenius_to_final": 0.157848
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4854,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 70,
+            "unique_ratio": 0.2333,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.7967,
+            "n_states": 67,
+            "token_position": 4854,
+            "frobenius_to_final": 0.082077
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8188,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 70,
+            "unique_ratio": 0.14,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.878,
+            "n_states": 67,
+            "token_position": 8188,
+            "frobenius_to_final": 0.031982
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 16526,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 71,
+            "unique_ratio": 0.071,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.939,
+            "n_states": 67,
+            "token_position": 16526,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 20,
+      "n_tokens": 17565,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 73,
+        "cycle_period": 20,
+        "n_unique": 88,
+        "unique_ratio": 0.088,
+        "cycle_vocabulary_size": 20
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 722,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 722,
+            "frobenius_to_final": 6.065691
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1552,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 87,
+            "unique_ratio": 0.87,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.34,
+            "n_states": 86,
+            "token_position": 1552,
+            "frobenius_to_final": 1.253505
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2440,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 87,
+            "unique_ratio": 0.58,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.56,
+            "n_states": 86,
+            "token_position": 2440,
+            "frobenius_to_final": 0.545439
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3332,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 87,
+            "unique_ratio": 0.435,
+            "cycle_detected": true,
+            "lock_in_obs": 73,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.67,
+            "n_states": 86,
+            "token_position": 3332,
+            "frobenius_to_final": 0.333613
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5112,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 87,
+            "unique_ratio": 0.29,
+            "cycle_detected": true,
+            "lock_in_obs": 73,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.78,
+            "n_states": 86,
+            "token_position": 5112,
+            "frobenius_to_final": 0.17408
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8672,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 87,
+            "unique_ratio": 0.174,
+            "cycle_detected": true,
+            "lock_in_obs": 73,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.868,
+            "n_states": 86,
+            "token_position": 8672,
+            "frobenius_to_final": 0.073746
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 17565,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 88,
+            "unique_ratio": 0.088,
+            "cycle_detected": true,
+            "lock_in_obs": 73,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.933,
+            "n_states": 87,
+            "token_position": 17565,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 21,
+      "n_tokens": 16221,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 53,
+        "cycle_period": 15,
+        "n_unique": 63,
+        "unique_ratio": 0.063,
+        "cycle_vocabulary_size": 15
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 824,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.12,
+            "n_states": 50,
+            "token_position": 824,
+            "frobenius_to_final": 4.209655
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1589,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 62,
+            "unique_ratio": 0.62,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.56,
+            "n_states": 59,
+            "token_position": 1589,
+            "frobenius_to_final": 0.663281
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2404,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 62,
+            "unique_ratio": 0.4133,
+            "cycle_detected": true,
+            "lock_in_obs": 53,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.7067,
+            "n_states": 59,
+            "token_position": 2404,
+            "frobenius_to_final": 0.348629
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3215,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 62,
+            "unique_ratio": 0.31,
+            "cycle_detected": true,
+            "lock_in_obs": 53,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.78,
+            "n_states": 59,
+            "token_position": 3215,
+            "frobenius_to_final": 0.214079
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4844,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 62,
+            "unique_ratio": 0.2067,
+            "cycle_detected": true,
+            "lock_in_obs": 53,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.8533,
+            "n_states": 59,
+            "token_position": 4844,
+            "frobenius_to_final": 0.121958
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8095,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 62,
+            "unique_ratio": 0.124,
+            "cycle_detected": true,
+            "lock_in_obs": 53,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.912,
+            "n_states": 59,
+            "token_position": 8095,
+            "frobenius_to_final": 0.051976
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 16221,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 63,
+            "unique_ratio": 0.063,
+            "cycle_detected": true,
+            "lock_in_obs": 53,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.955,
+            "n_states": 60,
+            "token_position": 16221,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 22,
+      "n_tokens": 357,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 23,
+      "n_tokens": 17941,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 54,
+        "cycle_period": 10,
+        "n_unique": 62,
+        "unique_ratio": 0.062,
+        "cycle_vocabulary_size": 10
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 803,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.08,
+            "n_states": 50,
+            "token_position": 803,
+            "frobenius_to_final": 3.848814
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1659,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 61,
+            "unique_ratio": 0.61,
+            "cycle_detected": true,
+            "lock_in_obs": 54,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.54,
+            "n_states": 56,
+            "token_position": 1659,
+            "frobenius_to_final": 0.463947
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2564,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 61,
+            "unique_ratio": 0.4067,
+            "cycle_detected": true,
+            "lock_in_obs": 54,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.6933,
+            "n_states": 56,
+            "token_position": 2564,
+            "frobenius_to_final": 0.231139
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3469,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 61,
+            "unique_ratio": 0.305,
+            "cycle_detected": true,
+            "lock_in_obs": 54,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.77,
+            "n_states": 56,
+            "token_position": 3469,
+            "frobenius_to_final": 0.147348
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5279,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 61,
+            "unique_ratio": 0.2033,
+            "cycle_detected": true,
+            "lock_in_obs": 54,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.8467,
+            "n_states": 56,
+            "token_position": 5279,
+            "frobenius_to_final": 0.078034
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8899,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 61,
+            "unique_ratio": 0.122,
+            "cycle_detected": true,
+            "lock_in_obs": 54,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.908,
+            "n_states": 56,
+            "token_position": 8899,
+            "frobenius_to_final": 0.031999
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 17941,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 62,
+            "unique_ratio": 0.062,
+            "cycle_detected": true,
+            "lock_in_obs": 54,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.953,
+            "n_states": 57,
+            "token_position": 17941,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 24,
+      "n_tokens": 274,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 25,
+      "n_tokens": 10264,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 45,
+        "cycle_period": 16,
+        "n_unique": 53,
+        "unique_ratio": 0.053,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 459,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 48,
+            "unique_ratio": 0.96,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.34,
+            "n_states": 46,
+            "token_position": 459,
+            "frobenius_to_final": 3.280392
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 930,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 52,
+            "unique_ratio": 0.52,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.67,
+            "n_states": 47,
+            "token_position": 930,
+            "frobenius_to_final": 0.796749
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1449,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 52,
+            "unique_ratio": 0.3467,
+            "cycle_detected": true,
+            "lock_in_obs": 45,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.78,
+            "n_states": 47,
+            "token_position": 1449,
+            "frobenius_to_final": 0.446767
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 1967,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 52,
+            "unique_ratio": 0.26,
+            "cycle_detected": true,
+            "lock_in_obs": 45,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.835,
+            "n_states": 47,
+            "token_position": 1967,
+            "frobenius_to_final": 0.300689
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3005,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 52,
+            "unique_ratio": 0.1733,
+            "cycle_detected": true,
+            "lock_in_obs": 45,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.89,
+            "n_states": 47,
+            "token_position": 3005,
+            "frobenius_to_final": 0.169213
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 5080,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 52,
+            "unique_ratio": 0.104,
+            "cycle_detected": true,
+            "lock_in_obs": 45,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.934,
+            "n_states": 47,
+            "token_position": 5080,
+            "frobenius_to_final": 0.073542
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 10264,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 53,
+            "unique_ratio": 0.053,
+            "cycle_detected": true,
+            "lock_in_obs": 45,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.966,
+            "n_states": 48,
+            "token_position": 10264,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 26,
+      "n_tokens": 13395,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 33,
+        "cycle_period": 23,
+        "n_unique": 51,
+        "unique_ratio": 0.051,
+        "cycle_vocabulary_size": 23
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 633,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 47,
+            "unique_ratio": 0.94,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.5,
+            "n_states": 45,
+            "token_position": 633,
+            "frobenius_to_final": 2.696421
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1258,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 50,
+            "unique_ratio": 0.5,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.75,
+            "n_states": 48,
+            "token_position": 1258,
+            "frobenius_to_final": 0.630831
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1934,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 50,
+            "unique_ratio": 0.3333,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 23,
+            "cycle_obs_fraction": 0.8333,
+            "n_states": 48,
+            "token_position": 1934,
+            "frobenius_to_final": 0.351283
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2607,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 50,
+            "unique_ratio": 0.25,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 23,
+            "cycle_obs_fraction": 0.875,
+            "n_states": 48,
+            "token_position": 2607,
+            "frobenius_to_final": 0.249221
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3955,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 50,
+            "unique_ratio": 0.1667,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 23,
+            "cycle_obs_fraction": 0.9167,
+            "n_states": 48,
+            "token_position": 3955,
+            "frobenius_to_final": 0.147159
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6651,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 50,
+            "unique_ratio": 0.1,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 23,
+            "cycle_obs_fraction": 0.95,
+            "n_states": 48,
+            "token_position": 6651,
+            "frobenius_to_final": 0.059677
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 13395,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 51,
+            "unique_ratio": 0.051,
+            "cycle_detected": true,
+            "lock_in_obs": 33,
+            "cycle_period": 23,
+            "cycle_obs_fraction": 0.975,
+            "n_states": 48,
+            "token_position": 13395,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 27,
+      "n_tokens": 13389,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 34,
+        "cycle_period": 10,
+        "n_unique": 42,
+        "unique_ratio": 0.042,
+        "cycle_vocabulary_size": 10
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 616,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 41,
+            "unique_ratio": 0.82,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.38,
+            "n_states": 41,
+            "token_position": 616,
+            "frobenius_to_final": 0.825853
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1242,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 41,
+            "unique_ratio": 0.41,
+            "cycle_detected": true,
+            "lock_in_obs": 34,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.69,
+            "n_states": 41,
+            "token_position": 1242,
+            "frobenius_to_final": 0.243638
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1917,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 41,
+            "unique_ratio": 0.2733,
+            "cycle_detected": true,
+            "lock_in_obs": 34,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.7933,
+            "n_states": 41,
+            "token_position": 1917,
+            "frobenius_to_final": 0.1357
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2592,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 41,
+            "unique_ratio": 0.205,
+            "cycle_detected": true,
+            "lock_in_obs": 34,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.845,
+            "n_states": 41,
+            "token_position": 2592,
+            "frobenius_to_final": 0.090019
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3942,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 41,
+            "unique_ratio": 0.1367,
+            "cycle_detected": true,
+            "lock_in_obs": 34,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.8967,
+            "n_states": 41,
+            "token_position": 3942,
+            "frobenius_to_final": 0.049172
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6642,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 41,
+            "unique_ratio": 0.082,
+            "cycle_detected": true,
+            "lock_in_obs": 34,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.938,
+            "n_states": 41,
+            "token_position": 6642,
+            "frobenius_to_final": 0.021397
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 13389,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 42,
+            "unique_ratio": 0.042,
+            "cycle_detected": true,
+            "lock_in_obs": 34,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.968,
+            "n_states": 42,
+            "token_position": 13389,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 28,
+      "n_tokens": 15728,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 128,
+        "unique_ratio": 0.128,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 690,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 690,
+            "frobenius_to_final": 8.659289
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1425,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 95,
+            "unique_ratio": 0.95,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 95,
+            "token_position": 1425,
+            "frobenius_to_final": 7.067823
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2221,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 119,
+            "unique_ratio": 0.7933,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 119,
+            "token_position": 2221,
+            "frobenius_to_final": 5.203758
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3016,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 127,
+            "unique_ratio": 0.635,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 127,
+            "token_position": 3016,
+            "frobenius_to_final": 2.32812
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4606,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 127,
+            "unique_ratio": 0.4233,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 127,
+            "token_position": 4606,
+            "frobenius_to_final": 1.187528
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7786,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 127,
+            "unique_ratio": 0.254,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 127,
+            "token_position": 7786,
+            "frobenius_to_final": 0.461151
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 15728,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 128,
+            "unique_ratio": 0.128,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 128,
+            "token_position": 15728,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 29,
+      "n_tokens": 18962,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 43,
+        "cycle_period": 20,
+        "n_unique": 55,
+        "unique_ratio": 0.055,
+        "cycle_vocabulary_size": 20
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 877,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 48,
+            "unique_ratio": 0.96,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.22,
+            "n_states": 48,
+            "token_position": 877,
+            "frobenius_to_final": 3.229298
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1783,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 54,
+            "unique_ratio": 0.54,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 10,
+            "cycle_obs_fraction": 0.61,
+            "n_states": 54,
+            "token_position": 1783,
+            "frobenius_to_final": 0.31683
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2738,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 54,
+            "unique_ratio": 0.36,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.74,
+            "n_states": 54,
+            "token_position": 2738,
+            "frobenius_to_final": 0.198947
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3693,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 54,
+            "unique_ratio": 0.27,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.805,
+            "n_states": 54,
+            "token_position": 3693,
+            "frobenius_to_final": 0.110448
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5603,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 54,
+            "unique_ratio": 0.18,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.87,
+            "n_states": 54,
+            "token_position": 5603,
+            "frobenius_to_final": 0.060441
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 9423,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 54,
+            "unique_ratio": 0.108,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.922,
+            "n_states": 54,
+            "token_position": 9423,
+            "frobenius_to_final": 0.026772
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 18962,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 55,
+            "unique_ratio": 0.055,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.96,
+            "n_states": 55,
+            "token_position": 18962,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 30,
+      "n_tokens": 13912,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 65,
+        "cycle_period": 32,
+        "n_unique": 84,
+        "unique_ratio": 0.084,
+        "cycle_vocabulary_size": 32
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 607,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.04,
+            "n_states": 50,
+            "token_position": 607,
+            "frobenius_to_final": 5.846586
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1259,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 83,
+            "unique_ratio": 0.83,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.46,
+            "n_states": 81,
+            "token_position": 1259,
+            "frobenius_to_final": 1.026721
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1966,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 83,
+            "unique_ratio": 0.5533,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.64,
+            "n_states": 81,
+            "token_position": 1966,
+            "frobenius_to_final": 0.543264
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2666,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 83,
+            "unique_ratio": 0.415,
+            "cycle_detected": true,
+            "lock_in_obs": 65,
+            "cycle_period": 32,
+            "cycle_obs_fraction": 0.73,
+            "n_states": 81,
+            "token_position": 2666,
+            "frobenius_to_final": 0.33509
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4068,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 83,
+            "unique_ratio": 0.2767,
+            "cycle_detected": true,
+            "lock_in_obs": 65,
+            "cycle_period": 32,
+            "cycle_obs_fraction": 0.82,
+            "n_states": 81,
+            "token_position": 4068,
+            "frobenius_to_final": 0.184781
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6885,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 83,
+            "unique_ratio": 0.166,
+            "cycle_detected": true,
+            "lock_in_obs": 65,
+            "cycle_period": 32,
+            "cycle_obs_fraction": 0.892,
+            "n_states": 81,
+            "token_position": 6885,
+            "frobenius_to_final": 0.079092
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 13912,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 84,
+            "unique_ratio": 0.084,
+            "cycle_detected": true,
+            "lock_in_obs": 65,
+            "cycle_period": 32,
+            "cycle_obs_fraction": 0.945,
+            "n_states": 82,
+            "token_position": 13912,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 31,
+      "n_tokens": 19948,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 50,
+        "cycle_period": 15,
+        "n_unique": 57,
+        "unique_ratio": 0.057,
+        "cycle_vocabulary_size": 15
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 918,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.26,
+            "n_states": 49,
+            "token_position": 918,
+            "frobenius_to_final": 2.114279
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1874,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 56,
+            "unique_ratio": 0.56,
+            "cycle_detected": true,
+            "lock_in_obs": 39,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.63,
+            "n_states": 52,
+            "token_position": 1874,
+            "frobenius_to_final": 0.261991
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2880,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 56,
+            "unique_ratio": 0.3733,
+            "cycle_detected": true,
+            "lock_in_obs": 50,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.7533,
+            "n_states": 52,
+            "token_position": 2880,
+            "frobenius_to_final": 0.137115
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3879,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 56,
+            "unique_ratio": 0.28,
+            "cycle_detected": true,
+            "lock_in_obs": 50,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.815,
+            "n_states": 52,
+            "token_position": 3879,
+            "frobenius_to_final": 0.098526
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5890,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 56,
+            "unique_ratio": 0.1867,
+            "cycle_detected": true,
+            "lock_in_obs": 50,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.8767,
+            "n_states": 52,
+            "token_position": 5890,
+            "frobenius_to_final": 0.056992
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 9899,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 56,
+            "unique_ratio": 0.112,
+            "cycle_detected": true,
+            "lock_in_obs": 50,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.926,
+            "n_states": 52,
+            "token_position": 9899,
+            "frobenius_to_final": 0.031254
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 19948,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 57,
+            "unique_ratio": 0.057,
+            "cycle_detected": true,
+            "lock_in_obs": 50,
+            "cycle_period": 15,
+            "cycle_obs_fraction": 0.962,
+            "n_states": 53,
+            "token_position": 19948,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 32,
+      "n_tokens": 12783,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 96,
+        "cycle_period": 16,
+        "n_unique": 54,
+        "unique_ratio": 0.054,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 600,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 45,
+            "unique_ratio": 0.9,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.38,
+            "n_states": 44,
+            "token_position": 600,
+            "frobenius_to_final": 4.717741
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1202,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 53,
+            "unique_ratio": 0.53,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.59,
+            "n_states": 57,
+            "token_position": 1202,
+            "frobenius_to_final": 1.968245
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1843,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 53,
+            "unique_ratio": 0.3533,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.7267,
+            "n_states": 57,
+            "token_position": 1843,
+            "frobenius_to_final": 1.002227
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2484,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 53,
+            "unique_ratio": 0.265,
+            "cycle_detected": true,
+            "lock_in_obs": 96,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.795,
+            "n_states": 57,
+            "token_position": 2484,
+            "frobenius_to_final": 0.663006
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3775,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 53,
+            "unique_ratio": 0.1767,
+            "cycle_detected": true,
+            "lock_in_obs": 96,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.8633,
+            "n_states": 57,
+            "token_position": 3775,
+            "frobenius_to_final": 0.358551
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6352,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 53,
+            "unique_ratio": 0.106,
+            "cycle_detected": true,
+            "lock_in_obs": 96,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.918,
+            "n_states": 57,
+            "token_position": 6352,
+            "frobenius_to_final": 0.149374
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 12783,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 54,
+            "unique_ratio": 0.054,
+            "cycle_detected": true,
+            "lock_in_obs": 96,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.958,
+            "n_states": 58,
+            "token_position": 12783,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 33,
+      "n_tokens": 12660,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 70,
+        "cycle_period": 6,
+        "n_unique": 70,
+        "unique_ratio": 0.07,
+        "cycle_vocabulary_size": 6
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 676,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 47,
+            "unique_ratio": 0.94,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 676,
+            "frobenius_to_final": 4.997444
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1265,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 69,
+            "unique_ratio": 0.69,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.32,
+            "n_states": 74,
+            "token_position": 1265,
+            "frobenius_to_final": 0.22682
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1898,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 69,
+            "unique_ratio": 0.46,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.5467,
+            "n_states": 74,
+            "token_position": 1898,
+            "frobenius_to_final": 0.085702
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2530,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 69,
+            "unique_ratio": 0.345,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.66,
+            "n_states": 74,
+            "token_position": 2530,
+            "frobenius_to_final": 0.05321
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3798,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 69,
+            "unique_ratio": 0.23,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.7733,
+            "n_states": 74,
+            "token_position": 3798,
+            "frobenius_to_final": 0.027828
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 6330,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 69,
+            "unique_ratio": 0.138,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.864,
+            "n_states": 74,
+            "token_position": 6330,
+            "frobenius_to_final": 0.013765
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 12660,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 70,
+            "unique_ratio": 0.07,
+            "cycle_detected": true,
+            "lock_in_obs": 70,
+            "cycle_period": 6,
+            "cycle_obs_fraction": 0.931,
+            "n_states": 75,
+            "token_position": 12660,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 34,
+      "n_tokens": 293,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 35,
+      "n_tokens": 16955,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 96,
+        "cycle_period": 32,
+        "n_unique": 108,
+        "unique_ratio": 0.108,
+        "cycle_vocabulary_size": 32
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 747,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.02,
+            "n_states": 50,
+            "token_position": 747,
+            "frobenius_to_final": 7.203295
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1560,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 93,
+            "unique_ratio": 0.93,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.26,
+            "n_states": 95,
+            "token_position": 1560,
+            "frobenius_to_final": 4.358593
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2411,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 107,
+            "unique_ratio": 0.7133,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.5067,
+            "n_states": 103,
+            "token_position": 2411,
+            "frobenius_to_final": 1.276435
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3267,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 107,
+            "unique_ratio": 0.535,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.63,
+            "n_states": 103,
+            "token_position": 3267,
+            "frobenius_to_final": 0.816874
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4978,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 107,
+            "unique_ratio": 0.3567,
+            "cycle_detected": true,
+            "lock_in_obs": 96,
+            "cycle_period": 32,
+            "cycle_obs_fraction": 0.7533,
+            "n_states": 103,
+            "token_position": 4978,
+            "frobenius_to_final": 0.419877
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8398,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 107,
+            "unique_ratio": 0.214,
+            "cycle_detected": true,
+            "lock_in_obs": 96,
+            "cycle_period": 32,
+            "cycle_obs_fraction": 0.852,
+            "n_states": 103,
+            "token_position": 8398,
+            "frobenius_to_final": 0.173128
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 16955,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 108,
+            "unique_ratio": 0.108,
+            "cycle_detected": true,
+            "lock_in_obs": 96,
+            "cycle_period": 32,
+            "cycle_obs_fraction": 0.925,
+            "n_states": 104,
+            "token_position": 16955,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 36,
+      "n_tokens": 17539,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 41,
+        "cycle_period": 16,
+        "n_unique": 57,
+        "unique_ratio": 0.057,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 836,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.22,
+            "n_states": 50,
+            "token_position": 836,
+            "frobenius_to_final": 2.44279
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1670,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 56,
+            "unique_ratio": 0.56,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.61,
+            "n_states": 55,
+            "token_position": 1670,
+            "frobenius_to_final": 0.02357
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2553,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 56,
+            "unique_ratio": 0.3733,
+            "cycle_detected": true,
+            "lock_in_obs": 41,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.74,
+            "n_states": 55,
+            "token_position": 2553,
+            "frobenius_to_final": 0.02357
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3431,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 56,
+            "unique_ratio": 0.28,
+            "cycle_detected": true,
+            "lock_in_obs": 41,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.805,
+            "n_states": 55,
+            "token_position": 3431,
+            "frobenius_to_final": 0.02357
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5193,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 56,
+            "unique_ratio": 0.1867,
+            "cycle_detected": true,
+            "lock_in_obs": 41,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.87,
+            "n_states": 55,
+            "token_position": 5193,
+            "frobenius_to_final": 0.02357
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8720,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 56,
+            "unique_ratio": 0.112,
+            "cycle_detected": true,
+            "lock_in_obs": 41,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.922,
+            "n_states": 55,
+            "token_position": 8720,
+            "frobenius_to_final": 0.02357
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 17539,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 57,
+            "unique_ratio": 0.057,
+            "cycle_detected": true,
+            "lock_in_obs": 41,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.96,
+            "n_states": 56,
+            "token_position": 17539,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 37,
+      "n_tokens": 10963,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 36,
+        "cycle_period": 44,
+        "n_unique": 73,
+        "unique_ratio": 0.073,
+        "cycle_vocabulary_size": 44
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 479,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.44,
+            "n_states": 50,
+            "token_position": 479,
+            "frobenius_to_final": 5.662381
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 985,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 72,
+            "unique_ratio": 0.72,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.72,
+            "n_states": 72,
+            "token_position": 985,
+            "frobenius_to_final": 1.445079
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1539,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 72,
+            "unique_ratio": 0.48,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.8133,
+            "n_states": 72,
+            "token_position": 1539,
+            "frobenius_to_final": 0.872675
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2095,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 72,
+            "unique_ratio": 0.36,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.86,
+            "n_states": 72,
+            "token_position": 2095,
+            "frobenius_to_final": 0.567214
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3204,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 72,
+            "unique_ratio": 0.24,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 44,
+            "cycle_obs_fraction": 0.9067,
+            "n_states": 72,
+            "token_position": 3204,
+            "frobenius_to_final": 0.320771
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 5422,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 72,
+            "unique_ratio": 0.144,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 44,
+            "cycle_obs_fraction": 0.944,
+            "n_states": 72,
+            "token_position": 5422,
+            "frobenius_to_final": 0.163184
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 10963,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 73,
+            "unique_ratio": 0.073,
+            "cycle_detected": true,
+            "lock_in_obs": 36,
+            "cycle_period": 44,
+            "cycle_obs_fraction": 0.971,
+            "n_states": 73,
+            "token_position": 10963,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 38,
+      "n_tokens": 17021,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 37,
+        "cycle_period": 11,
+        "n_unique": 48,
+        "unique_ratio": 0.048,
+        "cycle_vocabulary_size": 11
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 827,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 47,
+            "unique_ratio": 0.94,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.36,
+            "n_states": 43,
+            "token_position": 827,
+            "frobenius_to_final": 0.691217
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1634,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 47,
+            "unique_ratio": 0.47,
+            "cycle_detected": true,
+            "lock_in_obs": 37,
+            "cycle_period": 11,
+            "cycle_obs_fraction": 0.68,
+            "n_states": 43,
+            "token_position": 1634,
+            "frobenius_to_final": 0.18614
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2486,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 47,
+            "unique_ratio": 0.3133,
+            "cycle_detected": true,
+            "lock_in_obs": 37,
+            "cycle_period": 11,
+            "cycle_obs_fraction": 0.7867,
+            "n_states": 43,
+            "token_position": 2486,
+            "frobenius_to_final": 0.112675
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3343,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 47,
+            "unique_ratio": 0.235,
+            "cycle_detected": true,
+            "lock_in_obs": 37,
+            "cycle_period": 11,
+            "cycle_obs_fraction": 0.84,
+            "n_states": 43,
+            "token_position": 3343,
+            "frobenius_to_final": 0.072498
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 5050,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 47,
+            "unique_ratio": 0.1567,
+            "cycle_detected": true,
+            "lock_in_obs": 37,
+            "cycle_period": 11,
+            "cycle_obs_fraction": 0.8933,
+            "n_states": 43,
+            "token_position": 5050,
+            "frobenius_to_final": 0.040679
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 8467,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 47,
+            "unique_ratio": 0.094,
+            "cycle_detected": true,
+            "lock_in_obs": 37,
+            "cycle_period": 11,
+            "cycle_obs_fraction": 0.936,
+            "n_states": 43,
+            "token_position": 8467,
+            "frobenius_to_final": 0.016999
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 17021,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 48,
+            "unique_ratio": 0.048,
+            "cycle_detected": true,
+            "lock_in_obs": 37,
+            "cycle_period": 11,
+            "cycle_obs_fraction": 0.968,
+            "n_states": 43,
+            "token_position": 17021,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 39,
+      "n_tokens": 15237,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 60,
+        "cycle_period": 16,
+        "n_unique": 70,
+        "unique_ratio": 0.07,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 690,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.08,
+            "n_states": 50,
+            "token_position": 690,
+            "frobenius_to_final": 4.858605
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1404,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 69,
+            "unique_ratio": 0.69,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.51,
+            "n_states": 65,
+            "token_position": 1404,
+            "frobenius_to_final": 1.055262
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2176,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 69,
+            "unique_ratio": 0.46,
+            "cycle_detected": true,
+            "lock_in_obs": 60,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.6733,
+            "n_states": 65,
+            "token_position": 2176,
+            "frobenius_to_final": 0.506658
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2945,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 69,
+            "unique_ratio": 0.345,
+            "cycle_detected": true,
+            "lock_in_obs": 60,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.755,
+            "n_states": 65,
+            "token_position": 2945,
+            "frobenius_to_final": 0.327352
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4483,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 69,
+            "unique_ratio": 0.23,
+            "cycle_detected": true,
+            "lock_in_obs": 60,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.8367,
+            "n_states": 65,
+            "token_position": 4483,
+            "frobenius_to_final": 0.177949
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7554,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 69,
+            "unique_ratio": 0.138,
+            "cycle_detected": true,
+            "lock_in_obs": 60,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.902,
+            "n_states": 65,
+            "token_position": 7554,
+            "frobenius_to_final": 0.076114
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 15237,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 70,
+            "unique_ratio": 0.07,
+            "cycle_detected": true,
+            "lock_in_obs": 60,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.95,
+            "n_states": 66,
+            "token_position": 15237,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 40,
+      "n_tokens": 11901,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 52,
+        "cycle_period": 18,
+        "n_unique": 66,
+        "unique_ratio": 0.066,
+        "cycle_vocabulary_size": 18
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 554,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.06,
+            "n_states": 50,
+            "token_position": 554,
+            "frobenius_to_final": 4.558418
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1105,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 65,
+            "unique_ratio": 0.65,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.52,
+            "n_states": 66,
+            "token_position": 1105,
+            "frobenius_to_final": 0.642514
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 1704,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 65,
+            "unique_ratio": 0.4333,
+            "cycle_detected": true,
+            "lock_in_obs": 52,
+            "cycle_period": 18,
+            "cycle_obs_fraction": 0.68,
+            "n_states": 66,
+            "token_position": 1704,
+            "frobenius_to_final": 0.325947
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2305,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 65,
+            "unique_ratio": 0.325,
+            "cycle_detected": true,
+            "lock_in_obs": 52,
+            "cycle_period": 18,
+            "cycle_obs_fraction": 0.76,
+            "n_states": 66,
+            "token_position": 2305,
+            "frobenius_to_final": 0.210444
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 3504,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 65,
+            "unique_ratio": 0.2167,
+            "cycle_detected": true,
+            "lock_in_obs": 52,
+            "cycle_period": 18,
+            "cycle_obs_fraction": 0.84,
+            "n_states": 66,
+            "token_position": 3504,
+            "frobenius_to_final": 0.12454
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 5905,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 65,
+            "unique_ratio": 0.13,
+            "cycle_detected": true,
+            "lock_in_obs": 52,
+            "cycle_period": 18,
+            "cycle_obs_fraction": 0.904,
+            "n_states": 66,
+            "token_position": 5905,
+            "frobenius_to_final": 0.056533
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 11901,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 66,
+            "unique_ratio": 0.066,
+            "cycle_detected": true,
+            "lock_in_obs": 52,
+            "cycle_period": 18,
+            "cycle_obs_fraction": 0.951,
+            "n_states": 67,
+            "token_position": 11901,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 41,
+      "n_tokens": 1500,
+      "n_observations": 100,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 80,
+        "unique_ratio": 0.8,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 744,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 744,
+            "frobenius_to_final": 5.338539
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1500,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 80,
+            "unique_ratio": 0.8,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 80,
+            "token_position": 1500,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 42,
+      "n_tokens": 339,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 43,
+      "n_tokens": 309,
+      "n_observations": 21,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 21,
+        "unique_ratio": 1.0,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "short",
+      "cutoff_analysis": []
+    },
+    {
+      "run_id": 44,
+      "n_tokens": 16097,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 62,
+        "cycle_period": 16,
+        "n_unique": 76,
+        "unique_ratio": 0.076,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 704,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 704,
+            "frobenius_to_final": 4.882169
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1479,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 75,
+            "unique_ratio": 0.75,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.43,
+            "n_states": 73,
+            "token_position": 1479,
+            "frobenius_to_final": 0.836565
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2292,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 75,
+            "unique_ratio": 0.5,
+            "cycle_detected": true,
+            "lock_in_obs": 62,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.62,
+            "n_states": 73,
+            "token_position": 2292,
+            "frobenius_to_final": 0.402573
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 3107,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 75,
+            "unique_ratio": 0.375,
+            "cycle_detected": true,
+            "lock_in_obs": 62,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.715,
+            "n_states": 73,
+            "token_position": 3107,
+            "frobenius_to_final": 0.247025
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4728,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 75,
+            "unique_ratio": 0.25,
+            "cycle_detected": true,
+            "lock_in_obs": 62,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.81,
+            "n_states": 73,
+            "token_position": 4728,
+            "frobenius_to_final": 0.12542
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7979,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 75,
+            "unique_ratio": 0.15,
+            "cycle_detected": true,
+            "lock_in_obs": 62,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.886,
+            "n_states": 73,
+            "token_position": 7979,
+            "frobenius_to_final": 0.051861
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 16097,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 76,
+            "unique_ratio": 0.076,
+            "cycle_detected": true,
+            "lock_in_obs": 62,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.942,
+            "n_states": 74,
+            "token_position": 16097,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 45,
+      "n_tokens": 14491,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 98,
+        "unique_ratio": 0.098,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 642,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 642,
+            "frobenius_to_final": 6.532835
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1302,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 87,
+            "unique_ratio": 0.87,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 87,
+            "token_position": 1302,
+            "frobenius_to_final": 4.317026
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2030,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 96,
+            "unique_ratio": 0.64,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 96,
+            "token_position": 2030,
+            "frobenius_to_final": 1.580453
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2777,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 96,
+            "unique_ratio": 0.48,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 96,
+            "token_position": 2777,
+            "frobenius_to_final": 1.231681
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4243,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 96,
+            "unique_ratio": 0.32,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 96,
+            "token_position": 4243,
+            "frobenius_to_final": 1.07383
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7177,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 96,
+            "unique_ratio": 0.192,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 96,
+            "token_position": 7177,
+            "frobenius_to_final": 1.019753
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 14491,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 98,
+            "unique_ratio": 0.098,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 98,
+            "token_position": 14491,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 46,
+      "n_tokens": 14399,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 43,
+        "cycle_period": 20,
+        "n_unique": 61,
+        "unique_ratio": 0.061,
+        "cycle_vocabulary_size": 20
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 725,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.24,
+            "n_states": 49,
+            "token_position": 725,
+            "frobenius_to_final": 3.511154
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1395,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 60,
+            "unique_ratio": 0.6,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.62,
+            "n_states": 57,
+            "token_position": 1395,
+            "frobenius_to_final": 0.45942
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2121,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 60,
+            "unique_ratio": 0.4,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.7467,
+            "n_states": 57,
+            "token_position": 2121,
+            "frobenius_to_final": 0.298276
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2840,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 60,
+            "unique_ratio": 0.3,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.81,
+            "n_states": 57,
+            "token_position": 2840,
+            "frobenius_to_final": 0.182003
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4285,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 60,
+            "unique_ratio": 0.2,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.8733,
+            "n_states": 57,
+            "token_position": 4285,
+            "frobenius_to_final": 0.103099
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7175,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 60,
+            "unique_ratio": 0.12,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.924,
+            "n_states": 57,
+            "token_position": 7175,
+            "frobenius_to_final": 0.044997
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 14399,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 61,
+            "unique_ratio": 0.061,
+            "cycle_detected": true,
+            "lock_in_obs": 43,
+            "cycle_period": 20,
+            "cycle_obs_fraction": 0.961,
+            "n_states": 58,
+            "token_position": 14399,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 47,
+      "n_tokens": 15656,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": false,
+        "lock_in_obs": null,
+        "cycle_period": null,
+        "n_unique": 222,
+        "unique_ratio": 0.222,
+        "cycle_vocabulary_size": 0
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 653,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 653,
+            "frobenius_to_final": 13.109462
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1326,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 100,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 100,
+            "token_position": 1326,
+            "frobenius_to_final": 11.038931
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2081,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 150,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 150,
+            "token_position": 2081,
+            "frobenius_to_final": 8.476909
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2871,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 200,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 200,
+            "token_position": 2871,
+            "frobenius_to_final": 4.691677
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4483,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 221,
+            "unique_ratio": 0.7367,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 221,
+            "token_position": 4483,
+            "frobenius_to_final": 0.108786
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7677,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 221,
+            "unique_ratio": 0.442,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 221,
+            "token_position": 7677,
+            "frobenius_to_final": 0.108786
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 15656,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 222,
+            "unique_ratio": 0.222,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 222,
+            "token_position": 15656,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 48,
+      "n_tokens": 14922,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 111,
+        "cycle_period": 30,
+        "n_unique": 140,
+        "unique_ratio": 0.14,
+        "cycle_vocabulary_size": 30
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 690,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 690,
+            "frobenius_to_final": 8.866756
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1390,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 100,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.06,
+            "n_states": 100,
+            "token_position": 1390,
+            "frobenius_to_final": 5.867351
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2141,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 140,
+            "unique_ratio": 0.9333,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.3467,
+            "n_states": 128,
+            "token_position": 2141,
+            "frobenius_to_final": 1.618444
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2893,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 140,
+            "unique_ratio": 0.7,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.51,
+            "n_states": 128,
+            "token_position": 2893,
+            "frobenius_to_final": 0.75242
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4396,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 140,
+            "unique_ratio": 0.4667,
+            "cycle_detected": true,
+            "lock_in_obs": 111,
+            "cycle_period": 30,
+            "cycle_obs_fraction": 0.6733,
+            "n_states": 128,
+            "token_position": 4396,
+            "frobenius_to_final": 0.381269
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7403,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 140,
+            "unique_ratio": 0.28,
+            "cycle_detected": true,
+            "lock_in_obs": 111,
+            "cycle_period": 30,
+            "cycle_obs_fraction": 0.804,
+            "n_states": 128,
+            "token_position": 7403,
+            "frobenius_to_final": 0.133841
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 14922,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 140,
+            "unique_ratio": 0.14,
+            "cycle_detected": true,
+            "lock_in_obs": 111,
+            "cycle_period": 30,
+            "cycle_obs_fraction": 0.902,
+            "n_states": 128,
+            "token_position": 14922,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    },
+    {
+      "run_id": 49,
+      "n_tokens": 14940,
+      "n_observations": 1000,
+      "full_cycle": {
+        "has_cycle": true,
+        "lock_in_obs": 101,
+        "cycle_period": 16,
+        "n_unique": 91,
+        "unique_ratio": 0.091,
+        "cycle_vocabulary_size": 16
+      },
+      "mode": "full",
+      "cutoff_analysis": [
+        {
+          "cutoff_obs": 50,
+          "token_position": 702,
+          "text": {
+            "cutoff_obs": 50,
+            "n_observations": 50,
+            "n_unique": 50,
+            "unique_ratio": 1.0,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.0,
+            "n_states": 50,
+            "token_position": 702,
+            "frobenius_to_final": 6.268887
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 100,
+          "token_position": 1390,
+          "text": {
+            "cutoff_obs": 100,
+            "n_observations": 100,
+            "n_unique": 90,
+            "unique_ratio": 0.9,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.26,
+            "n_states": 89,
+            "token_position": 1390,
+            "frobenius_to_final": 1.732076
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 150,
+          "token_position": 2142,
+          "text": {
+            "cutoff_obs": 150,
+            "n_observations": 150,
+            "n_unique": 90,
+            "unique_ratio": 0.6,
+            "cycle_detected": false,
+            "lock_in_obs": null,
+            "cycle_period": null,
+            "cycle_obs_fraction": 0.5067,
+            "n_states": 89,
+            "token_position": 2142,
+            "frobenius_to_final": 0.5794
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 200,
+          "token_position": 2894,
+          "text": {
+            "cutoff_obs": 200,
+            "n_observations": 200,
+            "n_unique": 90,
+            "unique_ratio": 0.45,
+            "cycle_detected": true,
+            "lock_in_obs": 101,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.63,
+            "n_states": 89,
+            "token_position": 2894,
+            "frobenius_to_final": 0.343473
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 300,
+          "token_position": 4404,
+          "text": {
+            "cutoff_obs": 300,
+            "n_observations": 300,
+            "n_unique": 90,
+            "unique_ratio": 0.3,
+            "cycle_detected": true,
+            "lock_in_obs": 101,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.7533,
+            "n_states": 89,
+            "token_position": 4404,
+            "frobenius_to_final": 0.181108
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 500,
+          "token_position": 7415,
+          "text": {
+            "cutoff_obs": 500,
+            "n_observations": 500,
+            "n_unique": 90,
+            "unique_ratio": 0.18,
+            "cycle_detected": true,
+            "lock_in_obs": 101,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.852,
+            "n_states": 89,
+            "token_position": 7415,
+            "frobenius_to_final": 0.072102
+          },
+          "activations": {}
+        },
+        {
+          "cutoff_obs": 1000,
+          "token_position": 14940,
+          "text": {
+            "cutoff_obs": 1000,
+            "n_observations": 1000,
+            "n_unique": 91,
+            "unique_ratio": 0.091,
+            "cycle_detected": true,
+            "lock_in_obs": 101,
+            "cycle_period": 16,
+            "cycle_obs_fraction": 0.925,
+            "n_states": 90,
+            "token_position": 14940,
+            "frobenius_to_final": 0.0
+          },
+          "activations": {}
+        }
+      ],
+      "activation_stability": {}
+    }
+  ]
+}

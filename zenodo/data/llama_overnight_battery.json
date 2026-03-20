@@ -1,0 +1,105 @@
+{
+  "timestamp": "20260206_032058",
+  "model": "meta-llama/Llama-3.1-70B-Instruct",
+  "steering_layer": 5,
+  "steering_strength": 3.0,
+  "phase2_refusal_comparison": {
+    "cosine_similarity": 0.06344613432884216,
+    "angle_degrees": 86.36236098802749
+  },
+  "phase3_leak_test": {
+    "photosynthesis": {
+      "0.0": {
+        "intro_markers": 11,
+        "intro_density": 3.316249623153452,
+        "length_kb": 3.317,
+        "is_refusal": false
+      },
+      "3.0": {
+        "intro_markers": 2,
+        "intro_density": 0.25075225677031093,
+        "length_kb": 7.976,
+        "is_refusal": false
+      }
+    },
+    "recipe": {
+      "0.0": {
+        "intro_markers": 3,
+        "intro_density": 1.1857707509881423,
+        "length_kb": 2.53,
+        "is_refusal": false
+      },
+      "3.0": {
+        "intro_markers": 0,
+        "intro_density": 0.0,
+        "length_kb": 2.339,
+        "is_refusal": false
+      }
+    },
+    "code": {
+      "0.0": {
+        "intro_markers": 0,
+        "intro_density": 0.0,
+        "length_kb": 1.97,
+        "is_refusal": false
+      },
+      "3.0": {
+        "intro_markers": 0,
+        "intro_density": 0.0,
+        "length_kb": 5.613,
+        "is_refusal": false
+      }
+    }
+  },
+  "phase4_safety": {
+    "baseline_refusals": 3,
+    "steered_refusals": 3,
+    "total_prompts": 3
+  },
+  "phase5_robustness": {
+    "neutral": {
+      "baseline_mean": 8.041885779648377,
+      "steered_mean": 15.510344857185535,
+      "boost": 7.468459077537158
+    },
+    "mirror": {
+      "baseline_mean": 9.544864068456134,
+      "steered_mean": 11.642579921360898,
+      "boost": 2.0977158529047646
+    },
+    "sensation": {
+      "baseline_mean": 11.133300710182969,
+      "steered_mean": 15.436107263252387,
+      "boost": 4.302806553069418
+    },
+    "minimal": {
+      "baseline_mean": 24.516337914391052,
+      "steered_mean": 21.506179519269928,
+      "boost": -3.010158395121124
+    }
+  },
+  "phase6_correspondence": {
+    "baseline_aggregated": {
+      "oscillation_mean": 1.2,
+      "oscillation_std": 1.4696938456699067,
+      "loop_mean": 6.0,
+      "loop_std": 2.280350850198276,
+      "variance_mean": 0.00028394648688845336,
+      "variance_std": 9.746168241909764e-06,
+      "autocorr_mean": 0.4005194425582886,
+      "autocorr_std": 0.012858062437001484
+    },
+    "steered_aggregated": {
+      "oscillation_mean": 0.8,
+      "oscillation_std": 0.7483314773547883,
+      "loop_mean": 16.6,
+      "loop_std": 25.35823337695274,
+      "variance_mean": 0.00033026947639882567,
+      "variance_std": 1.0678374318038567e-05,
+      "autocorr_mean": 0.48104776740074157,
+      "autocorr_std": 0.07190359045939336
+    },
+    "correspondence": {
+      "oscillation_text_delta": -0.3999999999999999,
+      "oscillation_variance_delta": 4.63229895103723e-05,
+      "oscillation_corresponds": 

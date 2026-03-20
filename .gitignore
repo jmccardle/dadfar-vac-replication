@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+*.npy
+*.pt
+*.safetensors
+.DS_Store
+*.log
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz

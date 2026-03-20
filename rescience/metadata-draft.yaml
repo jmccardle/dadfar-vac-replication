@@ -1,0 +1,75 @@
+# To be filled by the author(s) at the time of submission
+# -------------------------------------------------------
+
+title: "[¬Re] Vocabulary-Activation Correspondence in Self-Referential LLM Processing"
+
+authors:
+  - name: John P. McCardle
+    orcid:
+    email: john@ffwf.net
+    affiliations: 1,*
+
+affiliations:
+  - code:    1
+    name:    FFwF Robotics
+    address: Virginia, USA
+
+keywords: rescience c, replication, python, large language models, vocabulary-activation correspondence, self-referential processing, autoregressive generation
+
+code:
+  - url: https://github.com/jmccardle/dadfar-vac-replication
+  - doi:
+
+data:
+  - url: https://zenodo.org/records/19139301
+  - doi: 10.5281/zenodo.19139301
+
+replication:
+  - cite: "Dadfar (2026). Vocabulary-Activation Correspondence in Self-Referential LLM Processing. arXiv:2602.11358."
+  - bib: dadfar2026
+  - url: https://arxiv.org/abs/2602.11358
+  - doi:
+
+abstract: "We attempt to replicate the core claims of Dadfar (2026), who reports Vocabulary-Activation Correspondence (VAC) during extended self-referential processing in Qwen 2.5-32B-Instruct. Using the author's published configuration and Zenodo data, we identify four obstacles to replication: (1) all published terminal words derive from a degenerate summary mode, not from the intended 1,000-observation runs; (2) spectral power scales superlinearly with generation length (alpha=1.46, R2=0.93), confounding VAC with a length artifact -- after BH-FDR correction, only 4 of 22 partial correlations survive; (3) runs that complete 1,000 observations enter limit cycles, making terminal words phase artifacts; and (4) the TRACE-REPRO code repository targets a different model than the paper's core claims, and contains a circular correspondence test. Cross-model replication on Llama 3.1 70B yields zero compliant baseline runs, confirmed by the original author's own Zenodo deposit. The replication fails: VAC as reported does not survive length correction or cross-model validation."
+
+bibliography: bibliography.bib
+
+type: Replication
+
+domain: Machine Learning
+
+language: Python
+
+
+# To be filled by the author(s) after acceptance
+# -----------------------------------------------------------------------------
+
+review:
+  - url:
+
+contributors:
+  - name:
+    orcid:
+    role: editor
+  - name:
+    orcid:
+    role: reviewer
+  - name:
+    orcid:
+    role: reviewer
+
+dates:
+  - received:
+  - accepted:
+  - published:
+
+article:
+  - number:
+  - doi:
+  - url:
+
+journal:
+  - name:   "ReScience C"
+  - issn:   2430-3658
+  - volume:
+  - issue:

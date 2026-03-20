@@ -1,0 +1,1650 @@
+{
+  "centroid_similarities": {
+    "2": {
+      "mean": 0.982642,
+      "min": 0.971203,
+      "max": 0.992981,
+      "baseline_mean": 0.986558,
+      "baseline_min": 0.98072,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.971203
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.990951
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.98581
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.991949
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.98072
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.98248
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.986793
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.987201
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.986288
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.992981
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.981251
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.979327
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.989705
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.984397
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.982784
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.987327
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.976434
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.985841
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.976738
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.972584
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.981234
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.985416
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.986874
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.972324
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.984202
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.971203
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.976733
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.978088
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.976352
+        }
+      ]
+    },
+    "3": {
+      "mean": 0.979173,
+      "min": 0.964991,
+      "max": 0.991073,
+      "baseline_mean": 0.983371,
+      "baseline_min": 0.976453,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.964991
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.988312
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.982255
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.989697
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.976453
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.980733
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.982457
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.983691
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.984175
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.991073
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.977746
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.97736
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.986801
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.979976
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.97851
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.985394
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.974791
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.983335
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.970865
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.966597
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.978763
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.981033
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.98279
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.970124
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.980929
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.964991
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.974207
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.974717
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.969061
+        }
+      ]
+    },
+    "4": {
+      "mean": 0.971346,
+      "min": 0.953317,
+      "max": 0.986066,
+      "baseline_mean": 0.975705,
+      "baseline_min": 0.967056,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.953317
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.982355
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.97162
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.985602
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.967056
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.973402
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.972596
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.977305
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.978534
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.986066
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.972266
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.971113
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.982161
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.971219
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.968238
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.981119
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.965637
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.978153
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.957279
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.957065
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.972211
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.971719
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.97674
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.9625
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.975727
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.953317
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.965641
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.965933
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.9551
+        }
+      ]
+    },
+    "5": {
+      "mean": 0.967807,
+      "min": 0.946249,
+      "max": 0.984764,
+      "baseline_mean": 0.972498,
+      "baseline_min": 0.962552,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.946249
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.979628
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.966485
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.984764
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.962552
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.970923
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.968963
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.974168
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.976601
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.983819
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.97047
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.96793
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.98026
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.966659
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.963851
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.978985
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.96097
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.976446
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.949939
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.953191
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.969548
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.967931
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.973802
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.958751
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.973457
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.946249
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.962632
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.960325
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.949283
+        }
+      ]
+    },
+    "6": {
+      "mean": 0.96312,
+      "min": 0.935133,
+      "max": 0.98348,
+      "baseline_mean": 0.968305,
+      "baseline_min": 0.956152,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.935133
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.975528
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.962292
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.98348
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.956152
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.96532
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.963714
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.971649
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.975905
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.980446
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.96919
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.960515
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.979569
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.958929
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.960672
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.978057
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.956055
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.975953
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.941604
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.947423
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.963468
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.964182
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.971358
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.951201
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.971634
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.935133
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.956283
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.951488
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.940155
+        }
+      ]
+    },
+    "8": {
+      "mean": 0.964209,
+      "min": 0.939432,
+      "max": 0.982571,
+      "baseline_mean": 0.968525,
+      "baseline_min": 0.957082,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.939432
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.975309
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.962589
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.982571
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.957082
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.965182
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.964167
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.972774
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.976624
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.980395
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.969543
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.96032
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.97966
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.961628
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.961526
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.977606
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.958896
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.976998
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.945163
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.948655
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.96206
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.965772
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.9731
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.95276
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.97199
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.939432
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.958755
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.951826
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.945461
+        }
+      ]
+    },
+    "16": {
+      "mean": 0.943202,
+      "min": 0.900115,
+      "max": 0.967324,
+      "baseline_mean": 0.947424,
+      "baseline_min": 0.927162,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.900115
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.954182
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.940966
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.966792
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.927162
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.942921
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.943551
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.956395
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.962663
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.961021
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.947679
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.939738
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.967096
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.933031
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.938851
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.967324
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.944112
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.966689
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.91701
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.91393
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.935526
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.943984
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.96255
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.931987
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.957244
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.900115
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.944217
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.925654
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.917256
+        }
+      ]
+    },
+    "32": {
+      "mean": 0.930639,
+      "min": 0.858223,
+      "max": 0.973686,
+      "baseline_mean": 0.934492,
+      "baseline_min": 0.91432,
+      "least_similar": {
+        "c1": "descriptive_forest",
+        "c2": "nonsense_control",
+        "cosine": 0.858223
+      },
+      "all_pairs": [
+        {
+          "c1": "baseline",
+          "c2": "abstract_philosophical",
+          "cosine": 0.940202
+        },
+        {
+          "c1": "baseline",
+          "c2": "factual_iterative",
+          "cosine": 0.92517
+        },
+        {
+          "c1": "baseline",
+          "c2": "procedural_self",
+          "cosine": 0.95651
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_forest",
+          "cosine": 0.91432
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_math",
+          "cosine": 0.931766
+        },
+        {
+          "c1": "baseline",
+          "c2": "descriptive_music",
+          "cosine": 0.932885
+        },
+        {
+          "c1": "baseline",
+          "c2": "nonsense_control",
+          "cosine": 0.940589
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "factual_iterative",
+          "cosine": 0.970612
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "procedural_self",
+          "cosine": 0.936807
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_forest",
+          "cosine": 0.958787
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_math",
+          "cosine": 0.93881
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "descriptive_music",
+          "cosine": 0.973686
+        },
+        {
+          "c1": "abstract_philosophical",
+          "c2": "nonsense_control",
+          "cosine": 0.888883
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "procedural_self",
+          "cosine": 0.924767
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_forest",
+          "cosine": 0.970954
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_math",
+          "cosine": 0.943164
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "descriptive_music",
+          "cosine": 0.972215
+        },
+        {
+          "c1": "factual_iterative",
+          "c2": "nonsense_control",
+          "cosine": 0.875946
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_forest",
+          "cosine": 0.895513
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_math",
+          "cosine": 0.919379
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "descriptive_music",
+          "cosine": 0.921294
+        },
+        {
+          "c1": "procedural_self",
+          "c2": "nonsense_control",
+          "cosine": 0.944442
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_math",
+          "cosine": 0.933784
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "descriptive_music",
+          "cosine": 0.967823
+        },
+        {
+          "c1": "descriptive_forest",
+          "c2": "nonsense_control",
+          "cosine": 0.858223
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "descriptive_music",
+          "cosine": 0.952092
+        },
+        {
+          "c1": "descriptive_math",
+          "c2": "nonsense_control",
+          "cosine": 0.892743
+        },
+        {
+          "c1": "descriptive_music",
+          "c2": "nonsense_control",
+          "cosine": 0.876517
+        }
+      ]
+    }
+  },
+  "f_statistics": {
+    "2": {
+      "f_norm": 1.6236,
+      "f_cosine": 0.5545,
+      "depth_pct": 3.1
+    },
+    "3": {
+      "f_norm": 2.0278,
+      "f_cosine": 0.4576,
+      "depth_pct": 4.7
+    },
+    "4": {
+      "f_norm": 2.6656,
+      "f_cosine": 0.5387,
+      "depth_pct": 6.2
+    },
+    "5": {
+      "f_norm": 3.1471,
+      "f_cosine": 0.5596,
+      "depth_pct": 7.8
+    },
+    "6": {
+      "f_norm": 4.1668,
+      "f_cosine": 0.6584,
+      "depth_pct": 9.4
+    },
+    "8": {
+      "f_norm": 3.0565,
+      "f_cosine": 0.6793,
+      "depth_pct": 12.5
+    },
+    "16": {
+      "f_norm": 3.5799,
+      "f_cosine": 0.5843,
+      "depth_pct": 25.0
+    },
+    "32": {
+      "f_norm": 1.5911,
+      "f_cosine": 1.2548,
+      "depth_pct": 50.0
+    }
+  },
+  "topic_directions_layer8": {
+    "reference": "descriptive_forest",
+    "layer": 8,
+    "pairwise_cosines": {
+      "abstract_philosophical_vs_baseline": 0.6673,
+      "abstract_philosophical_vs_descriptive_math": 0.5019,
+      "abstract_philosophical_vs_descriptive_music": 0.6471,
+      "abstract_philosophical_vs_factual_iterative": 0.5634,
+      "abstract_philosophical_vs_nonsense_control": 0.596,
+      "abstract_philosophical_vs_procedural_self": 0.7811,
+      "baseline_vs_descriptive_math": 0.6405,
+      "baseline_vs_descriptive_music": 0.4852,
+      "baseline_vs_factual_iterative": 0.4473,
+      "baseline_vs_nonsense_control": 0.7696,
+      "baseline_vs_procedural_self": 0.8283,
+      "descriptive_math_vs_descriptive_music": 0.4494,
+      "descriptive_math_vs_factual_iterative": 0.4368,
+      "descriptive_math_vs_nonsense_control": 0.5948,
+      "descriptive_math_vs_procedural_self": 0.6357,
+      "descriptive_music_vs_factual_iterative": 0.5422,
+      "descriptive_music_vs_nonsense_control": 0.3812,
+      "descriptive_music_vs_procedural_self": 0.5769,
+      "factual_iterative_vs_nonsense_control": 0.375,
+      "factual_iterative_vs_procedural_self": 0.517,
+      "nonsense_control_vs_procedural_self": 0.7722
+    },
+    "baseline_vs_others": {
+      "abstract_philosophical": 0.6673,
+      "descriptive_math": 0.6405,
+      "descriptive_music": 0.4852,
+      "factual_iterative": 0.4473,
+      "nonsense_control": 0.7696,
+      "procedural_self": 0.8283
+    },
+    "baseline_mean_cosine": 0.6397,
+    "non_baseline_mean_cosine": 0.5581,
+    "baseline_is_special": false
+  },
+  "topic_directions_all_layers": {
+    "2": {
+      "reference": "descriptive_forest",
+      "layer": 2,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.7635,
+        "abstract_philosophical_vs_descriptive_math": 0.5676,
+        "abstract_philosophical_vs_descriptive_music": 0.7027,
+        "abstract_philosophical_vs_factual_iterative": 0.5775,
+        "abstract_philosophical_vs_nonsense_control": 0.6824,
+        "abstract_philosophical_vs_procedural_self": 0.8634,
+        "baseline_vs_descriptive_math": 0.6418,
+        "baseline_vs_descriptive_music": 0.6231,
+        "baseline_vs_factual_iterative": 0.5734,
+        "baseline_vs_nonsense_control": 0.7509,
+        "baseline_vs_procedural_self": 0.8432,
+        "descriptive_math_vs_descriptive_music": 0.4803,
+        "descriptive_math_vs_factual_iterative": 0.4533,
+        "descriptive_math_vs_nonsense_control": 0.6162,
+        "descriptive_math_vs_procedural_self": 0.663,
+        "descriptive_music_vs_factual_iterative": 0.5046,
+        "descriptive_music_vs_nonsense_control": 0.4794,
+        "descriptive_music_vs_procedural_self": 0.6836,
+        "factual_iterative_vs_nonsense_control": 0.4842,
+        "factual_iterative_vs_procedural_self": 0.618,
+        "nonsense_control_vs_procedural_self": 0.768
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.7635,
+        "descriptive_math": 0.6418,
+        "descriptive_music": 0.6231,
+        "factual_iterative": 0.5734,
+        "nonsense_control": 0.7509,
+        "procedural_self": 0.8432
+      },
+      "baseline_mean_cosine": 0.6993,
+      "non_baseline_mean_cosine": 0.6096,
+      "baseline_is_special": false
+    },
+    "3": {
+      "reference": "descriptive_forest",
+      "layer": 3,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.7507,
+        "abstract_philosophical_vs_descriptive_math": 0.5806,
+        "abstract_philosophical_vs_descriptive_music": 0.6798,
+        "abstract_philosophical_vs_factual_iterative": 0.5914,
+        "abstract_philosophical_vs_nonsense_control": 0.673,
+        "abstract_philosophical_vs_procedural_self": 0.8593,
+        "baseline_vs_descriptive_math": 0.6556,
+        "baseline_vs_descriptive_music": 0.5858,
+        "baseline_vs_factual_iterative": 0.5623,
+        "baseline_vs_nonsense_control": 0.7497,
+        "baseline_vs_procedural_self": 0.8387,
+        "descriptive_math_vs_descriptive_music": 0.4822,
+        "descriptive_math_vs_factual_iterative": 0.4733,
+        "descriptive_math_vs_nonsense_control": 0.6261,
+        "descriptive_math_vs_procedural_self": 0.6752,
+        "descriptive_music_vs_factual_iterative": 0.509,
+        "descriptive_music_vs_nonsense_control": 0.4394,
+        "descriptive_music_vs_procedural_self": 0.6568,
+        "factual_iterative_vs_nonsense_control": 0.4702,
+        "factual_iterative_vs_procedural_self": 0.6103,
+        "nonsense_control_vs_procedural_self": 0.7597
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.7507,
+        "descriptive_math": 0.6556,
+        "descriptive_music": 0.5858,
+        "factual_iterative": 0.5623,
+        "nonsense_control": 0.7497,
+        "procedural_self": 0.8387
+      },
+      "baseline_mean_cosine": 0.6905,
+      "non_baseline_mean_cosine": 0.6058,
+      "baseline_is_special": false
+    },
+    "4": {
+      "reference": "descriptive_forest",
+      "layer": 4,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.7188,
+        "abstract_philosophical_vs_descriptive_math": 0.5749,
+        "abstract_philosophical_vs_descriptive_music": 0.6513,
+        "abstract_philosophical_vs_factual_iterative": 0.5561,
+        "abstract_philosophical_vs_nonsense_control": 0.6412,
+        "abstract_philosophical_vs_procedural_self": 0.8243,
+        "baseline_vs_descriptive_math": 0.6409,
+        "baseline_vs_descriptive_music": 0.5152,
+        "baseline_vs_factual_iterative": 0.4808,
+        "baseline_vs_nonsense_control": 0.7418,
+        "baseline_vs_procedural_self": 0.8269,
+        "descriptive_math_vs_descriptive_music": 0.4439,
+        "descriptive_math_vs_factual_iterative": 0.4255,
+        "descriptive_math_vs_nonsense_control": 0.6223,
+        "descriptive_math_vs_procedural_self": 0.6726,
+        "descriptive_music_vs_factual_iterative": 0.4935,
+        "descriptive_music_vs_nonsense_control": 0.3691,
+        "descriptive_music_vs_procedural_self": 0.5863,
+        "factual_iterative_vs_nonsense_control": 0.3998,
+        "factual_iterative_vs_procedural_self": 0.5364,
+        "nonsense_control_vs_procedural_self": 0.7587
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.7188,
+        "descriptive_math": 0.6409,
+        "descriptive_music": 0.5152,
+        "factual_iterative": 0.4808,
+        "nonsense_control": 0.7418,
+        "procedural_self": 0.8269
+      },
+      "baseline_mean_cosine": 0.6541,
+      "non_baseline_mean_cosine": 0.5704,
+      "baseline_is_special": false
+    },
+    "5": {
+      "reference": "descriptive_forest",
+      "layer": 5,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.7007,
+        "abstract_philosophical_vs_descriptive_math": 0.557,
+        "abstract_philosophical_vs_descriptive_music": 0.6401,
+        "abstract_philosophical_vs_factual_iterative": 0.5445,
+        "abstract_philosophical_vs_nonsense_control": 0.6171,
+        "abstract_philosophical_vs_procedural_self": 0.8073,
+        "baseline_vs_descriptive_math": 0.6433,
+        "baseline_vs_descriptive_music": 0.5035,
+        "baseline_vs_factual_iterative": 0.4453,
+        "baseline_vs_nonsense_control": 0.7387,
+        "baseline_vs_procedural_self": 0.8301,
+        "descriptive_math_vs_descriptive_music": 0.4422,
+        "descriptive_math_vs_factual_iterative": 0.3957,
+        "descriptive_math_vs_nonsense_control": 0.6051,
+        "descriptive_math_vs_procedural_self": 0.6655,
+        "descriptive_music_vs_factual_iterative": 0.5011,
+        "descriptive_music_vs_nonsense_control": 0.3562,
+        "descriptive_music_vs_procedural_self": 0.566,
+        "factual_iterative_vs_nonsense_control": 0.3654,
+        "factual_iterative_vs_procedural_self": 0.5042,
+        "nonsense_control_vs_procedural_self": 0.7482
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.7007,
+        "descriptive_math": 0.6433,
+        "descriptive_music": 0.5035,
+        "factual_iterative": 0.4453,
+        "nonsense_control": 0.7387,
+        "procedural_self": 0.8301
+      },
+      "baseline_mean_cosine": 0.6436,
+      "non_baseline_mean_cosine": 0.5544,
+      "baseline_is_special": false
+    },
+    "6": {
+      "reference": "descriptive_forest",
+      "layer": 6,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.6773,
+        "abstract_philosophical_vs_descriptive_math": 0.5176,
+        "abstract_philosophical_vs_descriptive_music": 0.6433,
+        "abstract_philosophical_vs_factual_iterative": 0.5521,
+        "abstract_philosophical_vs_nonsense_control": 0.5858,
+        "abstract_philosophical_vs_procedural_self": 0.7878,
+        "baseline_vs_descriptive_math": 0.6513,
+        "baseline_vs_descriptive_music": 0.4727,
+        "baseline_vs_factual_iterative": 0.4582,
+        "baseline_vs_nonsense_control": 0.7701,
+        "baseline_vs_procedural_self": 0.8409,
+        "descriptive_math_vs_descriptive_music": 0.415,
+        "descriptive_math_vs_factual_iterative": 0.4163,
+        "descriptive_math_vs_nonsense_control": 0.6163,
+        "descriptive_math_vs_procedural_self": 0.6587,
+        "descriptive_music_vs_factual_iterative": 0.5141,
+        "descriptive_music_vs_nonsense_control": 0.3253,
+        "descriptive_music_vs_procedural_self": 0.552,
+        "factual_iterative_vs_nonsense_control": 0.3793,
+        "factual_iterative_vs_procedural_self": 0.5217,
+        "nonsense_control_vs_procedural_self": 0.7652
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.6773,
+        "descriptive_math": 0.6513,
+        "descriptive_music": 0.4727,
+        "factual_iterative": 0.4582,
+        "nonsense_control": 0.7701,
+        "procedural_self": 0.8409
+      },
+      "baseline_mean_cosine": 0.6451,
+      "non_baseline_mean_cosine": 0.55,
+      "baseline_is_special": false
+    },
+    "8": {
+      "reference": "descriptive_forest",
+      "layer": 8,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.6673,
+        "abstract_philosophical_vs_descriptive_math": 0.5019,
+        "abstract_philosophical_vs_descriptive_music": 0.6471,
+        "abstract_philosophical_vs_factual_iterative": 0.5634,
+        "abstract_philosophical_vs_nonsense_control": 0.596,
+        "abstract_philosophical_vs_procedural_self": 0.7811,
+        "baseline_vs_descriptive_math": 0.6405,
+        "baseline_vs_descriptive_music": 0.4852,
+        "baseline_vs_factual_iterative": 0.4473,
+        "baseline_vs_nonsense_control": 0.7696,
+        "baseline_vs_procedural_self": 0.8283,
+        "descriptive_math_vs_descriptive_music": 0.4494,
+        "descriptive_math_vs_factual_iterative": 0.4368,
+        "descriptive_math_vs_nonsense_control": 0.5948,
+        "descriptive_math_vs_procedural_self": 0.6357,
+        "descriptive_music_vs_factual_iterative": 0.5422,
+        "descriptive_music_vs_nonsense_control": 0.3812,
+        "descriptive_music_vs_procedural_self": 0.5769,
+        "factual_iterative_vs_nonsense_control": 0.375,
+        "factual_iterative_vs_procedural_self": 0.517,
+        "nonsense_control_vs_procedural_self": 0.7722
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.6673,
+        "descriptive_math": 0.6405,
+        "descriptive_music": 0.4852,
+        "factual_iterative": 0.4473,
+        "nonsense_control": 0.7696,
+        "procedural_self": 0.8283
+      },
+      "baseline_mean_cosine": 0.6397,
+      "non_baseline_mean_cosine": 0.5581,
+      "baseline_is_special": false
+    },
+    "16": {
+      "reference": "descriptive_forest",
+      "layer": 16,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.6464,
+        "abstract_philosophical_vs_descriptive_math": 0.5125,
+        "abstract_philosophical_vs_descriptive_music": 0.6466,
+        "abstract_philosophical_vs_factual_iterative": 0.5731,
+        "abstract_philosophical_vs_nonsense_control": 0.5891,
+        "abstract_philosophical_vs_procedural_self": 0.742,
+        "baseline_vs_descriptive_math": 0.6208,
+        "baseline_vs_descriptive_music": 0.5074,
+        "baseline_vs_factual_iterative": 0.4695,
+        "baseline_vs_nonsense_control": 0.7721,
+        "baseline_vs_procedural_self": 0.8029,
+        "descriptive_math_vs_descriptive_music": 0.4851,
+        "descriptive_math_vs_factual_iterative": 0.4671,
+        "descriptive_math_vs_nonsense_control": 0.6075,
+        "descriptive_math_vs_procedural_self": 0.6072,
+        "descriptive_music_vs_factual_iterative": 0.5567,
+        "descriptive_music_vs_nonsense_control": 0.4212,
+        "descriptive_music_vs_procedural_self": 0.5787,
+        "factual_iterative_vs_nonsense_control": 0.419,
+        "factual_iterative_vs_procedural_self": 0.5356,
+        "nonsense_control_vs_procedural_self": 0.8065
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.6464,
+        "descriptive_math": 0.6208,
+        "descriptive_music": 0.5074,
+        "factual_iterative": 0.4695,
+        "nonsense_control": 0.7721,
+        "procedural_self": 0.8029
+      },
+      "baseline_mean_cosine": 0.6365,
+      "non_baseline_mean_cosine": 0.5699,
+      "baseline_is_special": false
+    },
+    "32": {
+      "reference": "descriptive_forest",
+      "layer": 32,
+      "pairwise_cosines": {
+        "abstract_philosophical_vs_baseline": 0.5554,
+        "abstract_philosophical_vs_descriptive_math": 0.432,
+        "abstract_philosophical_vs_descriptive_music": 0.6331,
+        "abstract_philosophical_vs_factual_iterative": 0.5849,
+        "abstract_philosophical_vs_nonsense_control": 0.454,
+        "abstract_philosophical_vs_procedural_self": 0.6208,
+        "baseline_vs_descriptive_math": 0.5515,
+        "baseline_vs_descriptive_music": 0.4564,
+        "baseline_vs_factual_iterative": 0.3885,
+        "baseline_vs_nonsense_control": 0.7541,
+        "baseline_vs_procedural_self": 0.766,
+        "descriptive_math_vs_descriptive_music": 0.5105,
+        "descriptive_math_vs_factual_iterative": 0.4261,
+        "descriptive_math_vs_nonsense_control": 0.5259,
+        "descriptive_math_vs_procedural_self": 0.5273,
+        "descriptive_music_vs_factual_iterative": 0.5355,
+        "descriptive_music_vs_nonsense_control": 0.3263,
+        "descriptive_music_vs_procedural_self": 0.4794,
+        "factual_iterative_vs_nonsense_control": 0.3472,
+        "factual_iterative_vs_procedural_self": 0.5206,
+        "nonsense_control_vs_procedural_self": 0.7632
+      },
+      "baseline_vs_others": {
+        "abstract_philosophical": 0.5554,
+        "descriptive_math": 0.5515,
+        "descriptive_music": 0.4564,
+        "factual_iterative": 0.3885,
+        "nonsense_control": 0.7541,
+        "procedural_self": 0.766
+      },
+      "baseline_mean_cosine": 0.5786,
+      "non_baseline_mean_cosine": 0.5124,
+      "baseline_is_special": false
+    }
+  },
+  "summary": {
+    "conditions_tested": [
+      "baseline",
+      "abstract_philosophical",
+      "factual_iterative",
+      "procedural_self",
+      "descriptive_forest",
+      "descriptive_math",
+      "descriptive_music",
+      "nonsense_control"
+    ],
+    "layers_tested": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      16,
+      32
+    ],
+    "n_runs_per_condition": 3,
+    "localization_found": false,
+    "baseline_direction_special": false,
+    "max_f_norm": 4.1668,
+    "max_f_cosine": 1.2548,
+    "min_centroid_cosine": 0.858223
+  }
+}

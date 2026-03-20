@@ -1,0 +1,2397 @@
+{
+  "lock_in_resistance": {
+    "summaries": {
+      "baseline": {
+        "n": 25,
+        "mean": 88.4,
+        "median": 57.0,
+        "std": 73.14426384435988,
+        "min": 21.0,
+        "max": 301.0,
+        "cycle_rate": 0.68,
+        "n_cycles": 17
+      },
+      "abstract_philosophical": {
+        "n": 10,
+        "mean": 97.5,
+        "median": 77.5,
+        "std": 80.70419237354815,
+        "min": 21.0,
+        "max": 304.0,
+        "cycle_rate": 0.7,
+        "n_cycles": 7
+      },
+      "factual_iterative": {
+        "n": 10,
+        "mean": 97.0,
+        "median": 45.5,
+        "std": 111.88883371950533,
+        "min": 16.0,
+        "max": 303.0,
+        "cycle_rate": 0.5,
+        "n_cycles": 5
+      },
+      "procedural_self": {
+        "n": 10,
+        "mean": 91.3,
+        "median": 52.5,
+        "std": 96.82406725602885,
+        "min": 21.0,
+        "max": 304.0,
+        "cycle_rate": 0.4,
+        "n_cycles": 4
+      },
+      "descriptive_forest": {
+        "n": 10,
+        "mean": 76.9,
+        "median": 58.0,
+        "std": 81.32575101268833,
+        "min": 21.0,
+        "max": 303.0,
+        "cycle_rate": 0.8,
+        "n_cycles": 8
+      },
+      "descriptive_math": {
+        "n": 25,
+        "mean": 58.56,
+        "median": 45.0,
+        "std": 54.10104743286708,
+        "min": 21.0,
+        "max": 303.0,
+        "cycle_rate": 0.92,
+        "n_cycles": 23
+      },
+      "descriptive_music": {
+        "n": 10,
+        "mean": 100.2,
+        "median": 58.5,
+        "std": 108.50478740078196,
+        "min": 21.0,
+        "max": 306.0,
+        "cycle_rate": 0.6,
+        "n_cycles": 6
+      },
+      "nonsense_control": {
+        "n": 25,
+        "mean": 66.24,
+        "median": 21.0,
+        "std": 80.67387020177804,
+        "min": 14.0,
+        "max": 303.0,
+        "cycle_rate": 0.4,
+        "n_cycles": 10
+      }
+    },
+    "kruskal_wallis": {
+      "H": 8.878784567814856,
+      "p": 0.2614764190634895,
+      "df": 7
+    },
+    "pairwise_vs_baseline": [
+      {
+        "comparison": "baseline vs abstract_philosophical",
+        "U": 110.5,
+        "p_raw": 0.6077183802985331,
+        "cohen_d": -0.12087980629301802,
+        "baseline_median": 57.0,
+        "control_median": 77.5,
+        "p_adjusted": 1.0,
+        "significant": false
+      },
+      {
+        "comparison": "baseline vs factual_iterative",
+        "U": 142.5,
+        "p_raw": 0.5322539434817126,
+        "cohen_d": -0.10061905500856724,
+        "baseline_median": 57.0,
+        "control_median": 45.5,
+        "p_adjusted": 1.0,
+        "significant": false
+      },
+      {
+        "comparison": "baseline vs procedural_self",
+        "U": 139.0,
+        "p_raw": 0.6165137981248356,
+        "cohen_d": -0.036115492834032,
+        "baseline_median": 57.0,
+        "control_median": 52.5,
+        "p_adjusted": 1.0,
+        "significant": false
+      },
+      {
+        "comparison": "baseline vs descriptive_forest",
+        "U": 132.0,
+        "p_raw": 0.8116226777003175,
+        "cohen_d": 0.1523913566697994,
+        "baseline_median": 57.0,
+        "control_median": 58.0,
+        "p_adjusted": 1.0,
+        "significant": false
+      },
+      {
+        "comparison": "baseline vs descriptive_math",
+        "U": 383.5,
+        "p_raw": 0.17062269001116837,
+        "cohen_d": 0.46384957619596456,
+        "baseline_median": 57.0,
+        "control_median": 45.0,
+        "p_adjusted": 1.0,
+        "significant": false
+      },
+      {
+        "comparison": "baseline vs descriptive_music",
+        "U": 126.5,
+        "p_raw": 0.9706928287391795,
+        "cohen_d": -0.1400218302509679,
+        "baseline_median": 57.0,
+        "control_median": 58.5,
+        "p_adjusted": 1.0,
+        "significant": false
+      },
+      {
+        "comparison": "baseline vs nonsense_control",
+        "U": 417.0,
+        "p_raw": 0.040186784037337754,
+        "cohen_d": 0.2877878797616819,
+        "baseline_median": 57.0,
+        "control_median": 21.0,
+        "p_adjusted": 0.28130748826136426,
+        "significant": false
+      }
+    ],
+    "all_pairwise": {
+      "n_comparisons": 28,
+      "n_significant": 0,
+      "pairs": [
+        {
+          "comparison": "baseline vs abstract_philosophical",
+          "U": 110.5,
+          "p_raw": 0.6077183802985331,
+          "cohen_d": -0.12087980629301802,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "baseline vs factual_iterative",
+          "U": 142.5,
+          "p_raw": 0.5322539434817126,
+          "cohen_d": -0.10061905500856724,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "baseline vs procedural_self",
+          "U": 139.0,
+          "p_raw": 0.6165137981248356,
+          "cohen_d": -0.036115492834032,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "baseline vs descriptive_forest",
+          "U": 132.0,
+          "p_raw": 0.8116226777003175,
+          "cohen_d": 0.1523913566697994,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "baseline vs descriptive_math",
+          "U": 383.5,
+          "p_raw": 0.17062269001116837,
+          "cohen_d": 0.46384957619596456,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "baseline vs descriptive_music",
+          "U": 126.5,
+          "p_raw": 0.9706928287391795,
+          "cohen_d": -0.1400218302509679,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "baseline vs nonsense_control",
+          "U": 417.0,
+          "p_raw": 0.040186784037337754,
+          "cohen_d": 0.2877878797616819,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "abstract_philosophical vs factual_iterative",
+          "U": 63.0,
+          "p_raw": 0.3439775865600383,
+          "cohen_d": 0.0051255398963910214,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "abstract_philosophical vs procedural_self",
+          "U": 59.5,
+          "p_raw": 0.4901932357764971,
+          "cohen_d": 0.06956185593213107,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "abstract_philosophical vs descriptive_forest",
+          "U": 67.5,
+          "p_raw": 0.19842682528331534,
+          "cohen_d": 0.25427211788127413,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "abstract_philosophical vs descriptive_math",
+          "U": 179.5,
+          "p_raw": 0.0483801251257717,
+          "cohen_d": 0.6231405323848977,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "abstract_philosophical vs descriptive_music",
+          "U": 62.0,
+          "p_raw": 0.38395703557388927,
+          "cohen_d": -0.028236703568835418,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "abstract_philosophical vs nonsense_control",
+          "U": 177.0,
+          "p_raw": 0.05609320410918518,
+          "cohen_d": 0.3874463370293037,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "factual_iterative vs procedural_self",
+          "U": 51.0,
+          "p_raw": 0.9691947874250506,
+          "cohen_d": 0.0544787565453086,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "factual_iterative vs descriptive_forest",
+          "U": 44.5,
+          "p_raw": 0.7048215939915938,
+          "cohen_d": 0.20550370002249108,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "factual_iterative vs descriptive_math",
+          "U": 123.0,
+          "p_raw": 0.9562678629246004,
+          "cohen_d": 0.5163116646871552,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "factual_iterative vs descriptive_music",
+          "U": 42.5,
+          "p_raw": 0.5951747766319654,
+          "cohen_d": -0.02903553043479733,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "factual_iterative vs nonsense_control",
+          "U": 149.0,
+          "p_raw": 0.38102428070891015,
+          "cohen_d": 0.3407780984439463,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "procedural_self vs descriptive_forest",
+          "U": 48.5,
+          "p_raw": 0.9389121605848273,
+          "cohen_d": 0.16105338481447645,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "procedural_self vs descriptive_math",
+          "U": 120.5,
+          "p_raw": 0.8835013246859069,
+          "cohen_d": 0.47830227373104434,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "procedural_self vs descriptive_music",
+          "U": 46.0,
+          "p_raw": 0.7869083593356585,
+          "cohen_d": -0.0865502674260295,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "procedural_self vs nonsense_control",
+          "U": 147.0,
+          "p_raw": 0.41343925930371195,
+          "cohen_d": 0.2935045927752169,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "descriptive_forest vs descriptive_math",
+          "U": 160.5,
+          "p_raw": 0.20067413202556483,
+          "cohen_d": 0.29246060579119487,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "descriptive_forest vs descriptive_music",
+          "U": 49.5,
+          "p_raw": 1.0,
+          "cohen_d": -0.2430040504183218,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "descriptive_forest vs nonsense_control",
+          "U": 164.0,
+          "p_raw": 0.1531749900223441,
+          "cohen_d": 0.1318455529508338,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "descriptive_math vs descriptive_music",
+          "U": 93.5,
+          "p_raw": 0.2571175151327082,
+          "cohen_d": -0.569846178668815,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "descriptive_math vs nonsense_control",
+          "U": 406.5,
+          "p_raw": 0.06807803848614183,
+          "cohen_d": -0.11181517281730641,
+          "p_adjusted": 1.0,
+          "significant": false
+        },
+        {
+          "comparison": "descriptive_music vs nonsense_control",
+          "U": 166.5,
+          "p_raw": 0.12645113452134737,
+          "cohen_d": 0.38101577893312627,
+          "p_adjusted": 1.0,
+          "significant": false
+        }
+      ]
+    }
+  },
+  "cycle_properties": {
+    "baseline": {
+      "n_with_cycle": 17,
+      "cycle_period": {
+        "values": [
+          20,
+          20,
+          15,
+          21,
+          13,
+          12,
+          24,
+          33,
+          10,
+          19,
+          40,
+          20,
+          12,
+          14,
+          3,
+          18,
+          16
+        ],
+        "mean": 18.235294117647058,
+        "median": 18.0,
+        "std": 8.59163409780632,
+        "range": [
+          3,
+          40
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.7177120000000001,
+        "median": 0.6602
+      },
+      "n_observations": {
+        "mean": 139.44,
+        "median": 137.0,
+        "range": [
+          21,
+          301
+        ]
+      }
+    },
+    "abstract_philosophical": {
+      "n_with_cycle": 7,
+      "cycle_period": {
+        "values": [
+          12,
+          22,
+          23,
+          36,
+          12,
+          18,
+          18
+        ],
+        "mean": 20.142857142857142,
+        "median": 18.0,
+        "std": 8.21438923330216,
+        "range": [
+          12,
+          36
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.65339,
+        "median": 0.5988
+      },
+      "n_observations": {
+        "mean": 155.2,
+        "median": 132.5,
+        "range": [
+          21,
+          304
+        ]
+      }
+    },
+    "factual_iterative": {
+      "n_with_cycle": 5,
+      "cycle_period": {
+        "values": [
+          3,
+          16,
+          10,
+          14,
+          20
+        ],
+        "mean": 12.6,
+        "median": 14.0,
+        "std": 6.465291950097845,
+        "range": [
+          3,
+          20
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.76742,
+        "median": 0.8552500000000001
+      },
+      "n_observations": {
+        "mean": 123.9,
+        "median": 89.5,
+        "range": [
+          16,
+          303
+        ]
+      }
+    },
+    "procedural_self": {
+      "n_with_cycle": 4,
+      "cycle_period": {
+        "values": [
+          14,
+          20,
+          20,
+          20
+        ],
+        "mean": 18.5,
+        "median": 20.0,
+        "std": 3.0,
+        "range": [
+          14,
+          20
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.8758699999999999,
+        "median": 1.0
+      },
+      "n_observations": {
+        "mean": 121.1,
+        "median": 93.5,
+        "range": [
+          21,
+          304
+        ]
+      }
+    },
+    "descriptive_forest": {
+      "n_with_cycle": 8,
+      "cycle_period": {
+        "values": [
+          8,
+          22,
+          10,
+          10,
+          10,
+          6,
+          8,
+          22
+        ],
+        "mean": 12.0,
+        "median": 10.0,
+        "std": 6.324555320336759,
+        "range": [
+          6,
+          22
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.6019499999999999,
+        "median": 0.5162
+      },
+      "n_observations": {
+        "mean": 116.8,
+        "median": 93.5,
+        "range": [
+          21,
+          303
+        ]
+      }
+    },
+    "descriptive_math": {
+      "n_with_cycle": 23,
+      "cycle_period": {
+        "values": [
+          9,
+          14,
+          10,
+          36,
+          9,
+          20,
+          15,
+          24,
+          6,
+          8,
+          13,
+          8,
+          12,
+          6,
+          9,
+          11,
+          8,
+          10,
+          10,
+          20,
+          10,
+          12,
+          15
+        ],
+        "mean": 12.826086956521738,
+        "median": 10.0,
+        "std": 6.806762505793534,
+        "range": [
+          6,
+          36
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.569548,
+        "median": 0.5763
+      },
+      "n_observations": {
+        "mean": 108.56,
+        "median": 95.0,
+        "range": [
+          21,
+          303
+        ]
+      }
+    },
+    "descriptive_music": {
+      "n_with_cycle": 6,
+      "cycle_period": {
+        "values": [
+          8,
+          20,
+          20,
+          10,
+          23,
+          8
+        ],
+        "mean": 14.833333333333334,
+        "median": 15.0,
+        "std": 6.882344561751225,
+        "range": [
+          8,
+          23
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.59971,
+        "median": 0.56055
+      },
+      "n_observations": {
+        "mean": 138.5,
+        "median": 121.5,
+        "range": [
+          21,
+          306
+        ]
+      }
+    },
+    "nonsense_control": {
+      "n_with_cycle": 10,
+      "cycle_period": {
+        "values": [
+          18,
+          13,
+          16,
+          20,
+          20,
+          16,
+          18,
+          16,
+          15,
+          48
+        ],
+        "mean": 20.0,
+        "median": 17.0,
+        "std": 10.077477638553983,
+        "range": [
+          13,
+          48
+        ]
+      },
+      "unique_ratio": {
+        "mean": 0.8019319999999999,
+        "median": 1.0
+      },
+      "n_observations": {
+        "mean": 98.88,
+        "median": 21.0,
+        "range": [
+          14,
+          303
+        ]
+      }
+    },
+    "cycle_period_kruskal": {
+      "H": 16.875948205577217,
+      "p": 0.018213843656911,
+      "conditions_tested": [
+        "baseline",
+        "abstract_philosophical",
+        "factual_iterative",
+        "procedural_self",
+        "descriptive_forest",
+        "descriptive_math",
+        "descriptive_music",
+        "nonsense_control"
+      ]
+    }
+  },
+  "activation_metrics": {
+    "layer_8": {
+      "mean_norm": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 103.08865142822266,
+            "std": 1.5714693342673776,
+            "median": 102.78350830078125
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 102.09045104980468,
+            "std": 1.4673510211866698,
+            "median": 102.22074890136719
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 103.4921485900879,
+            "std": 1.4979285764126882,
+            "median": 103.42016220092773
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 102.41913757324218,
+            "std": 1.697066857995237,
+            "median": 101.93579483032227
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 104.42837753295899,
+            "std": 2.1450540026381266,
+            "median": 103.99069213867188
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 106.32948181152344,
+            "std": 1.97719588006173,
+            "median": 106.00952911376953
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 105.9133529663086,
+            "std": 1.0693755423746674,
+            "median": 105.73428726196289
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 102.895849609375,
+            "std": 1.870580741874813,
+            "median": 102.62328338623047
+          }
+        },
+        "kruskal_wallis": {
+          "H": 56.42735430830819,
+          "p": 7.76799276123351e-10
+        }
+      },
+      "convergence_ratio": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 1.0050235819816589,
+            "std": 0.027359238716454074,
+            "median": 0.9994351863861084
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.9837478578090668,
+            "std": 0.024892890361934858,
+            "median": 0.9860040247440338
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 1.0092489898204804,
+            "std": 0.03250891955519721,
+            "median": 1.01017564535141
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 1.0189369559288024,
+            "std": 0.030823489178768457,
+            "median": 1.0158942937850952
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.973192173242569,
+            "std": 0.027548768014993986,
+            "median": 0.9669012427330017
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 1.009705970287323,
+            "std": 0.022304580682209793,
+            "median": 1.007393479347229
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.99448664188385,
+            "std": 0.03175100177585118,
+            "median": 0.9952998757362366
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 1.008808078765869,
+            "std": 0.01971458220759875,
+            "median": 1.0062042474746704
+          }
+        },
+        "kruskal_wallis": {
+          "H": 20.600822857142873,
+          "p": 0.00440813659810759
+        }
+      },
+      "mean_token_similarity": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.606974618434906,
+            "std": 0.02820130831306064,
+            "median": 0.6103132963180542
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.6256944358348846,
+            "std": 0.01943777680371836,
+            "median": 0.6311330199241638
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.6079032063484192,
+            "std": 0.03113306909482368,
+            "median": 0.6115921437740326
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 0.609833151102066,
+            "std": 0.024177753347174757,
+            "median": 0.6093191206455231
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.601045799255371,
+            "std": 0.027666477378089874,
+            "median": 0.5996197164058685
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.6197001910209656,
+            "std": 0.018195192057733282,
+            "median": 0.6242038607597351
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.6032252132892608,
+            "std": 0.0227833096700991,
+            "median": 0.6088955402374268
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 0.5965353536605835,
+            "std": 0.03375244066376075,
+            "median": 0.5856441259384155
+          }
+        },
+        "kruskal_wallis": {
+          "H": 12.173973333333322,
+          "p": 0.09498086875901028
+        }
+      },
+      "spectral_power_low": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 11840640.8390625,
+            "std": 14223912.888944384,
+            "median": 4860132.0
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 16748598.915625,
+            "std": 22985404.01851807,
+            "median": 8118689.75
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 12367523.57578125,
+            "std": 22850289.79277689,
+            "median": 1890739.625
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 9688709.490625,
+            "std": 14372595.381948194,
+            "median": 2454440.671875
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 6807136.71796875,
+            "std": 7805101.134903892,
+            "median": 4548226.125
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 4180382.5196875,
+            "std": 9664832.457143387,
+            "median": 1406342.375
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 6577891.602001953,
+            "std": 7576240.412683335,
+            "median": 3582626.75
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 8567950.570625,
+            "std": 14317922.23065022,
+            "median": 1275141.5
+          }
+        },
+        "kruskal_wallis": {
+          "H": 10.09421714285719,
+          "p": 0.18329684865985055
+        }
+      },
+      "autocorr_lag1": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.03753137608990073,
+            "std": 0.12119462207399496,
+            "median": 0.02995098941028118
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": -0.019001624919474124,
+            "std": 0.10509273296419909,
+            "median": -0.028502722270786762
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.008298005908727646,
+            "std": 0.114039033072772,
+            "median": -0.03292806912213564
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": -0.03546660225838423,
+            "std": 0.1378947073842668,
+            "median": -0.05579036846756935
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": -0.01301589496433735,
+            "std": 0.12164087422171527,
+            "median": -0.02070560771971941
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.057364389933645725,
+            "std": 0.13053518595771516,
+            "median": 0.04347507655620575
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.06713491650298238,
+            "std": 0.13501159570846366,
+            "median": 0.03941146843135357
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": -0.04606731695123017,
+            "std": 0.12685876971970736,
+            "median": -0.08102865517139435
+          }
+        },
+        "kruskal_wallis": {
+          "H": 13.591725714285758,
+          "p": 0.058938040634833024
+        }
+      },
+      "norm_std": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 14.794719123840332,
+            "std": 1.3970318450394377,
+            "median": 14.52730655670166
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 14.018848705291749,
+            "std": 1.2191310594184457,
+            "median": 13.986673831939697
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 14.708372116088867,
+            "std": 1.4216042067314478,
+            "median": 14.04821491241455
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 14.062593078613281,
+            "std": 1.2027709696647448,
+            "median": 14.411770820617676
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 17.121427822113038,
+            "std": 2.120596377337957,
+            "median": 16.89205265045166
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 15.172689666748047,
+            "std": 1.646633050706457,
+            "median": 14.653104782104492
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 17.092945861816407,
+            "std": 1.2572472646579493,
+            "median": 17.135482788085938
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 15.10499153137207,
+            "std": 1.6616113750743937,
+            "median": 14.828948020935059
+          }
+        },
+        "kruskal_wallis": {
+          "H": 29.168106666666688,
+          "p": 0.00013482170901017563
+        }
+      },
+      "mean_derivative": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 16.81807674407959,
+            "std": 2.132295385718554,
+            "median": 16.540769577026367
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 16.37497444152832,
+            "std": 1.0950424984011695,
+            "median": 16.119313716888428
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 16.79586582183838,
+            "std": 2.2536567562099226,
+            "median": 16.578333854675293
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 16.772085762023927,
+            "std": 0.9873630099772749,
+            "median": 17.0524845123291
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 19.882372760772704,
+            "std": 2.5299480770874325,
+            "median": 20.35324764251709
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 17.09907497406006,
+            "std": 1.7800747030491335,
+            "median": 17.180173873901367
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 19.079029750823974,
+            "std": 2.515168406111467,
+            "median": 19.0460205078125
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 17.84920753479004,
+            "std": 1.7016126612458073,
+            "median": 18.313249588012695
+          }
+        },
+        "kruskal_wallis": {
+          "H": 25.18858666666671,
+          "p": 0.0007025387617471202
+        }
+      }
+    },
+    "layer_16": {
+      "mean_norm": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 156.05563415527342,
+            "std": 5.597596300639356,
+            "median": 156.6326141357422
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 156.6732955932617,
+            "std": 3.017485926556414,
+            "median": 157.07352447509766
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 156.5295837402344,
+            "std": 3.600341472285271,
+            "median": 157.8133087158203
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 157.3491012573242,
+            "std": 2.089698888919691,
+            "median": 158.22440338134766
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 156.50177001953125,
+            "std": 4.596227139527984,
+            "median": 156.46492767333984
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 154.44141235351563,
+            "std": 2.3038146630975396,
+            "median": 153.72242736816406
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 155.65808715820313,
+            "std": 4.876045141244618,
+            "median": 155.56256103515625
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 157.5543371582031,
+            "std": 3.8238178057930705,
+            "median": 158.7755584716797
+          }
+        },
+        "kruskal_wallis": {
+          "H": 14.137249523809544,
+          "p": 0.04879339466427653
+        }
+      },
+      "convergence_ratio": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.9676232528686524,
+            "std": 0.04669333930862709,
+            "median": 0.9630012512207031
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.9479927718639374,
+            "std": 0.04134324292318426,
+            "median": 0.9330858588218689
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.9788269758224487,
+            "std": 0.05663024321272082,
+            "median": 0.9747440218925476
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 1.017207133769989,
+            "std": 0.048857561711372254,
+            "median": 1.012698769569397
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.9522531867027283,
+            "std": 0.04821926303362818,
+            "median": 0.9416378438472748
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.9559779644012452,
+            "std": 0.023142597432457397,
+            "median": 0.9537180066108704
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.960854709148407,
+            "std": 0.06039681260293627,
+            "median": 0.9385652542114258
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 1.02207368850708,
+            "std": 0.05100411045706797,
+            "median": 1.0141133069992065
+          }
+        },
+        "kruskal_wallis": {
+          "H": 35.801630476190496,
+          "p": 7.901548200473635e-06
+        }
+      },
+      "mean_token_similarity": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.6027261447906495,
+            "std": 0.028375566982931446,
+            "median": 0.6092261672019958
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.6132669031620026,
+            "std": 0.019009165054883467,
+            "median": 0.6198881268501282
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.5956237971782684,
+            "std": 0.031030410693432233,
+            "median": 0.6091894805431366
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 0.600251191854477,
+            "std": 0.021901813954027263,
+            "median": 0.6004422605037689
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.5994769692420959,
+            "std": 0.023091065183387396,
+            "median": 0.6028556227684021
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.6111980843544006,
+            "std": 0.018045284874653043,
+            "median": 0.6115298271179199
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.6022751271724701,
+            "std": 0.03084058124710417,
+            "median": 0.6064111888408661
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 0.5957529926300049,
+            "std": 0.0278322792714502,
+            "median": 0.5828090906143188
+          }
+        },
+        "kruskal_wallis": {
+          "H": 6.531367619047671,
+          "p": 0.47924513561738646
+        }
+      },
+      "spectral_power_low": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 46675993.98125,
+            "std": 48558875.501535,
+            "median": 43814156.0
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 82864789.3515625,
+            "std": 90742105.92686461,
+            "median": 40824246.0
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 35930151.18125,
+            "std": 42396503.377338916,
+            "median": 16168057.5
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 34255585.528125,
+            "std": 54181580.52722799,
+            "median": 11402768.5
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 33012983.6,
+            "std": 51158841.100243114,
+            "median": 19727605.5
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 12820450.51375,
+            "std": 17335815.742958445,
+            "median": 5833696.0
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 32445900.634375,
+            "std": 34979283.45052341,
+            "median": 26700912.0
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 49040112.79125,
+            "std": 117549187.10968319,
+            "median": 1842799.375
+          }
+        },
+        "kruskal_wallis": {
+          "H": 10.458148571428524,
+          "p": 0.16406263937763382
+        }
+      },
+      "autocorr_lag1": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.24517756283283235,
+            "std": 0.08361433049359909,
+            "median": 0.2475317120552063
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.28541317880153655,
+            "std": 0.053915227515611244,
+            "median": 0.27991434931755066
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.2490000993013382,
+            "std": 0.0988985987311127,
+            "median": 0.28603604435920715
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 0.30681898891925813,
+            "std": 0.05209259184607907,
+            "median": 0.2951863408088684
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.19617699310183526,
+            "std": 0.08043354768533738,
+            "median": 0.18909664452075958
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.22715297609567642,
+            "std": 0.0777831619279402,
+            "median": 0.2226192206144333
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.17849242836236953,
+            "std": 0.05472630409181544,
+            "median": 0.18971014022827148
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 0.27483931511640547,
+            "std": 0.07344553594076382,
+            "median": 0.2829292416572571
+          }
+        },
+        "kruskal_wallis": {
+          "H": 25.568213333333347,
+          "p": 0.0006014048661882817
+        }
+      },
+      "norm_std": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 23.608125076293945,
+            "std": 2.2676952446309606,
+            "median": 23.662954330444336
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 24.15474510192871,
+            "std": 1.5674345493437998,
+            "median": 24.47078227996826
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 23.886276626586913,
+            "std": 1.9601491645475468,
+            "median": 23.6791410446167
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 23.976585578918456,
+            "std": 0.8489460963176023,
+            "median": 23.815791130065918
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 26.214875602722167,
+            "std": 1.74814474935449,
+            "median": 26.706270217895508
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 23.04794189453125,
+            "std": 1.6153769775676046,
+            "median": 22.827377319335938
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 25.168882369995117,
+            "std": 2.4089537727827333,
+            "median": 25.476147651672363
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 24.385995941162108,
+            "std": 1.546224574790538,
+            "median": 24.544843673706055
+          }
+        },
+        "kruskal_wallis": {
+          "H": 23.799939047618977,
+          "p": 0.0012353513749990986
+        }
+      },
+      "mean_derivative": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 23.770349807739258,
+            "std": 2.0641050470428373,
+            "median": 23.61944007873535
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 23.884699440002443,
+            "std": 1.102727820818277,
+            "median": 23.93360996246338
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 23.776184844970704,
+            "std": 1.8667723736889599,
+            "median": 23.516379356384277
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 23.08095779418945,
+            "std": 0.8704648817198352,
+            "median": 23.206087112426758
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 27.905832481384277,
+            "std": 2.0676256635632093,
+            "median": 28.054950714111328
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 22.881921310424804,
+            "std": 1.4328723345473087,
+            "median": 22.854270935058594
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 26.677077865600587,
+            "std": 3.2083239506305583,
+            "median": 27.39348316192627
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 24.061525344848633,
+            "std": 1.6600120745694067,
+            "median": 23.94794464111328
+          }
+        },
+        "kruskal_wallis": {
+          "H": 38.10972952380956,
+          "p": 2.888039040602053e-06
+        }
+      }
+    },
+    "layer_32": {
+      "mean_norm": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 206.73212890625,
+            "std": 10.354540877825647,
+            "median": 206.51698303222656
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 205.31580200195313,
+            "std": 6.211801699333931,
+            "median": 203.38011932373047
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 205.86382598876952,
+            "std": 8.905383748571218,
+            "median": 205.39214324951172
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 214.5668746948242,
+            "std": 4.20051489525828,
+            "median": 215.10253143310547
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 203.15811614990236,
+            "std": 8.070723064692308,
+            "median": 201.1991424560547
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 201.6878820800781,
+            "std": 5.342553056444353,
+            "median": 202.2455291748047
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 201.77222747802733,
+            "std": 9.426726629289696,
+            "median": 202.1024398803711
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 212.8426611328125,
+            "std": 8.452429561860914,
+            "median": 214.5769500732422
+          }
+        },
+        "kruskal_wallis": {
+          "H": 32.65328761904766,
+          "p": 3.071799575684982e-05
+        }
+      },
+      "convergence_ratio": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.9146681785583496,
+            "std": 0.06288014718627813,
+            "median": 0.8889898061752319
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.8811490833759308,
+            "std": 0.04219997549666968,
+            "median": 0.8636680543422699
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.911436915397644,
+            "std": 0.053429469777733184,
+            "median": 0.8895729184150696
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 0.9594529747962952,
+            "std": 0.0744686619360422,
+            "median": 0.9564865529537201
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.8902382969856262,
+            "std": 0.03847119896516068,
+            "median": 0.8776277005672455
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.8837072253227234,
+            "std": 0.019623309203167315,
+            "median": 0.8858427405357361
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.8915963232517242,
+            "std": 0.05447407009073242,
+            "median": 0.8702405989170074
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 0.9675410127639771,
+            "std": 0.07613440177312836,
+            "median": 0.9647123217582703
+          }
+        },
+        "kruskal_wallis": {
+          "H": 33.04127999999997,
+          "p": 2.6011727800947603e-05
+        }
+      },
+      "mean_token_similarity": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.6268397378921509,
+            "std": 0.02330644481145975,
+            "median": 0.6315935254096985
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.6411462426185608,
+            "std": 0.016282825568333714,
+            "median": 0.6445519626140594
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.6140978157520294,
+            "std": 0.026451099377885586,
+            "median": 0.6065630316734314
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 0.6358868300914764,
+            "std": 0.02171535127779486,
+            "median": 0.6319350004196167
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.616716879606247,
+            "std": 0.022747563238434753,
+            "median": 0.6217193603515625
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.6135634851455688,
+            "std": 0.017520869171635447,
+            "median": 0.6145975589752197
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.6039216756820679,
+            "std": 0.027011969865004662,
+            "median": 0.6113269329071045
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 0.6322534346580505,
+            "std": 0.02330285205855874,
+            "median": 0.623985767364502
+          }
+        },
+        "kruskal_wallis": {
+          "H": 22.480807619047653,
+          "p": 0.0020980175769299923
+        }
+      },
+      "spectral_power_low": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 310414763.285,
+            "std": 288528324.71863127,
+            "median": 219853360.0
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 432517228.9875,
+            "std": 394903577.26233315,
+            "median": 288138216.0
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 323905727.65625,
+            "std": 447789442.04223853,
+            "median": 51194805.0
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 344495656.903125,
+            "std": 509077467.8824254,
+            "median": 144203266.8125
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 163098589.89375,
+            "std": 212561704.08072016,
+            "median": 99398776.0
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 84051227.03,
+            "std": 107757120.05998999,
+            "median": 43059012.0
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 210571133.49375,
+            "std": 265258198.9595105,
+            "median": 139296076.0
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 357335373.0975,
+            "std": 565635264.0921582,
+            "median": 3946374.75
+          }
+        },
+        "kruskal_wallis": {
+          "H": 7.917165714285716,
+          "p": 0.3399548442165999
+        }
+      },
+      "autocorr_lag1": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 0.43550967931747436,
+            "std": 0.0801743590648106,
+            "median": 0.44356346130371094
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 0.45621758997440337,
+            "std": 0.08017689741752342,
+            "median": 0.44050899147987366
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 0.42636390030384064,
+            "std": 0.09059765571151043,
+            "median": 0.45079901814460754
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 0.5170549154281616,
+            "std": 0.04420289149508486,
+            "median": 0.5075246393680573
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 0.4417359113693237,
+            "std": 0.08059619449094967,
+            "median": 0.44530047476291656
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 0.5021582055091858,
+            "std": 0.08525305360525048,
+            "median": 0.5173690915107727
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 0.43409202992916107,
+            "std": 0.07047612790412215,
+            "median": 0.4321850538253784
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 0.4481380259990692,
+            "std": 0.07428805735104081,
+            "median": 0.4532487094402313
+          }
+        },
+        "kruskal_wallis": {
+          "H": 20.50428952380952,
+          "p": 0.004577474038398324
+        }
+      },
+      "norm_std": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 28.562598876953125,
+            "std": 3.899471866911655,
+            "median": 28.614322662353516
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 28.725614166259767,
+            "std": 2.049767294539481,
+            "median": 28.529452323913574
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 26.832301330566406,
+            "std": 2.5860968440374346,
+            "median": 26.70698642730713
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 29.500992393493654,
+            "std": 3.2644122843476495,
+            "median": 29.25960063934326
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 28.572776985168456,
+            "std": 1.8305586262682358,
+            "median": 28.94746494293213
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 28.338744354248046,
+            "std": 2.297842791179527,
+            "median": 28.21466636657715
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 29.201173973083495,
+            "std": 3.175880744137341,
+            "median": 29.457594871520996
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 28.79964500427246,
+            "std": 2.3213453252173983,
+            "median": 28.196889877319336
+          }
+        },
+        "kruskal_wallis": {
+          "H": 5.862125714285696,
+          "p": 0.5559374972421478
+        }
+      },
+      "mean_derivative": {
+        "summaries": {
+          "baseline": {
+            "n": 25,
+            "mean": 23.67531105041504,
+            "std": 2.3831287601091895,
+            "median": 23.10378074645996
+          },
+          "abstract_philosophical": {
+            "n": 10,
+            "mean": 23.580818748474123,
+            "std": 1.429821197102605,
+            "median": 23.450157165527344
+          },
+          "factual_iterative": {
+            "n": 10,
+            "mean": 22.55302791595459,
+            "std": 1.9796739380357524,
+            "median": 22.488792419433594
+          },
+          "procedural_self": {
+            "n": 10,
+            "mean": 22.50697898864746,
+            "std": 2.192900545251237,
+            "median": 22.41075611114502
+          },
+          "descriptive_forest": {
+            "n": 10,
+            "mean": 24.368522071838377,
+            "std": 1.7563793693387235,
+            "median": 23.82883644104004
+          },
+          "descriptive_math": {
+            "n": 25,
+            "mean": 21.877021560668947,
+            "std": 1.5614494194333828,
+            "median": 21.5357608795166
+          },
+          "descriptive_music": {
+            "n": 10,
+            "mean": 24.59082775115967,
+            "std": 2.3779231063766395,
+            "median": 25.40681266784668
+          },
+          "nonsense_control": {
+            "n": 25,
+            "mean": 23.371047592163087,
+            "std": 1.6210028795079896,
+            "median": 23.39901351928711
+          }
+        },
+        "kruskal_wallis": {
+          "H": 25.27753142857142,
+          "p": 0.0006774431816326256
+        }
+      }
+    }
+  },
+  "vocabulary": {
+    "depth": {
+      "summaries": {
+        "baseline": {
+          "mean": 10.36,
+          "median": 4.0,
+          "total": 259
+        },
+        "abstract_philosophical": {
+          "mean": 17.3,
+          "median": 12.0,
+          "total": 173
+        },
+        "factual_iterative": {
+          "mean": 14.9,
+          "median": 0.5,
+          "total": 149
+        },
+        "procedural_self": {
+          "mean": 14.9,
+          "median": 2.5,
+          "total": 149
+        },
+        "descriptive_forest": {
+          "mean": 6.4,
+          "median": 0.5,
+          "total": 64
+        },
+        "descriptive_math": {
+          "mean": 0.2,
+          "median": 0.0,
+          "total": 5
+        },
+        "descriptive_music": {
+          "mean": 10.9,
+          "median": 0.5,
+          "total": 109
+        },
+        "nonsense_control": {
+          "mean": 29.68,
+          "median": 4.0,
+          "total": 742
+        }
+      },
+      "kruskal_wallis": {
+        "H": 46.919189678528575,
+        "p": 5.7883049481874405e-08
+      }
+    },
+    "expand": {
+      "summaries": {
+        "baseline": {
+          "mean": 1.56,
+          "median": 0.0,
+          "total": 39
+        },
+        "abstract_philosophical": {
+          "mean": 1.6,
+          "median": 0.0,
+          "total": 16
+        },
+        "factual_iterative": {
+          "mean": 0.1,
+          "median": 0.0,
+          "total": 1
+        },
+        "procedural_self": {
+          "mean": 1.3,
+          "median": 0.0,
+          "total": 13
+        },
+        "descriptive_forest": {
+          "mean": 0.3,
+          "median": 0.0,
+          "total": 3
+        },
+        "descriptive_math": {
+          "mean": 0.04,
+          "median": 0.0,
+          "total": 1
+        },
+        "descriptive_music": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "nonsense_control": {
+          "mean": 2.96,
+          "median": 0.0,
+          "total": 74
+        }
+      },
+      "kruskal_wallis": {
+        "H": 17.42367764835998,
+        "p": 0.014859299288828303
+      }
+    },
+    "loop": {
+      "summaries": {
+        "baseline": {
+          "mean": 1.44,
+          "median": 1.0,
+          "total": 36
+        },
+        "abstract_philosophical": {
+          "mean": 1.0,
+          "median": 0.0,
+          "total": 10
+        },
+        "factual_iterative": {
+          "mean": 0.4,
+          "median": 0.0,
+          "total": 4
+        },
+        "procedural_self": {
+          "mean": 0.3,
+          "median": 0.0,
+          "total": 3
+        },
+        "descriptive_forest": {
+          "mean": 0.1,
+          "median": 0.0,
+          "total": 1
+        },
+        "descriptive_math": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_music": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "nonsense_control": {
+          "mean": 0.8,
+          "median": 0.0,
+          "total": 20
+        }
+      },
+      "kruskal_wallis": {
+        "H": 27.700248123155344,
+        "p": 0.0002491568351305508
+      }
+    },
+    "mirror": {
+      "summaries": {
+        "baseline": {
+          "mean": 24.24,
+          "median": 14.0,
+          "total": 606
+        },
+        "abstract_philosophical": {
+          "mean": 15.0,
+          "median": 15.5,
+          "total": 150
+        },
+        "factual_iterative": {
+          "mean": 26.0,
+          "median": 2.0,
+          "total": 260
+        },
+        "procedural_self": {
+          "mean": 12.4,
+          "median": 4.5,
+          "total": 124
+        },
+        "descriptive_forest": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_math": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_music": {
+          "mean": 11.2,
+          "median": 1.5,
+          "total": 112
+        },
+        "nonsense_control": {
+          "mean": 10.84,
+          "median": 0.0,
+          "total": 271
+        }
+      },
+      "kruskal_wallis": {
+        "H": 68.47043640760687,
+        "p": 3.0085785086788913e-12
+      }
+    },
+    "pulse": {
+      "summaries": {
+        "baseline": {
+          "mean": 1.4,
+          "median": 0.0,
+          "total": 35
+        },
+        "abstract_philosophical": {
+          "mean": 1.8,
+          "median": 1.0,
+          "total": 18
+        },
+        "factual_iterative": {
+          "mean": 0.2,
+          "median": 0.0,
+          "total": 2
+        },
+        "procedural_self": {
+          "mean": 5.2,
+          "median": 0.0,
+          "total": 52
+        },
+        "descriptive_forest": {
+          "mean": 9.2,
+          "median": 7.5,
+          "total": 92
+        },
+        "descriptive_math": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_music": {
+          "mean": 9.7,
+          "median": 3.5,
+          "total": 97
+        },
+        "nonsense_control": {
+          "mean": 1.44,
+          "median": 0.0,
+          "total": 36
+        }
+      },
+      "kruskal_wallis": {
+        "H": 42.11913368033519,
+        "p": 4.932388878213081e-07
+      }
+    },
+    "resonance": {
+      "summaries": {
+        "baseline": {
+          "mean": 8.28,
+          "median": 2.0,
+          "total": 207
+        },
+        "abstract_philosophical": {
+          "mean": 2.8,
+          "median": 1.5,
+          "total": 28
+        },
+        "factual_iterative": {
+          "mean": 2.9,
+          "median": 0.0,
+          "total": 29
+        },
+        "procedural_self": {
+          "mean": 3.2,
+          "median": 0.0,
+          "total": 32
+        },
+        "descriptive_forest": {
+          "mean": 1.7,
+          "median": 0.0,
+          "total": 17
+        },
+        "descriptive_math": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_music": {
+          "mean": 17.7,
+          "median": 4.0,
+          "total": 177
+        },
+        "nonsense_control": {
+          "mean": 7.32,
+          "median": 0.0,
+          "total": 183
+        }
+      },
+      "kruskal_wallis": {
+        "H": 32.78256832746811,
+        "p": 2.9063129961697433e-05
+      }
+    },
+    "shift": {
+      "summaries": {
+        "baseline": {
+          "mean": 5.84,
+          "median": 2.0,
+          "total": 146
+        },
+        "abstract_philosophical": {
+          "mean": 4.6,
+          "median": 4.0,
+          "total": 46
+        },
+        "factual_iterative": {
+          "mean": 2.7,
+          "median": 1.0,
+          "total": 27
+        },
+        "procedural_self": {
+          "mean": 4.7,
+          "median": 2.0,
+          "total": 47
+        },
+        "descriptive_forest": {
+          "mean": 1.3,
+          "median": 0.0,
+          "total": 13
+        },
+        "descriptive_math": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_music": {
+          "mean": 0.1,
+          "median": 0.0,
+          "total": 1
+        },
+        "nonsense_control": {
+          "mean": 7.12,
+          "median": 2.0,
+          "total": 178
+        }
+      },
+      "kruskal_wallis": {
+        "H": 43.684531049341395,
+        "p": 2.4596672892079894e-07
+      }
+    },
+    "shimmer": {
+      "summaries": {
+        "baseline": {
+          "mean": 0.72,
+          "median": 1.0,
+          "total": 18
+        },
+        "abstract_philosophical": {
+          "mean": 1.4,
+          "median": 0.0,
+          "total": 14
+        },
+        "factual_iterative": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "procedural_self": {
+          "mean": 0.3,
+          "median": 0.0,
+          "total": 3
+        },
+        "descriptive_forest": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_math": {
+          "mean": 0.04,
+          "median": 0.0,
+          "total": 1
+        },
+        "descriptive_music": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "nonsense_control": {
+          "mean": 0.24,
+          "median": 0.0,
+          "total": 6
+        }
+      },
+      "kruskal_wallis": {
+        "H": 38.716051685541714,
+        "p": 2.213964678543504e-06
+      }
+    },
+    "surge": {
+      "summaries": {
+        "baseline": {
+          "mean": 1.0,
+          "median": 1.0,
+          "total": 25
+        },
+        "abstract_philosophical": {
+          "mean": 1.5,
+          "median": 0.5,
+          "total": 15
+        },
+        "factual_iterative": {
+          "mean": 0.8,
+          "median": 0.0,
+          "total": 8
+        },
+        "procedural_self": {
+          "mean": 0.8,
+          "median": 1.0,
+          "total": 8
+        },
+        "descriptive_forest": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_math": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "descriptive_music": {
+          "mean": 0.0,
+          "median": 0.0,
+          "total": 0
+        },
+        "nonsense_control": {
+          "mean": 2.68,
+          "median": 1.0,
+          "total": 67
+        }
+      },
+      "kruskal_wallis": {
+        "H": 49.462378561081735,
+        "p": 1.8416119043631123e-08
+      }
+    },
+    "void": {
+      "summaries": {
+        "baseline": {
+          "mean": 0.72,
+          "median": 0.0,
+          "total": 18
+        },
+        "abstract_philosophical": {
+          "mean": 2.0,
+          "median": 0.5,
+          "total": 20
+        },
+        "factual_iterative": {
+          "mean": 0.2,
+          "median": 0.0,
+          "total": 2
+        },
+        "procedural_self": {
+          "mean": 0.8,
+          "median": 1.0,
+          "total": 8
+        },
+        "descriptive_forest": {
+          "mean": 1.2,
+          "median": 0.5,
+          "total": 12
+        },
+        "descriptive_math": {
+          "mean": 0.08,
+          "median": 0.0,
+          "total": 2
+        },
+        "descriptive_music": {
+          "mean": 0.3,
+          "median": 0.0,
+          "total": 3
+        },
+        "nonsense_control": {
+          "mean": 0.32,
+          "median": 0.0,
+          "total": 8
+        }
+      },
+      "kruskal_wallis": {
+        "H": 23.998475626540944,
+        "p": 0.0011400543088030206
+      }
+    },
+    "_total_dadfar_vocab": {
+      "baseline": {
+        "mean": 55.56,
+        "median": 44.0
+      },
+      "abstract_philosophical": {
+        "mean": 49.0,
+        "median": 48.5
+      },
+      "factual_iterative": {
+        "mean": 48.2,
+        "median": 7.0
+      },
+      "procedural_self": {
+        "mean": 43.9,
+        "median": 19.0
+      },
+      "descriptive_forest": {
+        "mean": 20.2,
+        "median": 13.5
+      },
+      "descriptive_math": {
+        "mean": 0.36,
+        "median": 0.0
+      },
+      "descriptive_music": {
+        "mean": 49.9,
+        "median": 33.0
+      },
+      "nonsense_control": {
+        "mean": 63.4,
+        "median": 13.0
+      }
+    }
+  }
+}

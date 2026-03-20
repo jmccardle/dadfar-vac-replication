@@ -1,0 +1,532 @@
+{
+  "description": "R7: Kaplan-Meier survival analysis for lock-in resistance",
+  "data_source": "/storage/dadfar_model_self_examination/dadfar-vac-replication/outputs/runs/phase_d_controls/phase_d_results.json",
+  "kaplan_meier": {
+    "baseline": {
+      "n_total": 25,
+      "n_events": 17,
+      "n_censored": 8,
+      "censoring_rate": 0.32,
+      "median_survival": 88.0,
+      "q25_survival": 148.0,
+      "q75_survival": 54.0,
+      "km_times": [
+        0.0,
+        49.0,
+        50.0,
+        53.0,
+        54.0,
+        57.0,
+        82.0,
+        86.0,
+        88.0,
+        119.0,
+        120.0,
+        139.0,
+        148.0,
+        160.0,
+        174.0,
+        241.0
+      ],
+      "km_survival": [
+        1.0,
+        0.9444444444444444,
+        0.8888888888888888,
+        0.7777777777777777,
+        0.7222222222222222,
+        0.6666666666666667,
+        0.6111111111111112,
+        0.5555555555555556,
+        0.4444444444444445,
+        0.3888888888888889,
+        0.33333333333333337,
+        0.27777777777777785,
+        0.2222222222222223,
+        0.1666666666666667,
+        0.11111111111111116,
+        0.05555555555555558
+      ]
+    },
+    "abstract_philosophical": {
+      "n_total": 10,
+      "n_events": 7,
+      "n_censored": 3,
+      "censoring_rate": 0.3,
+      "median_survival": 84.0,
+      "q25_survival": 138.0,
+      "q75_survival": 67.0,
+      "km_times": [
+        0.0,
+        29.0,
+        54.0,
+        67.0,
+        71.0,
+        84.0,
+        106.0,
+        138.0
+      ],
+      "km_survival": [
+        1.0,
+        0.8888888888888888,
+        0.7777777777777777,
+        0.6666666666666666,
+        0.5555555555555556,
+        0.4444444444444445,
+        0.29629629629629634,
+        0.14814814814814817
+      ]
+    },
+    "factual_iterative": {
+      "n_total": 10,
+      "n_events": 5,
+      "n_censored": 5,
+      "censoring_rate": 0.5,
+      "median_survival": 75.0,
+      "q25_survival": NaN,
+      "q75_survival": 41.0,
+      "km_times": [
+        0.0,
+        28.0,
+        41.0,
+        50.0,
+        75.0,
+        115.0
+      ],
+      "km_survival": [
+        1.0,
+        0.8571428571428572,
+        0.7142857142857144,
+        0.5714285714285715,
+        0.4285714285714286,
+        0.28571428571428575
+      ]
+    },
+    "procedural_self": {
+      "n_total": 10,
+      "n_events": 4,
+      "n_censored": 6,
+      "censoring_rate": 0.6,
+      "median_survival": 113.0,
+      "q25_survival": 209.0,
+      "q75_survival": 98.0,
+      "km_times": [
+        0.0,
+        84.0,
+        98.0,
+        113.0,
+        209.0
+      ],
+      "km_survival": [
+        1.0,
+        0.8,
+        0.6000000000000001,
+        0.4000000000000001,
+        0.20000000000000004
+      ]
+    },
+    "descriptive_forest": {
+      "n_total": 10,
+      "n_events": 8,
+      "n_censored": 2,
+      "censoring_rate": 0.2,
+      "median_survival": 60.0,
+      "q25_survival": 66.0,
+      "q75_survival": 56.0,
+      "km_times": [
+        0.0,
+        23.0,
+        47.0,
+        56.0,
+        60.0,
+        63.0,
+        66.0,
+        74.0
+      ],
+      "km_survival": [
+        1.0,
+        0.8888888888888888,
+        0.7777777777777777,
+        0.5555555555555555,
+        0.4444444444444444,
+        0.3333333333333333,
+        0.22222222222222224,
+        0.11111111111111112
+      ]
+    },
+    "descriptive_math": {
+      "n_total": 25,
+      "n_events": 23,
+      "n_censored": 2,
+      "censoring_rate": 0.08,
+      "median_survival": 45.0,
+      "q25_survival": 56.0,
+      "q75_survival": 39.0,
+      "km_times": [
+        0.0,
+        29.0,
+        30.0,
+        34.0,
+        35.0,
+        37.0,
+        39.0,
+        41.0,
+        43.0,
+        45.0,
+        46.0,
+        47.0,
+        54.0,
+        55.0,
+        56.0,
+        59.0,
+        67.0,
+        70.0,
+        90.0,
+        101.0
+      ],
+      "km_survival": [
+        1.0,
+        0.9583333333333334,
+        0.9166666666666667,
+        0.8750000000000001,
+        0.8333333333333334,
+        0.7916666666666666,
+        0.625,
+        0.5833333333333334,
+        0.5416666666666667,
+        0.45833333333333337,
+        0.4166666666666667,
+        0.375,
+        0.3333333333333333,
+        0.29166666666666663,
+        0.25,
+        0.20833333333333334,
+        0.16666666666666669,
+        0.125,
+        0.08333333333333334,
+        0.04166666666666667
+      ]
+    },
+    "descriptive_music": {
+      "n_total": 10,
+      "n_events": 6,
+      "n_censored": 4,
+      "censoring_rate": 0.4,
+      "median_survival": 59.0,
+      "q25_survival": 82.0,
+      "q75_survival": 52.0,
+      "km_times": [
+        0.0,
+        40.0,
+        52.0,
+        58.0,
+        59.0,
+        63.0,
+        82.0
+      ],
+      "km_survival": [
+        1.0,
+        0.875,
+        0.75,
+        0.625,
+        0.5,
+        0.375,
+        0.25
+      ]
+    },
+    "nonsense_control": {
+      "n_total": 25,
+      "n_events": 10,
+      "n_censored": 15,
+      "censoring_rate": 0.6,
+      "median_survival": 85.0,
+      "q25_survival": 123.0,
+      "q75_survival": 37.0,
+      "km_times": [
+        0.0,
+        31.0,
+        33.0,
+        37.0,
+        47.0,
+        77.0,
+        85.0,
+        89.0,
+        109.0,
+        123.0,
+        158.0
+      ],
+      "km_survival": [
+        1.0,
+        0.9166666666666666,
+        0.8333333333333333,
+        0.75,
+        0.6666666666666666,
+        0.5833333333333333,
+        0.5,
+        0.4166666666666667,
+        0.33333333333333337,
+        0.25,
+        0.16666666666666669
+      ]
+    }
+  },
+  "log_rank_omnibus": {
+    "chi2": 20.22933240249071,
+    "p_value": 0.005095058208312372,
+    "df": 7,
+    "significant": true
+  },
+  "pairwise_log_rank": [
+    {
+      "condition_1": "baseline",
+      "condition_2": "abstract_philosophical",
+      "chi2": 0.002585098049483715,
+      "p_raw": 0.9594499412202625,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "factual_iterative",
+      "chi2": 0.10470932308197664,
+      "p_raw": 0.7462498228611267,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "procedural_self",
+      "chi2": 0.997809540450594,
+      "p_raw": 0.31784111608515087,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "descriptive_forest",
+      "chi2": 1.2963401125609129,
+      "p_raw": 0.25488282787738714,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "descriptive_math",
+      "chi2": 9.674865363946976,
+      "p_raw": 0.0018680595892958782,
+      "df": 1,
+      "p_adjusted": 0.05230566850028459,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "descriptive_music",
+      "chi2": 0.020709008702295945,
+      "p_raw": 0.8855745005144594,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "nonsense_control",
+      "chi2": 0.0003923153212242336,
+      "p_raw": 0.9841973726080434,
+      "df": 1,
+      "p_adjusted": 0.9841973726080434,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "factual_iterative",
+      "chi2": 0.009686667763939009,
+      "p_raw": 0.9215981028154475,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "procedural_self",
+      "chi2": 0.7281737375506696,
+      "p_raw": 0.39347579246150755,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "descriptive_forest",
+      "chi2": 1.8799736718033702,
+      "p_raw": 0.1703371401387599,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "descriptive_math",
+      "chi2": 6.098290680160676,
+      "p_raw": 0.013531270549873565,
+      "df": 1,
+      "p_adjusted": 0.3518130342967127,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "descriptive_music",
+      "chi2": 0.1584880053601638,
+      "p_raw": 0.6905524053222227,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "nonsense_control",
+      "chi2": 0.013330242479139798,
+      "p_raw": 0.9080831636447175,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "procedural_self",
+      "chi2": 0.12402015820028547,
+      "p_raw": 0.7247145545553421,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "descriptive_forest",
+      "chi2": 0.8617956186557794,
+      "p_raw": 0.3532366879038351,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "descriptive_math",
+      "chi2": 3.48943474741582,
+      "p_raw": 0.061761669953996394,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "descriptive_music",
+      "chi2": 0.008701434261919622,
+      "p_raw": 0.9256799458040241,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "nonsense_control",
+      "chi2": 0.035378560680137824,
+      "p_raw": 0.850804615151227,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "descriptive_forest",
+      "chi2": 3.5734152289342145,
+      "p_raw": 0.05871144484799773,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "descriptive_math",
+      "chi2": 6.808849560640695,
+      "p_raw": 0.009070718609625775,
+      "df": 1,
+      "p_adjusted": 0.24490940245989593,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "descriptive_music",
+      "chi2": 0.8457317370300179,
+      "p_raw": 0.3577626196853111,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "nonsense_control",
+      "chi2": 0.5529155189420756,
+      "p_raw": 0.4571288557085714,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_forest",
+      "condition_2": "descriptive_math",
+      "chi2": 1.6795131516361246,
+      "p_raw": 0.19498915576480777,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_forest",
+      "condition_2": "descriptive_music",
+      "chi2": 0.4359286112260515,
+      "p_raw": 0.5090941158420621,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_forest",
+      "condition_2": "nonsense_control",
+      "chi2": 1.424213080858331,
+      "p_raw": 0.23271119351282396,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_math",
+      "condition_2": "descriptive_music",
+      "chi2": 3.5896468554776493,
+      "p_raw": 0.05814059708971244,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_math",
+      "condition_2": "nonsense_control",
+      "chi2": 5.18153910381999,
+      "p_raw": 0.022828094100691077,
+      "df": 1,
+      "p_adjusted": 0.570702352517277,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_music",
+      "condition_2": "nonsense_control",
+      "chi2": 0.006162787188000198,
+      "p_raw": 0.9374276086569239,
+      "df": 1,
+      "p_adjusted": 1.0,
+      "significant": false
+    }
+  ]
+}

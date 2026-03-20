@@ -1,0 +1,1185 @@
+{
+  "description": "R3+R12: VAC pair count permutation test and CV correlation",
+  "n_permutations": 10000,
+  "alpha": 0.05,
+  "per_condition": {
+    "baseline": {
+      "n_runs": 25,
+      "n_significant_pairs": 25,
+      "n_tested": 180,
+      "token_cv": 0.6529547207943512,
+      "significant_pairs": [
+        {
+          "vocab": "mirror",
+          "metric": "max_norm",
+          "r": 0.40419711872813596,
+          "p": 0.04507430855235658
+        },
+        {
+          "vocab": "mirror",
+          "metric": "autocorr_lag1",
+          "r": 0.574657382195979,
+          "p": 0.002659618408639553
+        },
+        {
+          "vocab": "mirror",
+          "metric": "spectral_power_low",
+          "r": 0.5833646979631817,
+          "p": 0.0022064833448016707
+        },
+        {
+          "vocab": "mirror",
+          "metric": "spectral_power_mid",
+          "r": 0.6885076777923365,
+          "p": 0.00014182755831639946
+        },
+        {
+          "vocab": "mirror",
+          "metric": "mean_token_similarity",
+          "r": 0.40082409504196514,
+          "p": 0.04707002931408254
+        },
+        {
+          "vocab": "expand",
+          "metric": "mean_norm",
+          "r": 0.4373358805784179,
+          "p": 0.02880253689675249
+        },
+        {
+          "vocab": "expand",
+          "metric": "autocorr_lag1",
+          "r": 0.4191791468639886,
+          "p": 0.03700032669405991
+        },
+        {
+          "vocab": "expand",
+          "metric": "spectral_power_low",
+          "r": 0.4255375063373991,
+          "p": 0.033941903917548935
+        },
+        {
+          "vocab": "expand",
+          "metric": "spectral_power_mid",
+          "r": 0.43910332242118555,
+          "p": 0.028089603573085868
+        },
+        {
+          "vocab": "resonance",
+          "metric": "spectral_power_mid",
+          "r": 0.5747216666976734,
+          "p": 0.0026560030460302574
+        },
+        {
+          "vocab": "shimmer",
+          "metric": "max_norm",
+          "r": 0.39790592436383765,
+          "p": 0.048851968185643205
+        },
+        {
+          "vocab": "depth",
+          "metric": "spectral_power_low",
+          "r": 0.5446796926639338,
+          "p": 0.004873762822936699
+        },
+        {
+          "vocab": "depth",
+          "metric": "spectral_power_mid",
+          "r": 0.6990602887392268,
+          "p": 0.00010117363701512717
+        },
+        {
+          "vocab": "shift",
+          "metric": "max_norm",
+          "r": 0.48583307003556414,
+          "p": 0.013810389689268303
+        },
+        {
+          "vocab": "shift",
+          "metric": "spectral_power_low",
+          "r": 0.7037671483985295,
+          "p": 8.662433699300985e-05
+        },
+        {
+          "vocab": "shift",
+          "metric": "spectral_power_mid",
+          "r": 0.5533112738531267,
+          "p": 0.004117116783442914
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_mid",
+          "r": 0.4163668725084343,
+          "p": 0.03842099747430315
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "mean_token_similarity",
+          "r": 0.6046036577160745,
+          "p": 0.0013680397466901365
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "spectral_power_low",
+          "r": 0.6299927725718389,
+          "p": 0.0007381269400157823
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "spectral_power_mid",
+          "r": 0.4383149437507901,
+          "p": 0.02840583936265229
+        },
+        {
+          "vocab": "ctrl_question",
+          "metric": "spectral_power_mid",
+          "r": 0.45948959875045187,
+          "p": 0.020845852123325778
+        },
+        {
+          "vocab": "ctrl_question",
+          "metric": "mean_token_similarity",
+          "r": 0.6310134277529508,
+          "p": 0.0007192356337697172
+        },
+        {
+          "vocab": "ctrl_what",
+          "metric": "spectral_power_low",
+          "r": 0.4080569210387363,
+          "p": 0.042872858405923274
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "spectral_power_low",
+          "r": 0.5277535715222968,
+          "p": 0.006700685566340078
+        },
+        {
+          "vocab": "ctrl_system",
+          "metric": "spectral_power_low",
+          "r": 0.558100062441075,
+          "p": 0.003741983053259797
+        }
+      ]
+    },
+    "abstract_philosophical": {
+      "n_runs": 10,
+      "n_significant_pairs": 10,
+      "n_tested": 180,
+      "token_cv": 0.4932536920603832,
+      "significant_pairs": [
+        {
+          "vocab": "expand",
+          "metric": "mean_token_similarity",
+          "r": -0.7098491108693259,
+          "p": 0.02146273885081401
+        },
+        {
+          "vocab": "resonance",
+          "metric": "max_norm",
+          "r": 0.6700912328072752,
+          "p": 0.03399647371290235
+        },
+        {
+          "vocab": "shimmer",
+          "metric": "mean_token_similarity",
+          "r": -0.6322540302226212,
+          "p": 0.04983083340386735
+        },
+        {
+          "vocab": "void",
+          "metric": "norm_std",
+          "r": 0.6674935940056415,
+          "p": 0.03495595733980781
+        },
+        {
+          "vocab": "void",
+          "metric": "mean_token_similarity",
+          "r": -0.929611002186249,
+          "p": 9.859004212364213e-05
+        },
+        {
+          "vocab": "depth",
+          "metric": "mean_norm",
+          "r": -0.6322068848480357,
+          "p": 0.049853141312863565
+        },
+        {
+          "vocab": "depth",
+          "metric": "autocorr_lag1",
+          "r": -0.9031408506642814,
+          "p": 0.00034209501523581467
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_low",
+          "r": 0.9276287031316323,
+          "p": 0.00010990528812876603
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_mid",
+          "r": 0.8648289561321739,
+          "p": 0.0012367159322810386
+        },
+        {
+          "vocab": "ctrl_word",
+          "metric": "max_norm",
+          "r": 0.6328879500672742,
+          "p": 0.0495315248814225
+        }
+      ]
+    },
+    "factual_iterative": {
+      "n_runs": 10,
+      "n_significant_pairs": 20,
+      "n_tested": 180,
+      "token_cv": 1.0299577281953876,
+      "significant_pairs": [
+        {
+          "vocab": "mirror",
+          "metric": "autocorr_lag1",
+          "r": 0.8446581834399269,
+          "p": 0.002102759085629161
+        },
+        {
+          "vocab": "mirror",
+          "metric": "spectral_power_low",
+          "r": 0.9154910833135436,
+          "p": 0.0002013033931829137
+        },
+        {
+          "vocab": "mirror",
+          "metric": "spectral_power_mid",
+          "r": 0.9340176182329116,
+          "p": 7.653870425288189e-05
+        },
+        {
+          "vocab": "mirror",
+          "metric": "mean_derivative",
+          "r": -0.7731851600125527,
+          "p": 0.008715500022154106
+        },
+        {
+          "vocab": "mirror",
+          "metric": "mean_token_similarity",
+          "r": 0.6653120272493702,
+          "p": 0.03577579096464083
+        },
+        {
+          "vocab": "loop",
+          "metric": "max_norm",
+          "r": 0.7376498886614192,
+          "p": 0.014887140222104052
+        },
+        {
+          "vocab": "loop",
+          "metric": "autocorr_lag1",
+          "r": 0.716435147638229,
+          "p": 0.019752791276352412
+        },
+        {
+          "vocab": "loop",
+          "metric": "spectral_power_low",
+          "r": 0.9440634654830407,
+          "p": 4.0022680909794745e-05
+        },
+        {
+          "vocab": "loop",
+          "metric": "spectral_power_mid",
+          "r": 0.9351989943994348,
+          "p": 7.130613419501607e-05
+        },
+        {
+          "vocab": "loop",
+          "metric": "mean_derivative",
+          "r": -0.6821257854504554,
+          "p": 0.02978386028535386
+        },
+        {
+          "vocab": "loop",
+          "metric": "mean_token_similarity",
+          "r": 0.6596923411304524,
+          "p": 0.037947355318583544
+        },
+        {
+          "vocab": "surge",
+          "metric": "max_norm",
+          "r": 0.8613402717078678,
+          "p": 0.0013633992941965705
+        },
+        {
+          "vocab": "surge",
+          "metric": "autocorr_lag1",
+          "r": 0.6822622165659167,
+          "p": 0.029738259112470463
+        },
+        {
+          "vocab": "surge",
+          "metric": "spectral_power_low",
+          "r": 0.9610507540321236,
+          "p": 9.605712236738253e-06
+        },
+        {
+          "vocab": "surge",
+          "metric": "spectral_power_mid",
+          "r": 0.9519026578826546,
+          "p": 2.2088841240819676e-05
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "max_norm",
+          "r": 0.8742236609139528,
+          "p": 0.0009381485647638602
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "autocorr_lag1",
+          "r": 0.7352203216792176,
+          "p": 0.015396612480975467
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_low",
+          "r": 0.9898798943695264,
+          "p": 4.5335071560239974e-08
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_mid",
+          "r": 0.9834961546250951,
+          "p": 3.181936363136502e-07
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "mean_token_similarity",
+          "r": 0.6655350920742626,
+          "p": 0.035691372129447646
+        }
+      ]
+    },
+    "procedural_self": {
+      "n_runs": 10,
+      "n_significant_pairs": 22,
+      "n_tested": 180,
+      "token_cv": 0.9172595880452082,
+      "significant_pairs": [
+        {
+          "vocab": "expand",
+          "metric": "spectral_power_low",
+          "r": 0.6912231047075573,
+          "p": 0.02684630248511914
+        },
+        {
+          "vocab": "resonance",
+          "metric": "norm_std",
+          "r": -0.6657291846378834,
+          "p": 0.035618027581987025
+        },
+        {
+          "vocab": "resonance",
+          "metric": "mean_derivative",
+          "r": -0.6536170207150992,
+          "p": 0.0403931552910536
+        },
+        {
+          "vocab": "resonance",
+          "metric": "mean_token_similarity",
+          "r": 0.8800436681136243,
+          "p": 0.0007818868200572387
+        },
+        {
+          "vocab": "surge",
+          "metric": "max_norm",
+          "r": 0.854148928602744,
+          "p": 0.0016538936294935823
+        },
+        {
+          "vocab": "surge",
+          "metric": "autocorr_lag1",
+          "r": 0.7878469923852981,
+          "p": 0.006799944657789984
+        },
+        {
+          "vocab": "surge",
+          "metric": "spectral_power_mid",
+          "r": 0.7214012198810054,
+          "p": 0.0185274892928898
+        },
+        {
+          "vocab": "shimmer",
+          "metric": "norm_std",
+          "r": 0.6954971098167985,
+          "p": 0.025537339516523632
+        },
+        {
+          "vocab": "void",
+          "metric": "mean_norm",
+          "r": 0.8526479671485538,
+          "p": 0.0017197576810993635
+        },
+        {
+          "vocab": "void",
+          "metric": "max_norm",
+          "r": 0.8034743496447673,
+          "p": 0.005109548448135017
+        },
+        {
+          "vocab": "void",
+          "metric": "autocorr_lag1",
+          "r": 0.8243898970158903,
+          "p": 0.0033465274104020537
+        },
+        {
+          "vocab": "void",
+          "metric": "spectral_power_low",
+          "r": 0.8425663191665038,
+          "p": 0.002212435470302409
+        },
+        {
+          "vocab": "void",
+          "metric": "spectral_power_mid",
+          "r": 0.8123221720134186,
+          "p": 0.004298475763732504
+        },
+        {
+          "vocab": "depth",
+          "metric": "mean_token_similarity",
+          "r": 0.7196445506062222,
+          "p": 0.018954718065666922
+        },
+        {
+          "vocab": "shift",
+          "metric": "spectral_power_low",
+          "r": 0.7685966125694208,
+          "p": 0.009385929602581786
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "mean_derivative",
+          "r": -0.6703971152555728,
+          "p": 0.03388467932836781
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "mean_token_similarity",
+          "r": 0.8579684826936643,
+          "p": 0.0014945439546329578
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "mean_derivative",
+          "r": -0.8383537833157281,
+          "p": 0.0024457467723024797
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "mean_token_similarity",
+          "r": 0.8935592379378028,
+          "p": 0.0004929809706219648
+        },
+        {
+          "vocab": "ctrl_question",
+          "metric": "spectral_power_low",
+          "r": 0.667940950767436,
+          "p": 0.03478942724267654
+        },
+        {
+          "vocab": "ctrl_system",
+          "metric": "spectral_power_low",
+          "r": 0.8102805729391338,
+          "p": 0.0044767981100009855
+        },
+        {
+          "vocab": "ctrl_system",
+          "metric": "spectral_power_mid",
+          "r": 0.6930786020307964,
+          "p": 0.02627252776471495
+        }
+      ]
+    },
+    "descriptive_forest": {
+      "n_runs": 10,
+      "n_significant_pairs": 6,
+      "n_tested": 180,
+      "token_cv": 0.6205587852927834,
+      "significant_pairs": [
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_low",
+          "r": 0.78094775848077,
+          "p": 0.007659469200123653
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_mid",
+          "r": 0.6391755982364548,
+          "p": 0.04662740666212611
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "autocorr_lag1",
+          "r": 0.7415061487255413,
+          "p": 0.014102821332615529
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "spectral_power_low",
+          "r": 0.885265613701311,
+          "p": 0.0006586712082431052
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "spectral_power_mid",
+          "r": 0.9781874379401265,
+          "p": 9.64698077357281e-07
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "mean_derivative",
+          "r": -0.6908766951142715,
+          "p": 0.026954364317741588
+        }
+      ]
+    },
+    "descriptive_math": {
+      "n_runs": 25,
+      "n_significant_pairs": 17,
+      "n_tested": 180,
+      "token_cv": 0.585946315087833,
+      "significant_pairs": [
+        {
+          "vocab": "expand",
+          "metric": "spectral_power_low",
+          "r": 0.774836795320076,
+          "p": 5.435743694355669e-06
+        },
+        {
+          "vocab": "expand",
+          "metric": "spectral_power_mid",
+          "r": 0.8553272866706494,
+          "p": 5.120759448959918e-08
+        },
+        {
+          "vocab": "expand",
+          "metric": "mean_token_similarity",
+          "r": -0.4040325654189446,
+          "p": 0.04517009986131987
+        },
+        {
+          "vocab": "shimmer",
+          "metric": "norm_std",
+          "r": 0.6374585983960364,
+          "p": 0.0006093235325791961
+        },
+        {
+          "vocab": "shimmer",
+          "metric": "mean_derivative",
+          "r": 0.5857424482738676,
+          "p": 0.0020948714270087863
+        },
+        {
+          "vocab": "void",
+          "metric": "spectral_power_low",
+          "r": 0.774836795320076,
+          "p": 5.435743694355669e-06
+        },
+        {
+          "vocab": "void",
+          "metric": "spectral_power_mid",
+          "r": 0.8553272866706494,
+          "p": 5.120759448959918e-08
+        },
+        {
+          "vocab": "void",
+          "metric": "mean_token_similarity",
+          "r": -0.4040325654189446,
+          "p": 0.04517009986131987
+        },
+        {
+          "vocab": "depth",
+          "metric": "spectral_power_low",
+          "r": 0.7748367953200761,
+          "p": 5.435743694355634e-06
+        },
+        {
+          "vocab": "depth",
+          "metric": "spectral_power_mid",
+          "r": 0.8553272866706493,
+          "p": 5.120759448959954e-08
+        },
+        {
+          "vocab": "depth",
+          "metric": "mean_token_similarity",
+          "r": -0.40403256541894467,
+          "p": 0.04517009986131987
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "mean_norm",
+          "r": 0.42775426847083403,
+          "p": 0.03292431562152295
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_low",
+          "r": 0.41107250707771154,
+          "p": 0.041212620821808564
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_mid",
+          "r": 0.40674996028151467,
+          "p": 0.04360858387495826
+        },
+        {
+          "vocab": "ctrl_what",
+          "metric": "spectral_power_low",
+          "r": 0.774836795320076,
+          "p": 5.435743694355669e-06
+        },
+        {
+          "vocab": "ctrl_what",
+          "metric": "spectral_power_mid",
+          "r": 0.8553272866706494,
+          "p": 5.120759448959918e-08
+        },
+        {
+          "vocab": "ctrl_what",
+          "metric": "mean_token_similarity",
+          "r": -0.4040325654189446,
+          "p": 0.04517009986131987
+        }
+      ]
+    },
+    "descriptive_music": {
+      "n_runs": 10,
+      "n_significant_pairs": 10,
+      "n_tested": 180,
+      "token_cv": 0.7552497454063459,
+      "significant_pairs": [
+        {
+          "vocab": "mirror",
+          "metric": "spectral_power_low",
+          "r": 0.8166144852358974,
+          "p": 0.003940228644663773
+        },
+        {
+          "vocab": "resonance",
+          "metric": "spectral_power_low",
+          "r": 0.7204920043147794,
+          "p": 0.018747771610950224
+        },
+        {
+          "vocab": "pulse",
+          "metric": "autocorr_lag1",
+          "r": 0.6798998811056164,
+          "p": 0.030534600615094474
+        },
+        {
+          "vocab": "pulse",
+          "metric": "spectral_power_mid",
+          "r": 0.6489118147236854,
+          "p": 0.04235865724334107
+        },
+        {
+          "vocab": "pulse",
+          "metric": "mean_derivative",
+          "r": -0.6481475252393152,
+          "p": 0.04268386617568862
+        },
+        {
+          "vocab": "void",
+          "metric": "mean_token_similarity",
+          "r": -0.8128050080047683,
+          "p": 0.004257057696374849
+        },
+        {
+          "vocab": "shift",
+          "metric": "mean_token_similarity",
+          "r": -0.812805008004768,
+          "p": 0.004257057696374883
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "mean_norm",
+          "r": 0.7889399091136606,
+          "p": 0.0066703719390795516
+        },
+        {
+          "vocab": "ctrl_what",
+          "metric": "mean_token_similarity",
+          "r": -0.812805008004768,
+          "p": 0.004257057696374883
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "spectral_power_low",
+          "r": 0.7819777691536077,
+          "p": 0.00752651626377943
+        }
+      ]
+    },
+    "nonsense_control": {
+      "n_runs": 25,
+      "n_significant_pairs": 31,
+      "n_tested": 180,
+      "token_cv": 1.0812425331366553,
+      "significant_pairs": [
+        {
+          "vocab": "mirror",
+          "metric": "spectral_power_low",
+          "r": 0.616072206969665,
+          "p": 0.0010420036971434306
+        },
+        {
+          "vocab": "mirror",
+          "metric": "spectral_power_mid",
+          "r": 0.5430880333391203,
+          "p": 0.005025359687752397
+        },
+        {
+          "vocab": "mirror",
+          "metric": "mean_token_similarity",
+          "r": 0.46474615470187125,
+          "p": 0.019248607569397704
+        },
+        {
+          "vocab": "expand",
+          "metric": "mean_derivative",
+          "r": -0.6500838994963103,
+          "p": 0.0004355028734406687
+        },
+        {
+          "vocab": "resonance",
+          "metric": "mean_token_similarity",
+          "r": 0.4424740059233035,
+          "p": 0.026769303468498717
+        },
+        {
+          "vocab": "loop",
+          "metric": "spectral_power_low",
+          "r": 0.503881383603904,
+          "p": 0.010225198767845167
+        },
+        {
+          "vocab": "loop",
+          "metric": "spectral_power_mid",
+          "r": 0.7815919044077958,
+          "p": 3.969894795258723e-06
+        },
+        {
+          "vocab": "surge",
+          "metric": "mean_derivative",
+          "r": -0.6670816720393422,
+          "p": 0.0002703692743770663
+        },
+        {
+          "vocab": "surge",
+          "metric": "mean_token_similarity",
+          "r": 0.41595629058727007,
+          "p": 0.03863197803563927
+        },
+        {
+          "vocab": "depth",
+          "metric": "spectral_power_low",
+          "r": 0.781144466274343,
+          "p": 4.054759582316663e-06
+        },
+        {
+          "vocab": "depth",
+          "metric": "spectral_power_mid",
+          "r": 0.5765178799196075,
+          "p": 0.002556662372754705
+        },
+        {
+          "vocab": "depth",
+          "metric": "mean_token_similarity",
+          "r": 0.45169608876241324,
+          "p": 0.02341064925087506
+        },
+        {
+          "vocab": "shift",
+          "metric": "spectral_power_low",
+          "r": 0.6671633663845573,
+          "p": 0.00026973112516205135
+        },
+        {
+          "vocab": "shift",
+          "metric": "spectral_power_mid",
+          "r": 0.6913747303526331,
+          "p": 0.0001295692146473195
+        },
+        {
+          "vocab": "shift",
+          "metric": "mean_token_similarity",
+          "r": 0.45503990262642,
+          "p": 0.022280619942579637
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "norm_std",
+          "r": -0.47686966784820145,
+          "p": 0.01594257288957163
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_low",
+          "r": 0.8961125952669059,
+          "p": 1.3987348037400236e-09
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "spectral_power_mid",
+          "r": 0.7424241173440891,
+          "p": 2.143717369194764e-05
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "mean_derivative",
+          "r": -0.4681012126278357,
+          "p": 0.01828234219396236
+        },
+        {
+          "vocab": "ctrl_the",
+          "metric": "mean_token_similarity",
+          "r": 0.703333115695629,
+          "p": 8.788420402013647e-05
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "spectral_power_low",
+          "r": 0.7771934725313093,
+          "p": 4.877249971047659e-06
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "spectral_power_mid",
+          "r": 0.5413735566860586,
+          "p": 0.00519307966658459
+        },
+        {
+          "vocab": "ctrl_and",
+          "metric": "mean_token_similarity",
+          "r": 0.43917449189344193,
+          "p": 0.028061195752067617
+        },
+        {
+          "vocab": "ctrl_question",
+          "metric": "autocorr_lag1",
+          "r": 0.49095805653164837,
+          "p": 0.012700715408795478
+        },
+        {
+          "vocab": "ctrl_question",
+          "metric": "spectral_power_low",
+          "r": 0.44895116215767866,
+          "p": 0.024372561151367326
+        },
+        {
+          "vocab": "ctrl_question",
+          "metric": "spectral_power_mid",
+          "r": 0.7592922682979045,
+          "p": 1.0776407225297882e-05
+        },
+        {
+          "vocab": "ctrl_what",
+          "metric": "max_norm",
+          "r": -0.4159832339003659,
+          "p": 0.03861810493145259
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "spectral_power_low",
+          "r": 0.7164094076732215,
+          "p": 5.6241012210501354e-05
+        },
+        {
+          "vocab": "ctrl_that",
+          "metric": "spectral_power_mid",
+          "r": 0.4914215308506273,
+          "p": 0.012604100794263934
+        },
+        {
+          "vocab": "ctrl_processing",
+          "metric": "spectral_power_low",
+          "r": 0.4631839050587313,
+          "p": 0.019712524750785998
+        },
+        {
+          "vocab": "ctrl_word",
+          "metric": "spectral_power_low",
+          "r": 0.3991608013338495,
+          "p": 0.048079334242388916
+        }
+      ]
+    }
+  },
+  "expected_false_positives": 9.0,
+  "permutation_nonsense_vs_baseline": {
+    "nonsense_sig_pairs": 31,
+    "baseline_sig_pairs": 25,
+    "difference": 6,
+    "permutation_p": 0.3982601739826017,
+    "significant": false
+  },
+  "pairwise_permutation": [
+    {
+      "condition_1": "baseline",
+      "condition_2": "abstract_philosophical",
+      "sig_pairs_1": 25,
+      "sig_pairs_2": 10,
+      "difference": 15,
+      "permutation_p": 0.12935323383084577,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "factual_iterative",
+      "sig_pairs_1": 25,
+      "sig_pairs_2": 20,
+      "difference": 5,
+      "permutation_p": 0.7661691542288557,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "procedural_self",
+      "sig_pairs_1": 25,
+      "sig_pairs_2": 22,
+      "difference": 3,
+      "permutation_p": 0.8805970149253731,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "descriptive_forest",
+      "sig_pairs_1": 25,
+      "sig_pairs_2": 6,
+      "difference": 19,
+      "permutation_p": 0.07960199004975124,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "descriptive_math",
+      "sig_pairs_1": 25,
+      "sig_pairs_2": 17,
+      "difference": 8,
+      "permutation_p": 0.2736318407960199,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "descriptive_music",
+      "sig_pairs_1": 25,
+      "sig_pairs_2": 10,
+      "difference": 15,
+      "permutation_p": 0.3034825870646766,
+      "significant": false
+    },
+    {
+      "condition_1": "baseline",
+      "condition_2": "nonsense_control",
+      "sig_pairs_1": 25,
+      "sig_pairs_2": 31,
+      "difference": -6,
+      "permutation_p": 0.3781094527363184,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "factual_iterative",
+      "sig_pairs_1": 10,
+      "sig_pairs_2": 20,
+      "difference": -10,
+      "permutation_p": 0.2736318407960199,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "procedural_self",
+      "sig_pairs_1": 10,
+      "sig_pairs_2": 22,
+      "difference": -12,
+      "permutation_p": 0.2736318407960199,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "descriptive_forest",
+      "sig_pairs_1": 10,
+      "sig_pairs_2": 6,
+      "difference": 4,
+      "permutation_p": 0.7114427860696517,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "descriptive_math",
+      "sig_pairs_1": 10,
+      "sig_pairs_2": 17,
+      "difference": -7,
+      "permutation_p": 0.8208955223880597,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "descriptive_music",
+      "sig_pairs_1": 10,
+      "sig_pairs_2": 10,
+      "difference": 0,
+      "permutation_p": 1.0,
+      "significant": false
+    },
+    {
+      "condition_1": "abstract_philosophical",
+      "condition_2": "nonsense_control",
+      "sig_pairs_1": 10,
+      "sig_pairs_2": 31,
+      "difference": -21,
+      "permutation_p": 0.06965174129353234,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "procedural_self",
+      "sig_pairs_1": 20,
+      "sig_pairs_2": 22,
+      "difference": -2,
+      "permutation_p": 0.8407960199004975,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "descriptive_forest",
+      "sig_pairs_1": 20,
+      "sig_pairs_2": 6,
+      "difference": 14,
+      "permutation_p": 0.13930348258706468,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "descriptive_math",
+      "sig_pairs_1": 20,
+      "sig_pairs_2": 17,
+      "difference": 3,
+      "permutation_p": 0.9104477611940298,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "descriptive_music",
+      "sig_pairs_1": 20,
+      "sig_pairs_2": 10,
+      "difference": 10,
+      "permutation_p": 0.4925373134328358,
+      "significant": false
+    },
+    {
+      "condition_1": "factual_iterative",
+      "condition_2": "nonsense_control",
+      "sig_pairs_1": 20,
+      "sig_pairs_2": 31,
+      "difference": -11,
+      "permutation_p": 0.417910447761194,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "descriptive_forest",
+      "sig_pairs_1": 22,
+      "sig_pairs_2": 6,
+      "difference": 16,
+      "permutation_p": 0.1044776119402985,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "descriptive_math",
+      "sig_pairs_1": 22,
+      "sig_pairs_2": 17,
+      "difference": 5,
+      "permutation_p": 0.7960199004975125,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "descriptive_music",
+      "sig_pairs_1": 22,
+      "sig_pairs_2": 10,
+      "difference": 12,
+      "permutation_p": 0.1791044776119403,
+      "significant": false
+    },
+    {
+      "condition_1": "procedural_self",
+      "condition_2": "nonsense_control",
+      "sig_pairs_1": 22,
+      "sig_pairs_2": 31,
+      "difference": -9,
+      "permutation_p": 0.6119402985074627,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_forest",
+      "condition_2": "descriptive_math",
+      "sig_pairs_1": 6,
+      "sig_pairs_2": 17,
+      "difference": -11,
+      "permutation_p": 0.29850746268656714,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_forest",
+      "condition_2": "descriptive_music",
+      "sig_pairs_1": 6,
+      "sig_pairs_2": 10,
+      "difference": -4,
+      "permutation_p": 0.582089552238806,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_forest",
+      "condition_2": "nonsense_control",
+      "sig_pairs_1": 6,
+      "sig_pairs_2": 31,
+      "difference": -25,
+      "permutation_p": 0.06965174129353234,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_math",
+      "condition_2": "descriptive_music",
+      "sig_pairs_1": 17,
+      "sig_pairs_2": 10,
+      "difference": 7,
+      "permutation_p": 0.5671641791044776,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_math",
+      "condition_2": "nonsense_control",
+      "sig_pairs_1": 17,
+      "sig_pairs_2": 31,
+      "difference": -14,
+      "permutation_p": 0.12935323383084577,
+      "significant": false
+    },
+    {
+      "condition_1": "descriptive_music",
+      "condition_2": "nonsense_control",
+      "sig_pairs_1": 10,
+      "sig_pairs_2": 31,
+      "difference": -21,
+      "permutation_p": 0.11940298507462686,
+      "significant": false
+    }
+  ],
+  "cv_correlation": {
+    "spearman_rho": 0.6467181814331598,
+    "p_value": 0.08308772479827906,
+    "n": 8,
+    "significant": false
+  }
+}

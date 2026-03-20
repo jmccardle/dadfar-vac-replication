@@ -1,0 +1,9 @@
+# Requirements for running generation scripts (GPU required)
+# Install: pip install -r requirements-generation.txt
+torch>=2.5
+transformers>=4.40
+bitsandbytes>=0.43
+accelerate>=0.30
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7

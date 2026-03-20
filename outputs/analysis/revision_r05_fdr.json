@@ -1,0 +1,152 @@
+{
+  "description": "R5: BH-FDR correction on 153 partial correlations + bootstrap validation of suppressors",
+  "n_bootstrap": 1000,
+  "fdr_q": 0.05,
+  "fdr_n_tested": 153,
+  "fdr_n_surviving": 4,
+  "expected_false_positives": 7.65,
+  "fdr_survivors": [
+    {
+      "vocab": "resonance",
+      "metric": "max_norm",
+      "r_raw": 0.5446162918753975,
+      "p_raw": 4.335739297671178e-05,
+      "r_partial": 0.5305011068788302,
+      "p_partial": 7.40718664367149e-05,
+      "p_fdr_adjusted": 0.011332995564817379,
+      "survives_fdr": true,
+      "is_suppressor": false
+    },
+    {
+      "vocab": "ctrl_the",
+      "metric": "spectral_power_mid",
+      "r_raw": 0.015806777367190498,
+      "p_raw": 0.9132417282077765,
+      "r_partial": -0.48430392046609405,
+      "p_partial": 0.00036564867487995205,
+      "p_fdr_adjusted": 0.02357236050190113,
+      "survives_fdr": true,
+      "is_suppressor": true
+    },
+    {
+      "vocab": "shift",
+      "metric": "mean_norm",
+      "r_raw": 0.31433253848944515,
+      "p_raw": 0.026206861646617573,
+      "r_partial": 0.4769352743587499,
+      "p_partial": 0.00046220314709610055,
+      "p_fdr_adjusted": 0.02357236050190113,
+      "survives_fdr": true,
+      "is_suppressor": false
+    },
+    {
+      "vocab": "mirror",
+      "metric": "spectral_power_low",
+      "r_raw": 0.6157784280823101,
+      "p_raw": 1.9386995427358662e-06,
+      "r_partial": 0.44254251864087485,
+      "p_partial": 0.0012907277575258014,
+      "p_fdr_adjusted": 0.0493703367253619,
+      "survives_fdr": true,
+      "is_suppressor": false
+    }
+  ],
+  "suppressor_bootstrap": [
+    {
+      "vocab": "ctrl_and",
+      "metric": "spectral_power_mid",
+      "r_partial": -0.3061556113027183,
+      "bootstrap_mean": -0.3010434071322226,
+      "bootstrap_ci_low": -0.484877388485962,
+      "bootstrap_ci_high": -0.06154981061706481,
+      "ci_includes_zero": false,
+      "validated": true
+    },
+    {
+      "vocab": "ctrl_and",
+      "metric": "mean_norm",
+      "r_partial": 0.38713444104018035,
+      "bootstrap_mean": 0.3851613725663085,
+      "bootstrap_ci_low": 0.15150298198516646,
+      "bootstrap_ci_high": 0.6017192841671939,
+      "ci_includes_zero": false,
+      "validated": true
+    },
+    {
+      "vocab": "ctrl_and",
+      "metric": "mean_token_similarity",
+      "r_partial": -0.27983888926802725,
+      "bootstrap_mean": -0.2741586724296172,
+      "bootstrap_ci_low": -0.5547170319345374,
+      "bootstrap_ci_high": -0.014601577631162394,
+      "ci_includes_zero": false,
+      "validated": true
+    },
+    {
+      "vocab": "ctrl_the",
+      "metric": "spectral_power_low",
+      "r_partial": -0.2823214984090122,
+      "bootstrap_mean": -0.265825447465552,
+      "bootstrap_ci_low": -0.5690251594998222,
+      "bootstrap_ci_high": 0.10501068568746946,
+      "ci_includes_zero": true,
+      "validated": false
+    },
+    {
+      "vocab": "ctrl_the",
+      "metric": "spectral_power_mid",
+      "r_partial": -0.48430392046609405,
+      "bootstrap_mean": -0.47261572579238126,
+      "bootstrap_ci_low": -0.6846732236309512,
+      "bootstrap_ci_high": -0.16501018410581555,
+      "ci_includes_zero": false,
+      "validated": true
+    },
+    {
+      "vocab": "oscillation",
+      "metric": "mean_derivative",
+      "r_partial": 0.2800265254941044,
+      "bootstrap_mean": 0.29109708709921256,
+      "bootstrap_ci_low": 0.13625865608267498,
+      "bootstrap_ci_high": 0.45811354701401275,
+      "ci_includes_zero": false,
+      "validated": true
+    },
+    {
+      "vocab": "shift",
+      "metric": "norm_std",
+      "r_partial": 0.312022943215911,
+      "bootstrap_mean": 0.31612338067248297,
+      "bootstrap_ci_low": 0.1025812333503279,
+      "bootstrap_ci_high": 0.5673750036204311,
+      "ci_includes_zero": false,
+      "validated": true
+    },
+    {
+      "vocab": "shift",
+      "metric": "mean_derivative",
+      "r_partial": 0.34101067955807385,
+      "bootstrap_mean": 0.3436858812496429,
+      "bootstrap_ci_low": 0.10357315478695724,
+      "bootstrap_ci_high": 0.5830580907838068,
+      "ci_includes_zero": false,
+      "validated": true
+    },
+    {
+      "vocab": "wave",
+      "metric": "mean_derivative",
+      "r_partial": 0.29848558533459063,
+      "bootstrap_mean": 0.30833577181445954,
+      "bootstrap_ci_low": 0.06633525280625295,
+      "bootstrap_ci_high": 0.5268012015566367,
+      "ci_includes_zero": false,
+      "validated": true
+    }
+  ],
+  "final_count": {
+    "non_suppressor_fdr_survivors": 3,
+    "suppressor_fdr_survivors": 1,
+    "suppressors_bootstrap_validated": 8,
+    "total_robust": 11
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "R10: Hartigan's dip test for bimodality",
+  "zenodo": {
+    "n": 50,
+    "token_min": 130.0,
+    "token_max": 7885.0,
+    "token_mean": 5731.06,
+    "token_std": 3489.1492759404714,
+    "dip_statistic": 0.35,
+    "dip_p_value": 0.0,
+    "bimodal": true,
+    "mode_a_count": 36,
+    "mode_b_count": 14,
+    "ambiguous_count": 0
+  },
+  "extended_baseline": {
+    "n": 50,
+    "token_min": 261.0,
+    "token_max": 20127.0,
+    "token_mean": 11962.68,
+    "token_std": 6613.993348799134,
+    "dip_statistic": 0.14901137622067856,
+    "dip_p_value": 0.0002,
+    "bimodal": true,
+    "mode_a_count": 39,
+    "mode_b_count": 11,
+    "ambiguous_count": 0
+  },
+  "exclusion_criterion": {
+    "method": "maximum_gap",
+    "gap_lower": 284.0,
+    "gap_upper": 7885.0,
+    "gap_size": 7601.0,
+    "criterion": "Exclude runs with token count in (284, 7885)"
+  }
+}

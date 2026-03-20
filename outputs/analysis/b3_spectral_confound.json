@@ -1,0 +1,39 @@
+{
+  "mirror_vs_spectral_power_low": {
+    "raw_pearson_r": 0.6158,
+    "raw_pearson_p": 1.9386995427358662e-06,
+    "raw_spearman_rho": 0.5699,
+    "raw_spearman_p": 1.5617894543700507e-05,
+    "n": 50,
+    "partial_r": 0.4425,
+    "partial_p": 0.0012907277575258014,
+    "double_rate_r": 0.0697,
+    "double_rate_p": 0.630578995479668,
+    "long_only_r": 0.4426,
+    "long_only_p": 0.006875363625465243,
+    "long_only_rho": 0.3295,
+    "long_only_n": 36,
+    "dadfar_norm_r": 0.6005,
+    "dadfar_norm_p": 4.032616332313071e-06
+  },
+  "expand_vs_spectral_power_low": {
+    "error": "constant_input"
+  },
+  "resonance_vs_max_norm": {
+    "raw_pearson_r": 0.5446,
+    "raw_pearson_p": 4.335739297671178e-05,
+    "raw_spearman_rho": 0.3183,
+    "raw_spearman_p": 0.024296926217571305,
+    "n": 50,
+    "partial_r": 0.5305,
+    "partial_p": 7.40718664367149e-05,
+    "double_rate_r": 0.2955,
+    "double_rate_p": 0.037233735961755235,
+    "long_only_r": 0.5856,
+    "long_only_p": 0.00017533421290588105,
+    "long_only_rho": 0.6454,
+    "long_only_n": 36,
+    "dadfar_norm_r": -0.1803,
+    "dadfar_norm_p": 0.21017659997581092
+  }
+}

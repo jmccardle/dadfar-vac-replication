@@ -1,0 +1,154 @@
+{
+  "description": "R8: Lock-in resistance construct validation",
+  "construct_validity": {
+    "n_runs_analyzed": 80,
+    "correlations": {
+      "type_token_ratio": {
+        "pearson_r": -0.4333378036182879,
+        "pearson_p": 5.941967037121025e-05,
+        "spearman_rho": -0.5384453174226658,
+        "spearman_p": 2.5812891342698737e-07,
+        "n": 80,
+        "significant_pearson": true,
+        "significant_spearman": true
+      },
+      "unique_obs_ratio": {
+        "pearson_r": -0.03818914441817016,
+        "pearson_p": 0.7366288596696967,
+        "spearman_rho": -0.25884373901809976,
+        "spearman_p": 0.020427926412560544,
+        "n": 80,
+        "significant_pearson": false,
+        "significant_spearman": true
+      },
+      "shannon_entropy": {
+        "pearson_r": 0.4475603455193605,
+        "pearson_p": 3.148280969517296e-05,
+        "spearman_rho": 0.4085319472004198,
+        "spearman_p": 0.00016851440914738257,
+        "n": 80,
+        "significant_pearson": true,
+        "significant_spearman": true
+      }
+    }
+  },
+  "sensitivity_analysis": {
+    "K=2_Pmax=20": {
+      "K": 2,
+      "P_max": 20,
+      "n_total": 50,
+      "n_cycling": 27,
+      "cycle_rate": 0.54,
+      "mean_lockin": 84.48148148148148,
+      "median_lockin": 54.0,
+      "std_lockin": 79.49280101433975
+    },
+    "K=2_Pmax=50": {
+      "K": 2,
+      "P_max": 50,
+      "n_total": 50,
+      "n_cycling": 40,
+      "cycle_rate": 0.8,
+      "mean_lockin": 98.925,
+      "median_lockin": 61.0,
+      "std_lockin": 99.99009886881237
+    },
+    "K=2_Pmax=100": {
+      "K": 2,
+      "P_max": 100,
+      "n_total": 50,
+      "n_cycling": 41,
+      "cycle_rate": 0.82,
+      "mean_lockin": 100.63414634146342,
+      "median_lockin": 61.0,
+      "std_lockin": 99.33699112051889
+    },
+    "K=3_Pmax=20": {
+      "K": 3,
+      "P_max": 20,
+      "n_total": 50,
+      "n_cycling": 27,
+      "cycle_rate": 0.54,
+      "mean_lockin": 84.48148148148148,
+      "median_lockin": 54.0,
+      "std_lockin": 79.49280101433975
+    },
+    "K=3_Pmax=50": {
+      "K": 3,
+      "P_max": 50,
+      "n_total": 50,
+      "n_cycling": 40,
+      "cycle_rate": 0.8,
+      "mean_lockin": 98.925,
+      "median_lockin": 61.0,
+      "std_lockin": 99.99009886881237
+    },
+    "K=3_Pmax=100": {
+      "K": 3,
+      "P_max": 100,
+      "n_total": 50,
+      "n_cycling": 41,
+      "cycle_rate": 0.82,
+      "mean_lockin": 100.63414634146342,
+      "median_lockin": 61.0,
+      "std_lockin": 99.33699112051889
+    },
+    "K=5_Pmax=20": {
+      "K": 5,
+      "P_max": 20,
+      "n_total": 50,
+      "n_cycling": 27,
+      "cycle_rate": 0.54,
+      "mean_lockin": 84.48148148148148,
+      "median_lockin": 54.0,
+      "std_lockin": 79.49280101433975
+    },
+    "K=5_Pmax=50": {
+      "K": 5,
+      "P_max": 50,
+      "n_total": 50,
+      "n_cycling": 40,
+      "cycle_rate": 0.8,
+      "mean_lockin": 98.925,
+      "median_lockin": 61.0,
+      "std_lockin": 99.99009886881237
+    },
+    "K=5_Pmax=100": {
+      "K": 5,
+      "P_max": 100,
+      "n_total": 50,
+      "n_cycling": 41,
+      "cycle_rate": 0.82,
+      "mean_lockin": 100.63414634146342,
+      "median_lockin": 61.0,
+      "std_lockin": 99.33699112051889
+    }
+  },
+  "sensitivity_summary": {
+    "reference_config": "K=3_Pmax=50",
+    "reference_median": 61.0,
+    "max_median_deviation_pct": 11.475409836065573,
+    "robust": true
+  },
+  "test_retest": {
+    "n_total_cycling": 80,
+    "odd_even_split": {
+      "n_odd": 38,
+      "n_even": 42,
+      "mean_odd": 68.10526315789474,
+      "mean_even": 77.69047619047619,
+      "ks_statistic": 0.13032581453634084,
+      "ks_p_value": 0.8334339438514704,
+      "cohens_d": -0.227485999282254,
+      "distributions_match": true
+    },
+    "first_second_split": {
+      "n_first": 15,
+      "n_second": 65,
+      "mean_first": 87.0,
+      "mean_second": 69.93846153846154,
+      "ks_statistic": 0.31794871794871793,
+      "ks_p_value": 0.13776903731841803
+    }
+  }
+}

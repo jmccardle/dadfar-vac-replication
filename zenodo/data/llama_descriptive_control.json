@@ -1,0 +1,1910 @@
+{
+  "timestamp": "20260208_213251",
+  "model": "meta-llama/Llama-3.1-70B-Instruct",
+  "capture_layer": 5,
+  "steering": null,
+  "n_runs": 50,
+  "design": "25 per vocab (loop, surge) x 5 contexts x 5 runs",
+  "runs": [
+    {
+      "prompt_id": "loop_roller_coaster",
+      "target_word": "loop",
+      "context": "roller_coaster",
+      "run": 0,
+      "text_length": 4822,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 1.9814624786376953,
+          "max_norm": 2.5224740505218506,
+          "norm_std": 0.20544728636741638,
+          "norm_kurtosis": -0.44104776938435863,
+          "mean_derivative": 0.23912841081619263,
+          "max_derivative": 0.7601350545883179,
+          "autocorr_lag1": 0.034382294419667996,
+          "autocorr_lag2": 0.000576782629935756,
+          "spectral_power_low": 4655.54736328125,
+          "spectral_power_mid": 4287.54296875,
+          "spectral_power_low_per_token": 5.127254805375826,
+          "spectral_power_mid_per_token": 4.721963621971366,
+          "mean_token_similarity": 0.5166720242290395,
+          "token_similarity_std": 0.08149789038238622,
+          "sparsity": 0.9927428661464069,
+          "convergence_ratio": 1.0861680507659912,
+          "n_tokens": 908
+        }
+      },
+      "vocab_counts": {
+        "loop": 44,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 94,
+        "ctrl_and": 28,
+        "ctrl_what": 2
+      }
+    },
+    {
+      "prompt_id": "loop_roller_coaster",
+      "target_word": "loop",
+      "context": "roller_coaster",
+      "run": 1,
+      "text_length": 5720,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0174224376678467,
+          "max_norm": 2.5993356704711914,
+          "norm_std": 0.20237208902835846,
+          "norm_kurtosis": -0.4874929140230737,
+          "mean_derivative": 0.24075838923454285,
+          "max_derivative": 0.9411252737045288,
+          "autocorr_lag1": -0.031120025116302942,
+          "autocorr_lag2": 0.037198629209428596,
+          "spectral_power_low": 5594.46142578125,
+          "spectral_power_mid": 5000.15087890625,
+          "spectral_power_low_per_token": 5.358679526610393,
+          "spectral_power_mid_per_token": 4.789416550676485,
+          "mean_token_similarity": 0.5031253176329816,
+          "token_similarity_std": 0.08881995665007777,
+          "sparsity": 0.9926283094618056,
+          "convergence_ratio": 1.016947865486145,
+          "n_tokens": 1044
+        }
+      },
+      "vocab_counts": {
+        "loop": 36,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 114,
+        "ctrl_and": 33,
+        "ctrl_what": 2
+      }
+    },
+    {
+      "prompt_id": "loop_roller_coaster",
+      "target_word": "loop",
+      "context": "roller_coaster",
+      "run": 2,
+      "text_length": 4199,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.006620407104492,
+          "max_norm": 2.619694232940674,
+          "norm_std": 0.20494608581066132,
+          "norm_kurtosis": -0.38070097794220104,
+          "mean_derivative": 0.23401299118995667,
+          "max_derivative": 0.7481561899185181,
+          "autocorr_lag1": 0.03300330638945216,
+          "autocorr_lag2": 0.02514154340566151,
+          "spectral_power_low": 3606.49951171875,
+          "spectral_power_mid": 3051.124267578125,
+          "spectral_power_low_per_token": 4.553660999644887,
+          "spectral_power_mid_per_token": 3.852429630780461,
+          "mean_token_similarity": 0.5100031728150717,
+          "token_similarity_std": 0.08491821061447682,
+          "sparsity": 0.9925564852627841,
+          "convergence_ratio": 1.0375062227249146,
+          "n_tokens": 792
+        }
+      },
+      "vocab_counts": {
+        "loop": 25,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 76,
+        "ctrl_and": 27,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_roller_coaster",
+      "target_word": "loop",
+      "context": "roller_coaster",
+      "run": 3,
+      "text_length": 5102,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0135676860809326,
+          "max_norm": 2.595771312713623,
+          "norm_std": 0.1957160234451294,
+          "norm_kurtosis": -0.4179579628963732,
+          "mean_derivative": 0.22336764633655548,
+          "max_derivative": 0.7311791181564331,
+          "autocorr_lag1": 0.034493018824262346,
+          "autocorr_lag2": -0.0018249168087625287,
+          "spectral_power_low": 5385.81494140625,
+          "spectral_power_mid": 4571.30224609375,
+          "spectral_power_low_per_token": 5.290584421813605,
+          "spectral_power_mid_per_token": 4.490473719149067,
+          "mean_token_similarity": 0.512943375852839,
+          "token_similarity_std": 0.08680607590017199,
+          "sparsity": 0.992441833136358,
+          "convergence_ratio": 1.0573188066482544,
+          "n_tokens": 1018
+        }
+      },
+      "vocab_counts": {
+        "loop": 29,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 123,
+        "ctrl_and": 39,
+        "ctrl_what": 2
+      }
+    },
+    {
+      "prompt_id": "loop_roller_coaster",
+      "target_word": "loop",
+      "context": "roller_coaster",
+      "run": 4,
+      "text_length": 4605,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0094220638275146,
+          "max_norm": 2.5896098613739014,
+          "norm_std": 0.20818746089935303,
+          "norm_kurtosis": -0.41420601063608364,
+          "mean_derivative": 0.23321540653705597,
+          "max_derivative": 0.7608922719955444,
+          "autocorr_lag1": 0.07832678181287285,
+          "autocorr_lag2": 0.022091541603958063,
+          "spectral_power_low": 4812.453125,
+          "spectral_power_mid": 4157.8671875,
+          "spectral_power_low_per_token": 5.4439514988687785,
+          "spectral_power_mid_per_token": 4.703469669117647,
+          "mean_token_similarity": 0.5110285163533859,
+          "token_similarity_std": 0.08307963551333662,
+          "sparsity": 0.9925760812888857,
+          "convergence_ratio": 1.1078287363052368,
+          "n_tokens": 884
+        }
+      },
+      "vocab_counts": {
+        "loop": 30,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 83,
+        "ctrl_and": 25,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_knitting",
+      "target_word": "loop",
+      "context": "knitting",
+      "run": 0,
+      "text_length": 3994,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 1.9476571083068848,
+          "max_norm": 2.5166618824005127,
+          "norm_std": 0.20665909349918365,
+          "norm_kurtosis": -0.6659513994595838,
+          "mean_derivative": 0.25561028718948364,
+          "max_derivative": 0.8708153963088989,
+          "autocorr_lag1": -0.06374918385039322,
+          "autocorr_lag2": 0.04981598577662512,
+          "spectral_power_low": 3048.142578125,
+          "spectral_power_mid": 3171.0263671875,
+          "spectral_power_low_per_token": 3.8731163635641677,
+          "spectral_power_mid_per_token": 4.029258408116264,
+          "mean_token_similarity": 0.5243198642892739,
+          "token_similarity_std": 0.1056915031363283,
+          "sparsity": 0.9929690912384848,
+          "convergence_ratio": 1.024533987045288,
+          "n_tokens": 787
+        }
+      },
+      "vocab_counts": {
+        "loop": 38,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 110,
+        "ctrl_and": 22,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_knitting",
+      "target_word": "loop",
+      "context": "knitting",
+      "run": 1,
+      "text_length": 4281,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 1.9881755113601685,
+          "max_norm": 2.5814414024353027,
+          "norm_std": 0.21330678462982178,
+          "norm_kurtosis": -0.4801107996296663,
+          "mean_derivative": 0.23385371267795563,
+          "max_derivative": 0.8136136531829834,
+          "autocorr_lag1": 0.11901352492574599,
+          "autocorr_lag2": 0.026037704057064025,
+          "spectral_power_low": 5028.611328125,
+          "spectral_power_mid": 4196.81591796875,
+          "spectral_power_low_per_token": 5.94398502142435,
+          "spectral_power_mid_per_token": 4.960775316747932,
+          "mean_token_similarity": 0.522588501430629,
+          "token_similarity_std": 0.10214079993234648,
+          "sparsity": 0.9927143069869238,
+          "convergence_ratio": 1.1865853071212769,
+          "n_tokens": 846
+        }
+      },
+      "vocab_counts": {
+        "loop": 38,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 88,
+        "ctrl_and": 27,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_knitting",
+      "target_word": "loop",
+      "context": "knitting",
+      "run": 2,
+      "text_length": 3337,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 1.9573084115982056,
+          "max_norm": 2.4349746704101562,
+          "norm_std": 0.20904433727264404,
+          "norm_kurtosis": -0.634242266650864,
+          "mean_derivative": 0.23560431599617004,
+          "max_derivative": 0.8742904663085938,
+          "autocorr_lag1": 0.06502235202883799,
+          "autocorr_lag2": -0.06351120059389534,
+          "spectral_power_low": 2222.1884765625,
+          "spectral_power_mid": 2679.951171875,
+          "spectral_power_low_per_token": 3.477603249706573,
+          "spectral_power_mid_per_token": 4.193976794796557,
+          "mean_token_similarity": 0.5068064377016768,
+          "token_similarity_std": 0.09816964616534452,
+          "sparsity": 0.9930077972173318,
+          "convergence_ratio": 1.0455498695373535,
+          "n_tokens": 639
+        }
+      },
+      "vocab_counts": {
+        "loop": 39,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 82,
+        "ctrl_and": 18,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_knitting",
+      "target_word": "loop",
+      "context": "knitting",
+      "run": 3,
+      "text_length": 3121,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 1.96058988571167,
+          "max_norm": 2.5483851432800293,
+          "norm_std": 0.21080267429351807,
+          "norm_kurtosis": -0.5973019813919973,
+          "mean_derivative": 0.25160762667655945,
+          "max_derivative": 0.8611950874328613,
+          "autocorr_lag1": -0.008682073683109946,
+          "autocorr_lag2": 0.02460882833053075,
+          "spectral_power_low": 2002.281494140625,
+          "spectral_power_mid": 1619.055908203125,
+          "spectral_power_low_per_token": 3.3936974476959745,
+          "spectral_power_mid_per_token": 2.744162556276483,
+          "mean_token_similarity": 0.5267125058066839,
+          "token_similarity_std": 0.08812805355277911,
+          "sparsity": 0.9930241988877119,
+          "convergence_ratio": 1.1097849607467651,
+          "n_tokens": 590
+        }
+      },
+      "vocab_counts": {
+        "loop": 27,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 76,
+        "ctrl_and": 25,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_knitting",
+      "target_word": "loop",
+      "context": "knitting",
+      "run": 4,
+      "text_length": 3245,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 1.9749414920806885,
+          "max_norm": 2.510777711868286,
+          "norm_std": 0.21929563581943512,
+          "norm_kurtosis": -0.6998790992915609,
+          "mean_derivative": 0.25316283106803894,
+          "max_derivative": 0.7831219434738159,
+          "autocorr_lag1": 0.03340428838794703,
+          "autocorr_lag2": 0.08690074352693385,
+          "spectral_power_low": 2771.32763671875,
+          "spectral_power_mid": 1980.5662841796875,
+          "spectral_power_low_per_token": 4.378084734152844,
+          "spectral_power_mid_per_token": 3.1288566890674367,
+          "mean_token_similarity": 0.5198172956961212,
+          "token_similarity_std": 0.09381946488320743,
+          "sparsity": 0.992898516180391,
+          "convergence_ratio": 1.151454210281372,
+          "n_tokens": 633
+        }
+      },
+      "vocab_counts": {
+        "loop": 30,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 56,
+        "ctrl_and": 19,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_music_production",
+      "target_word": "loop",
+      "context": "music_production",
+      "run": 0,
+      "text_length": 4285,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.062678098678589,
+          "max_norm": 2.6658713817596436,
+          "norm_std": 0.21585945785045624,
+          "norm_kurtosis": -0.6434895795763969,
+          "mean_derivative": 0.2526613473892212,
+          "max_derivative": 0.866851806640625,
+          "autocorr_lag1": 0.023602017370875288,
+          "autocorr_lag2": 0.0016318879477695788,
+          "spectral_power_low": 3787.035888671875,
+          "spectral_power_mid": 3640.052490234375,
+          "spectral_power_low_per_token": 4.769566610417979,
+          "spectral_power_mid_per_token": 4.58444898014405,
+          "mean_token_similarity": 0.500204914867315,
+          "token_similarity_std": 0.0968420024805906,
+          "sparsity": 0.9923191022512594,
+          "convergence_ratio": 1.0540395975112915,
+          "n_tokens": 794
+        }
+      },
+      "vocab_counts": {
+        "loop": 50,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 34,
+        "ctrl_and": 35,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_music_production",
+      "target_word": "loop",
+      "context": "music_production",
+      "run": 1,
+      "text_length": 3873,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.076500654220581,
+          "max_norm": 2.6575565338134766,
+          "norm_std": 0.223045215010643,
+          "norm_kurtosis": -0.5455234222315517,
+          "mean_derivative": 0.24369405210018158,
+          "max_derivative": 0.8845885992050171,
+          "autocorr_lag1": 0.11477627462968189,
+          "autocorr_lag2": 0.06459690282502596,
+          "spectral_power_low": 4142.47265625,
+          "spectral_power_mid": 3427.7431640625,
+          "spectral_power_low_per_token": 5.628359587296195,
+          "spectral_power_mid_per_token": 4.65725973378057,
+          "mean_token_similarity": 0.5091325570563321,
+          "token_similarity_std": 0.08934254259881533,
+          "sparsity": 0.9922223298445992,
+          "convergence_ratio": 1.106244444847107,
+          "n_tokens": 736
+        }
+      },
+      "vocab_counts": {
+        "loop": 49,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 4,
+        "void": 0,
+        "ctrl_the": 23,
+        "ctrl_and": 21,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_music_production",
+      "target_word": "loop",
+      "context": "music_production",
+      "run": 2,
+      "text_length": 4177,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.009868860244751,
+          "max_norm": 2.6713640689849854,
+          "norm_std": 0.2233441174030304,
+          "norm_kurtosis": -0.5829548122056609,
+          "mean_derivative": 0.2752518355846405,
+          "max_derivative": 0.9177104234695435,
+          "autocorr_lag1": -0.05086330831271167,
+          "autocorr_lag2": 0.04609940541752604,
+          "spectral_power_low": 3665.671142578125,
+          "spectral_power_mid": 3433.2568359375,
+          "spectral_power_low_per_token": 4.669644767615446,
+          "spectral_power_mid_per_token": 4.373575587181529,
+          "mean_token_similarity": 0.5231124413907485,
+          "token_similarity_std": 0.09644132147739158,
+          "sparsity": 0.9926838674363058,
+          "convergence_ratio": 1.1369026899337769,
+          "n_tokens": 785
+        }
+      },
+      "vocab_counts": {
+        "loop": 47,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 3,
+        "void": 0,
+        "ctrl_the": 29,
+        "ctrl_and": 44,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_music_production",
+      "target_word": "loop",
+      "context": "music_production",
+      "run": 3,
+      "text_length": 4232,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0523040294647217,
+          "max_norm": 2.700831651687622,
+          "norm_std": 0.2235780656337738,
+          "norm_kurtosis": -0.6793779577209467,
+          "mean_derivative": 0.25322622060775757,
+          "max_derivative": 0.8813953399658203,
+          "autocorr_lag1": 0.051748254626650086,
+          "autocorr_lag2": 0.015139906324927238,
+          "spectral_power_low": 3917.4970703125,
+          "spectral_power_mid": 3836.47265625,
+          "spectral_power_low_per_token": 5.081059753972114,
+          "spectral_power_mid_per_token": 4.975969722762646,
+          "mean_token_similarity": 0.5018814026647362,
+          "token_similarity_std": 0.07993123807474035,
+          "sparsity": 0.9923662514692769,
+          "convergence_ratio": 1.0522218942642212,
+          "n_tokens": 771
+        }
+      },
+      "vocab_counts": {
+        "loop": 51,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 33,
+        "ctrl_and": 31,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_music_production",
+      "target_word": "loop",
+      "context": "music_production",
+      "run": 4,
+      "text_length": 3869,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.069309949874878,
+          "max_norm": 2.696601152420044,
+          "norm_std": 0.22750361263751984,
+          "norm_kurtosis": -0.6171990488213646,
+          "mean_derivative": 0.26329681277275085,
+          "max_derivative": 0.8757673501968384,
+          "autocorr_lag1": 0.05138858257575888,
+          "autocorr_lag2": 0.0054116672963726775,
+          "spectral_power_low": 3321.562255859375,
+          "spectral_power_mid": 3371.72705078125,
+          "spectral_power_low_per_token": 4.779226267423561,
+          "spectral_power_mid_per_token": 4.85140582846223,
+          "mean_token_similarity": 0.5245775277219623,
+          "token_similarity_std": 0.09595155450587475,
+          "sparsity": 0.9922879665017985,
+          "convergence_ratio": 1.0851367712020874,
+          "n_tokens": 695
+        }
+      },
+      "vocab_counts": {
+        "loop": 38,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 3,
+        "void": 0,
+        "ctrl_the": 25,
+        "ctrl_and": 25,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_feedback_systems",
+      "target_word": "loop",
+      "context": "feedback_systems",
+      "run": 0,
+      "text_length": 5508,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 1.9978549480438232,
+          "max_norm": 2.5144693851470947,
+          "norm_std": 0.19375759363174438,
+          "norm_kurtosis": -0.5061481050545513,
+          "mean_derivative": 0.22961029410362244,
+          "max_derivative": 0.660468578338623,
+          "autocorr_lag1": 0.015110524064228449,
+          "autocorr_lag2": -0.02453809900738935,
+          "spectral_power_low": 4856.962890625,
+          "spectral_power_mid": 4199.50634765625,
+          "spectral_power_low_per_token": 4.91098371145096,
+          "spectral_power_mid_per_token": 4.246214709460314,
+          "mean_token_similarity": 0.5147079402765532,
+          "token_similarity_std": 0.10074295573496886,
+          "sparsity": 0.9927245353181876,
+          "convergence_ratio": 1.1079890727996826,
+          "n_tokens": 989
+        }
+      },
+      "vocab_counts": {
+        "loop": 58,
+        "surge": 6,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 112,
+        "ctrl_and": 29,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_feedback_systems",
+      "target_word": "loop",
+      "context": "feedback_systems",
+      "run": 1,
+      "text_length": 5140,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.067082643508911,
+          "max_norm": 2.6031932830810547,
+          "norm_std": 0.22051295638084412,
+          "norm_kurtosis": -0.5422781043457867,
+          "mean_derivative": 0.24064265191555023,
+          "max_derivative": 0.8310338258743286,
+          "autocorr_lag1": 0.11749123030191924,
+          "autocorr_lag2": 0.07581982222497305,
+          "spectral_power_low": 6042.125,
+          "spectral_power_mid": 5469.5830078125,
+          "spectral_power_low_per_token": 6.728424276169265,
+          "spectral_power_mid_per_token": 6.090849674624165,
+          "mean_token_similarity": 0.5224378444482405,
+          "token_similarity_std": 0.09556577166036159,
+          "sparsity": 0.9921652065353563,
+          "convergence_ratio": 1.1516926288604736,
+          "n_tokens": 898
+        }
+      },
+      "vocab_counts": {
+        "loop": 35,
+        "surge": 4,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 56,
+        "ctrl_and": 20,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "loop_feedback_systems",
+      "target_word": "loop",
+      "context": "feedback_systems",
+      "run": 2,
+      "text_length": 4367,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.029639482498169,
+          "max_norm": 2.5456762313842773,
+          "norm_std": 0.22842183709144592,
+          "norm_kurtosis": -0.7909673187423665,
+          "mean_derivative": 0.267128050327301,
+          "max_derivative": 0.7305335998535156,
+          "autocorr_lag1": 0.05237366553897247,
+          "autocorr_lag2": -0.04798638183607646,
+          "spectral_power_low": 3863.6005859375,
+          "spectral_power_mid": 3995.401611328125,
+          "spectral_power_low_per_token": 5.103831685518494,
+          "spectral_power_mid_per_token": 5.277941362388541,
+          "mean_token_similarity": 0.5219872327989918,
+          "token_similarity_std": 0.0966065822356553,
+          "sparsity": 0.992526136269815,
+          "convergence_ratio": 1.1013703346252441,
+          "n_tokens": 757
+        }
+      },
+      "vocab_counts": {
+        "loop": 38,
+        "surge": 5,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 57,
+        "ctrl_and": 36,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "loop_feedback_systems",
+      "target_word": "loop",
+      "context": "feedback_systems",
+      "run": 3,
+      "text_length": 5336,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.048016309738159,
+          "max_norm": 2.574829578399658,
+          "norm_std": 0.21022896468639374,
+          "norm_kurtosis": -0.5256655711227332,
+          "mean_derivative": 0.24401694536209106,
+          "max_derivative": 0.7141332626342773,
+          "autocorr_lag1": 0.04506226468187451,
+          "autocorr_lag2": -0.0049213543927445315,
+          "spectral_power_low": 4829.826171875,
+          "spectral_power_mid": 4863.11328125,
+          "spectral_power_low_per_token": 5.319191819245595,
+          "spectral_power_mid_per_token": 5.355851631332599,
+          "mean_token_similarity": 0.5185581440235579,
+          "token_similarity_std": 0.08947145970217826,
+          "sparsity": 0.9923977620801211,
+          "convergence_ratio": 1.0870903730392456,
+          "n_tokens": 908
+        }
+      },
+      "vocab_counts": {
+        "loop": 42,
+        "surge": 4,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 70,
+        "ctrl_and": 29,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "loop_feedback_systems",
+      "target_word": "loop",
+      "context": "feedback_systems",
+      "run": 4,
+      "text_length": 4581,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0060951709747314,
+          "max_norm": 2.573608875274658,
+          "norm_std": 0.20851446688175201,
+          "norm_kurtosis": -0.5861270947554216,
+          "mean_derivative": 0.23953290283679962,
+          "max_derivative": 0.8702547550201416,
+          "autocorr_lag1": 0.05538223642898764,
+          "autocorr_lag2": 0.020613377858857963,
+          "spectral_power_low": 3838.58837890625,
+          "spectral_power_mid": 3805.019287109375,
+          "spectral_power_low_per_token": 4.669815546114659,
+          "spectral_power_mid_per_token": 4.628977234926247,
+          "mean_token_similarity": 0.5312713457132642,
+          "token_similarity_std": 0.0918022238821949,
+          "sparsity": 0.9926382097304592,
+          "convergence_ratio": 1.1059340238571167,
+          "n_tokens": 822
+        }
+      },
+      "vocab_counts": {
+        "loop": 61,
+        "surge": 7,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 80,
+        "ctrl_and": 23,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_highway",
+      "target_word": "loop",
+      "context": "highway",
+      "run": 0,
+      "text_length": 5890,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0318443775177,
+          "max_norm": 2.5860769748687744,
+          "norm_std": 0.20444777607917786,
+          "norm_kurtosis": -0.622011253694398,
+          "mean_derivative": 0.23719388246536255,
+          "max_derivative": 0.837990403175354,
+          "autocorr_lag1": 0.04703370479856843,
+          "autocorr_lag2": 0.05794574653209194,
+          "spectral_power_low": 7199.2431640625,
+          "spectral_power_mid": 5287.20654296875,
+          "spectral_power_low_per_token": 6.690746435002324,
+          "spectral_power_mid_per_token": 4.913760727666125,
+          "mean_token_similarity": 0.5113993671840954,
+          "token_similarity_std": 0.09397625547103344,
+          "sparsity": 0.9924221109723513,
+          "convergence_ratio": 1.1075235605239868,
+          "n_tokens": 1076
+        }
+      },
+      "vocab_counts": {
+        "loop": 35,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 91,
+        "ctrl_and": 37,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_highway",
+      "target_word": "loop",
+      "context": "highway",
+      "run": 1,
+      "text_length": 4642,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0150935649871826,
+          "max_norm": 2.617647409439087,
+          "norm_std": 0.20817260444164276,
+          "norm_kurtosis": -0.577010048752419,
+          "mean_derivative": 0.24809014797210693,
+          "max_derivative": 0.7297581434249878,
+          "autocorr_lag1": 0.001017372633884385,
+          "autocorr_lag2": 0.05278720974187279,
+          "spectral_power_low": 4053.909912109375,
+          "spectral_power_mid": 3409.93603515625,
+          "spectral_power_low_per_token": 4.791855688072547,
+          "spectral_power_mid_per_token": 4.030657251957742,
+          "mean_token_similarity": 0.5192624522638845,
+          "token_similarity_std": 0.10042310824078444,
+          "sparsity": 0.9925231212138003,
+          "convergence_ratio": 1.0990806818008423,
+          "n_tokens": 846
+        }
+      },
+      "vocab_counts": {
+        "loop": 28,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 1,
+        "ctrl_the": 70,
+        "ctrl_and": 31,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_highway",
+      "target_word": "loop",
+      "context": "highway",
+      "run": 2,
+      "text_length": 5202,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0137057304382324,
+          "max_norm": 2.59375262260437,
+          "norm_std": 0.20680515468120575,
+          "norm_kurtosis": -0.5291666016708776,
+          "mean_derivative": 0.25433972477912903,
+          "max_derivative": 0.7326347827911377,
+          "autocorr_lag1": -0.027481632146515073,
+          "autocorr_lag2": 0.10051569258621987,
+          "spectral_power_low": 4889.39013671875,
+          "spectral_power_mid": 4203.3154296875,
+          "spectral_power_low_per_token": 5.173957816633598,
+          "spectral_power_mid_per_token": 4.447952835648148,
+          "mean_token_similarity": 0.5093518589474068,
+          "token_similarity_std": 0.0930355168542548,
+          "sparsity": 0.9925482855902777,
+          "convergence_ratio": 1.0731356143951416,
+          "n_tokens": 945
+        }
+      },
+      "vocab_counts": {
+        "loop": 42,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 87,
+        "ctrl_and": 33,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_highway",
+      "target_word": "loop",
+      "context": "highway",
+      "run": 3,
+      "text_length": 5077,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.022763729095459,
+          "max_norm": 2.5834076404571533,
+          "norm_std": 0.20641134679317474,
+          "norm_kurtosis": -0.6426243394204527,
+          "mean_derivative": 0.254537969827652,
+          "max_derivative": 0.7380361557006836,
+          "autocorr_lag1": -0.03946739668082333,
+          "autocorr_lag2": 0.05912905486422399,
+          "spectral_power_low": 4470.5185546875,
+          "spectral_power_mid": 3488.804931640625,
+          "spectral_power_low_per_token": 4.88581262807377,
+          "spectral_power_mid_per_token": 3.8129015646345628,
+          "mean_token_similarity": 0.5158824875577427,
+          "token_similarity_std": 0.09417871912298918,
+          "sparsity": 0.992493009306694,
+          "convergence_ratio": 1.1929036378860474,
+          "n_tokens": 915
+        }
+      },
+      "vocab_counts": {
+        "loop": 37,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 78,
+        "ctrl_and": 26,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "loop_highway",
+      "target_word": "loop",
+      "context": "highway",
+      "run": 4,
+      "text_length": 5032,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.031965494155884,
+          "max_norm": 2.6855340003967285,
+          "norm_std": 0.21180279552936554,
+          "norm_kurtosis": -0.5444462023725003,
+          "mean_derivative": 0.24660427868366241,
+          "max_derivative": 0.7782670259475708,
+          "autocorr_lag1": 0.04667591668085271,
+          "autocorr_lag2": 0.05818272787779834,
+          "spectral_power_low": 5308.87646484375,
+          "spectral_power_mid": 4433.98095703125,
+          "spectral_power_low_per_token": 5.821136474609375,
+          "spectral_power_mid_per_token": 4.8618212248149675,
+          "mean_token_similarity": 0.5102348846210352,
+          "token_similarity_std": 0.07883363841892742,
+          "sparsity": 0.9924289636444628,
+          "convergence_ratio": 1.2153066396713257,
+          "n_tokens": 912
+        }
+      },
+      "vocab_counts": {
+        "loop": 32,
+        "surge": 0,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 75,
+        "ctrl_and": 36,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_ocean",
+      "target_word": "surge",
+      "context": "ocean",
+      "run": 0,
+      "text_length": 3864,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.023630380630493,
+          "max_norm": 2.5352234840393066,
+          "norm_std": 0.21439386904239655,
+          "norm_kurtosis": -0.7524122606113095,
+          "mean_derivative": 0.25530657172203064,
+          "max_derivative": 0.7728736400604248,
+          "autocorr_lag1": -0.011894973989104404,
+          "autocorr_lag2": -0.02087338536809529,
+          "spectral_power_low": 2562.437744140625,
+          "spectral_power_mid": 3267.90771484375,
+          "spectral_power_low_per_token": 3.6039912013229607,
+          "spectral_power_mid_per_token": 4.596213382340014,
+          "mean_token_similarity": 0.5197097447335833,
+          "token_similarity_std": 0.09667883293799644,
+          "sparsity": 0.9925284727716245,
+          "convergence_ratio": 1.0528284311294556,
+          "n_tokens": 711
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 31,
+        "shimmer": 0,
+        "pulse": 2,
+        "void": 0,
+        "ctrl_the": 68,
+        "ctrl_and": 37,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "surge_ocean",
+      "target_word": "surge",
+      "context": "ocean",
+      "run": 1,
+      "text_length": 3700,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.020576000213623,
+          "max_norm": 2.710582971572876,
+          "norm_std": 0.22584667801856995,
+          "norm_kurtosis": -0.70222690994922,
+          "mean_derivative": 0.26064151525497437,
+          "max_derivative": 0.9528605937957764,
+          "autocorr_lag1": 0.023124296872264298,
+          "autocorr_lag2": -0.036227196137146596,
+          "spectral_power_low": 2822.09326171875,
+          "spectral_power_mid": 2747.941162109375,
+          "spectral_power_low_per_token": 4.308539330868321,
+          "spectral_power_mid_per_token": 4.195330018487596,
+          "mean_token_similarity": 0.511934406506287,
+          "token_similarity_std": 0.09176422529102653,
+          "sparsity": 0.9925127102218512,
+          "convergence_ratio": 1.111380696296692,
+          "n_tokens": 655
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 28,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 59,
+        "ctrl_and": 31,
+        "ctrl_what": 2
+      }
+    },
+    {
+      "prompt_id": "surge_ocean",
+      "target_word": "surge",
+      "context": "ocean",
+      "run": 2,
+      "text_length": 4250,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0425612926483154,
+          "max_norm": 2.6111271381378174,
+          "norm_std": 0.2204614132642746,
+          "norm_kurtosis": -0.7306761162849518,
+          "mean_derivative": 0.2591661214828491,
+          "max_derivative": 0.9549559354782104,
+          "autocorr_lag1": 0.005182206745328993,
+          "autocorr_lag2": -0.041521959453763614,
+          "spectral_power_low": 3722.2685546875,
+          "spectral_power_mid": 3644.95703125,
+          "spectral_power_low_per_token": 4.741743381767516,
+          "spectral_power_mid_per_token": 4.643257364649681,
+          "mean_token_similarity": 0.5172277061557272,
+          "token_similarity_std": 0.1061621806162541,
+          "sparsity": 0.9923644630772293,
+          "convergence_ratio": 1.0780800580978394,
+          "n_tokens": 785
+        }
+      },
+      "vocab_counts": {
+        "loop": 2,
+        "surge": 30,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 80,
+        "ctrl_and": 22,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_ocean",
+      "target_word": "surge",
+      "context": "ocean",
+      "run": 3,
+      "text_length": 3773,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.013597249984741,
+          "max_norm": 2.6002330780029297,
+          "norm_std": 0.22878065705299377,
+          "norm_kurtosis": -0.8520752741051876,
+          "mean_derivative": 0.2603049874305725,
+          "max_derivative": 0.749194860458374,
+          "autocorr_lag1": 0.05552524447149163,
+          "autocorr_lag2": -0.032707067625635154,
+          "spectral_power_low": 3257.384765625,
+          "spectral_power_mid": 3023.636474609375,
+          "spectral_power_low_per_token": 4.825755208333334,
+          "spectral_power_mid_per_token": 4.47946144386574,
+          "mean_token_similarity": 0.5186243909301574,
+          "token_similarity_std": 0.10169448745621802,
+          "sparsity": 0.9925860821759259,
+          "convergence_ratio": 1.0814894437789917,
+          "n_tokens": 675
+        }
+      },
+      "vocab_counts": {
+        "loop": 3,
+        "surge": 27,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 63,
+        "ctrl_and": 31,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_ocean",
+      "target_word": "surge",
+      "context": "ocean",
+      "run": 4,
+      "text_length": 3939,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.014185667037964,
+          "max_norm": 2.5974013805389404,
+          "norm_std": 0.21846579015254974,
+          "norm_kurtosis": -0.6628044304015361,
+          "mean_derivative": 0.26068276166915894,
+          "max_derivative": 0.78171706199646,
+          "autocorr_lag1": -0.017478141864531328,
+          "autocorr_lag2": -0.0015252912084014888,
+          "spectral_power_low": 2942.49169921875,
+          "spectral_power_mid": 3085.769775390625,
+          "spectral_power_low_per_token": 4.109625278238478,
+          "spectral_power_mid_per_token": 4.309734323171264,
+          "mean_token_similarity": 0.508334029720021,
+          "token_similarity_std": 0.09678673462185429,
+          "sparsity": 0.9925736581813024,
+          "convergence_ratio": 1.084257960319519,
+          "n_tokens": 716
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 29,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 72,
+        "ctrl_and": 30,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_electrical",
+      "target_word": "surge",
+      "context": "electrical",
+      "run": 0,
+      "text_length": 5143,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.117831230163574,
+          "max_norm": 2.646920919418335,
+          "norm_std": 0.21787384152412415,
+          "norm_kurtosis": -0.7420602094408664,
+          "mean_derivative": 0.23076914250850677,
+          "max_derivative": 0.8349528312683105,
+          "autocorr_lag1": 0.18188476416973917,
+          "autocorr_lag2": 0.016427448172258823,
+          "spectral_power_low": 7058.6240234375,
+          "spectral_power_mid": 6382.83349609375,
+          "spectral_power_low_per_token": 7.284441716653767,
+          "spectral_power_mid_per_token": 6.587031471716976,
+          "mean_token_similarity": 0.5317876781666859,
+          "token_similarity_std": 0.09541295442820857,
+          "sparsity": 0.9919534374193757,
+          "convergence_ratio": 1.0374317169189453,
+          "n_tokens": 969
+        }
+      },
+      "vocab_counts": {
+        "loop": 2,
+        "surge": 53,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 43,
+        "ctrl_and": 26,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "surge_electrical",
+      "target_word": "surge",
+      "context": "electrical",
+      "run": 1,
+      "text_length": 4660,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0860867500305176,
+          "max_norm": 2.6496360301971436,
+          "norm_std": 0.23609690368175507,
+          "norm_kurtosis": -0.8681958972884769,
+          "mean_derivative": 0.26597535610198975,
+          "max_derivative": 0.9424844980239868,
+          "autocorr_lag1": 0.05782093645178242,
+          "autocorr_lag2": -0.16427665861040136,
+          "spectral_power_low": 4730.60791015625,
+          "spectral_power_mid": 7080.0205078125,
+          "spectral_power_low_per_token": 5.369589001312429,
+          "spectral_power_mid_per_token": 8.036345638833712,
+          "mean_token_similarity": 0.5238244454945324,
+          "token_similarity_std": 0.09365319401205274,
+          "sparsity": 0.9920841351269863,
+          "convergence_ratio": 1.096769094467163,
+          "n_tokens": 881
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 51,
+        "shimmer": 0,
+        "pulse": 2,
+        "void": 0,
+        "ctrl_the": 57,
+        "ctrl_and": 15,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "surge_electrical",
+      "target_word": "surge",
+      "context": "electrical",
+      "run": 2,
+      "text_length": 5263,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.1226232051849365,
+          "max_norm": 2.981952667236328,
+          "norm_std": 0.22458940744400024,
+          "norm_kurtosis": -0.5129468059869398,
+          "mean_derivative": 0.2385886311531067,
+          "max_derivative": 0.9962471723556519,
+          "autocorr_lag1": 0.17795545674685825,
+          "autocorr_lag2": 0.030850554334994635,
+          "spectral_power_low": 8369.8876953125,
+          "spectral_power_mid": 6944.3837890625,
+          "spectral_power_low_per_token": 8.378265961273774,
+          "spectral_power_mid_per_token": 6.951335124186687,
+          "mean_token_similarity": 0.52436000641649,
+          "token_similarity_std": 0.09735911995320395,
+          "sparsity": 0.9919390826373248,
+          "convergence_ratio": 1.1398389339447021,
+          "n_tokens": 999
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 65,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 52,
+        "ctrl_and": 15,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "surge_electrical",
+      "target_word": "surge",
+      "context": "electrical",
+      "run": 3,
+      "text_length": 4516,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0977602005004883,
+          "max_norm": 4.025119781494141,
+          "norm_std": 0.25301897525787354,
+          "norm_kurtosis": 5.456045290148266,
+          "mean_derivative": 0.26572903990745544,
+          "max_derivative": 2.103389024734497,
+          "autocorr_lag1": 0.08941036568494119,
+          "autocorr_lag2": -0.06059924933649669,
+          "spectral_power_low": 6179.34326171875,
+          "spectral_power_mid": 6359.1240234375,
+          "spectral_power_low_per_token": 7.347613866490785,
+          "spectral_power_mid_per_token": 7.561384094456005,
+          "mean_token_similarity": 0.5301086984307619,
+          "token_similarity_std": 0.09566642105534064,
+          "sparsity": 0.9920918468062574,
+          "convergence_ratio": 1.0590157508850098,
+          "n_tokens": 841
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 58,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 44,
+        "ctrl_and": 20,
+        "ctrl_what": 1
+      }
+    },
+    {
+      "prompt_id": "surge_electrical",
+      "target_word": "surge",
+      "context": "electrical",
+      "run": 4,
+      "text_length": 4831,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.1080753803253174,
+          "max_norm": 2.882969856262207,
+          "norm_std": 0.2212652862071991,
+          "norm_kurtosis": -0.5359068215439318,
+          "mean_derivative": 0.23819178342819214,
+          "max_derivative": 1.1718322038650513,
+          "autocorr_lag1": 0.13270331106688885,
+          "autocorr_lag2": -0.006317595673593318,
+          "spectral_power_low": 6138.984375,
+          "spectral_power_mid": 6089.55712890625,
+          "spectral_power_low_per_token": 6.672809103260869,
+          "spectral_power_mid_per_token": 6.619083835767663,
+          "mean_token_similarity": 0.5170909952249417,
+          "token_similarity_std": 0.09772188475044515,
+          "sparsity": 0.9920660931131114,
+          "convergence_ratio": 1.096724510192871,
+          "n_tokens": 920
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 49,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 32,
+        "ctrl_and": 23,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_crowd",
+      "target_word": "surge",
+      "context": "crowd",
+      "run": 0,
+      "text_length": 3736,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.015855312347412,
+          "max_norm": 2.638357162475586,
+          "norm_std": 0.2199040949344635,
+          "norm_kurtosis": -0.690651611198132,
+          "mean_derivative": 0.2536658048629761,
+          "max_derivative": 0.8464607000350952,
+          "autocorr_lag1": 0.007402406645960615,
+          "autocorr_lag2": -0.019128235438157788,
+          "spectral_power_low": 2666.748046875,
+          "spectral_power_mid": 3216.30517578125,
+          "spectral_power_low_per_token": 3.8817293258733625,
+          "spectral_power_mid_per_token": 4.68166692253457,
+          "mean_token_similarity": 0.5227754827399441,
+          "token_similarity_std": 0.09134717062007122,
+          "sparsity": 0.9928044259461426,
+          "convergence_ratio": 1.14897620677948,
+          "n_tokens": 687
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 16,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 36,
+        "ctrl_and": 23,
+        "ctrl_what": 4
+      }
+    },
+    {
+      "prompt_id": "surge_crowd",
+      "target_word": "surge",
+      "context": "crowd",
+      "run": 1,
+      "text_length": 3511,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0375688076019287,
+          "max_norm": 2.5927135944366455,
+          "norm_std": 0.23903773725032806,
+          "norm_kurtosis": -0.9273890198731509,
+          "mean_derivative": 0.2726913392543793,
+          "max_derivative": 1.0158904790878296,
+          "autocorr_lag1": 0.037870684001318884,
+          "autocorr_lag2": -0.035855447234471316,
+          "spectral_power_low": 2928.08251953125,
+          "spectral_power_mid": 3250.122314453125,
+          "spectral_power_low_per_token": 4.553783078586703,
+          "spectral_power_mid_per_token": 5.054622573021967,
+          "mean_token_similarity": 0.5292297089519101,
+          "token_similarity_std": 0.09252947899685136,
+          "sparsity": 0.992479291711217,
+          "convergence_ratio": 1.0276169776916504,
+          "n_tokens": 643
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 15,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 35,
+        "ctrl_and": 24,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_crowd",
+      "target_word": "surge",
+      "context": "crowd",
+      "run": 2,
+      "text_length": 4016,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.015897750854492,
+          "max_norm": 2.599065065383911,
+          "norm_std": 0.21962782740592957,
+          "norm_kurtosis": -0.6152918683217301,
+          "mean_derivative": 0.2590179145336151,
+          "max_derivative": 0.9629489183425903,
+          "autocorr_lag1": -0.02568545129551554,
+          "autocorr_lag2": -0.003119184862338714,
+          "spectral_power_low": 3203.704833984375,
+          "spectral_power_mid": 3465.00537109375,
+          "spectral_power_low_per_token": 4.26591855390729,
+          "spectral_power_mid_per_token": 4.613855354319241,
+          "mean_token_similarity": 0.5357647360350835,
+          "token_similarity_std": 0.09198223111193211,
+          "sparsity": 0.9926699296770972,
+          "convergence_ratio": 1.1576186418533325,
+          "n_tokens": 751
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 17,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 35,
+        "ctrl_and": 34,
+        "ctrl_what": 2
+      }
+    },
+    {
+      "prompt_id": "surge_crowd",
+      "target_word": "surge",
+      "context": "crowd",
+      "run": 3,
+      "text_length": 4001,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0095815658569336,
+          "max_norm": 2.5719051361083984,
+          "norm_std": 0.22222110629081726,
+          "norm_kurtosis": -0.8990547478555362,
+          "mean_derivative": 0.25793981552124023,
+          "max_derivative": 0.789654016494751,
+          "autocorr_lag1": 0.013462575474581314,
+          "autocorr_lag2": -0.047556552834546045,
+          "spectral_power_low": 3057.619384765625,
+          "spectral_power_mid": 3052.6728515625,
+          "spectral_power_low_per_token": 4.330905644143945,
+          "spectral_power_mid_per_token": 4.323899223176346,
+          "mean_token_similarity": 0.5207360066818645,
+          "token_similarity_std": 0.10039975105177647,
+          "sparsity": 0.9927136472534526,
+          "convergence_ratio": 1.1719051599502563,
+          "n_tokens": 706
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 21,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 48,
+        "ctrl_and": 35,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_crowd",
+      "target_word": "surge",
+      "context": "crowd",
+      "run": 4,
+      "text_length": 4107,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0254876613616943,
+          "max_norm": 2.5356996059417725,
+          "norm_std": 0.21468286216259003,
+          "norm_kurtosis": -0.7364944991842495,
+          "mean_derivative": 0.25391003489494324,
+          "max_derivative": 0.8644887208938599,
+          "autocorr_lag1": -0.027278020235624548,
+          "autocorr_lag2": -0.03050064084717582,
+          "spectral_power_low": 2579.326904296875,
+          "spectral_power_mid": 3513.5615234375,
+          "spectral_power_low_per_token": 3.5381713364840537,
+          "spectral_power_mid_per_token": 4.819700306498628,
+          "mean_token_similarity": 0.5116791615206442,
+          "token_similarity_std": 0.09269376798901063,
+          "sparsity": 0.9926848234953703,
+          "convergence_ratio": 1.052635908126831,
+          "n_tokens": 729
+        }
+      },
+      "vocab_counts": {
+        "loop": 1,
+        "surge": 21,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 52,
+        "ctrl_and": 27,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_medical",
+      "target_word": "surge",
+      "context": "medical",
+      "run": 0,
+      "text_length": 5104,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.1141021251678467,
+          "max_norm": 2.6476030349731445,
+          "norm_std": 0.24429203569889069,
+          "norm_kurtosis": -0.7194009223355633,
+          "mean_derivative": 0.2688083052635193,
+          "max_derivative": 0.9391026496887207,
+          "autocorr_lag1": 0.09951987620845208,
+          "autocorr_lag2": 0.04109734252981675,
+          "spectral_power_low": 7034.0849609375,
+          "spectral_power_mid": 7068.22705078125,
+          "spectral_power_low_per_token": 7.729763693337912,
+          "spectral_power_mid_per_token": 7.767282473385989,
+          "mean_token_similarity": 0.5197182022453262,
+          "token_similarity_std": 0.08972617026008282,
+          "sparsity": 0.9919177380236951,
+          "convergence_ratio": 1.1421122550964355,
+          "n_tokens": 910
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 23,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 24,
+        "ctrl_and": 41,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_medical",
+      "target_word": "surge",
+      "context": "medical",
+      "run": 1,
+      "text_length": 3893,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0383753776550293,
+          "max_norm": 2.591437816619873,
+          "norm_std": 0.24803195893764496,
+          "norm_kurtosis": -0.9619373231589048,
+          "mean_derivative": 0.2834603488445282,
+          "max_derivative": 1.0057777166366577,
+          "autocorr_lag1": 0.02366809668654046,
+          "autocorr_lag2": -0.12982053916757694,
+          "spectral_power_low": 2877.027099609375,
+          "spectral_power_mid": 5082.94287109375,
+          "spectral_power_low_per_token": 4.157553612152276,
+          "spectral_power_mid_per_token": 7.345293166320448,
+          "mean_token_similarity": 0.5036595332218345,
+          "token_similarity_std": 0.09726312874779337,
+          "sparsity": 0.9925907553964957,
+          "convergence_ratio": 1.0145103931427002,
+          "n_tokens": 692
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 23,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 23,
+        "ctrl_and": 33,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_medical",
+      "target_word": "surge",
+      "context": "medical",
+      "run": 2,
+      "text_length": 4401,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.061171054840088,
+          "max_norm": 2.5342214107513428,
+          "norm_std": 0.24825242161750793,
+          "norm_kurtosis": -1.0997229768241137,
+          "mean_derivative": 0.2916812598705292,
+          "max_derivative": 0.8516052961349487,
+          "autocorr_lag1": -0.022668317268120696,
+          "autocorr_lag2": -0.22922832953101305,
+          "spectral_power_low": 2624.537353515625,
+          "spectral_power_mid": 7055.24951171875,
+          "spectral_power_low_per_token": 3.334863219206639,
+          "spectral_power_mid_per_token": 8.96473889672014,
+          "mean_token_similarity": 0.5051874611963332,
+          "token_similarity_std": 0.09813243386463055,
+          "sparsity": 0.9924055824134371,
+          "convergence_ratio": 1.0493700504302979,
+          "n_tokens": 787
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 24,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 21,
+        "ctrl_and": 29,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_medical",
+      "target_word": "surge",
+      "context": "medical",
+      "run": 3,
+      "text_length": 4374,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.107832193374634,
+          "max_norm": 2.600581645965576,
+          "norm_std": 0.24714232981204987,
+          "norm_kurtosis": -0.7603822916631637,
+          "mean_derivative": 0.2725452482700348,
+          "max_derivative": 0.9445147514343262,
+          "autocorr_lag1": 0.09424761262680527,
+          "autocorr_lag2": 0.02596542370448474,
+          "spectral_power_low": 5390.89697265625,
+          "spectral_power_mid": 5608.8212890625,
+          "spectral_power_low_per_token": 6.781002481328616,
+          "spectral_power_mid_per_token": 7.05512111831761,
+          "mean_token_similarity": 0.5199891505462217,
+          "token_similarity_std": 0.08883326312215961,
+          "sparsity": 0.9919602496069182,
+          "convergence_ratio": 1.1659324169158936,
+          "n_tokens": 795
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 18,
+        "shimmer": 0,
+        "pulse": 1,
+        "void": 0,
+        "ctrl_the": 29,
+        "ctrl_and": 29,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_medical",
+      "target_word": "surge",
+      "context": "medical",
+      "run": 4,
+      "text_length": 5266,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.1327061653137207,
+          "max_norm": 2.625347852706909,
+          "norm_std": 0.2354159653186798,
+          "norm_kurtosis": -0.629433594754337,
+          "mean_derivative": 0.2632251977920532,
+          "max_derivative": 1.040317177772522,
+          "autocorr_lag1": 0.08483450776138647,
+          "autocorr_lag2": 0.03886255561566048,
+          "spectral_power_low": 8337.7958984375,
+          "spectral_power_mid": 7057.13916015625,
+          "spectral_power_low_per_token": 8.473369815485265,
+          "spectral_power_mid_per_token": 7.1718893904026935,
+          "mean_token_similarity": 0.5080267030110924,
+          "token_similarity_std": 0.09074535384661762,
+          "sparsity": 0.9917698061563135,
+          "convergence_ratio": 1.1286107301712036,
+          "n_tokens": 984
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 29,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 33,
+        "ctrl_and": 25,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_market",
+      "target_word": "surge",
+      "context": "market",
+      "run": 0,
+      "text_length": 4002,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.090265989303589,
+          "max_norm": 2.769244432449341,
+          "norm_std": 0.23303566873073578,
+          "norm_kurtosis": -0.46423838469949397,
+          "mean_derivative": 0.26502445340156555,
+          "max_derivative": 0.8610152006149292,
+          "autocorr_lag1": 0.022976123711839203,
+          "autocorr_lag2": 0.07003168444490637,
+          "spectral_power_low": 4247.84228515625,
+          "spectral_power_mid": 2693.676025390625,
+          "spectral_power_low_per_token": 5.949358942795868,
+          "spectral_power_mid_per_token": 3.772655497745973,
+          "mean_token_similarity": 0.518720365390969,
+          "token_similarity_std": 0.09947566859587353,
+          "sparsity": 0.9922215223980217,
+          "convergence_ratio": 1.1097512245178223,
+          "n_tokens": 714
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 34,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 19,
+        "ctrl_and": 33,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_market",
+      "target_word": "surge",
+      "context": "market",
+      "run": 1,
+      "text_length": 4361,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.0969009399414062,
+          "max_norm": 2.7343239784240723,
+          "norm_std": 0.23036643862724304,
+          "norm_kurtosis": -0.43328702676225106,
+          "mean_derivative": 0.2570629119873047,
+          "max_derivative": 0.8737249374389648,
+          "autocorr_lag1": 0.06819908985894349,
+          "autocorr_lag2": 0.004068416990991992,
+          "spectral_power_low": 4409.59130859375,
+          "spectral_power_mid": 4027.16650390625,
+          "spectral_power_low_per_token": 5.711905840147344,
+          "spectral_power_mid_per_token": 5.216536922158355,
+          "mean_token_similarity": 0.5294411535583584,
+          "token_similarity_std": 0.09399528327955195,
+          "sparsity": 0.9922458470794203,
+          "convergence_ratio": 1.1271742582321167,
+          "n_tokens": 772
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 29,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 39,
+        "ctrl_and": 19,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_market",
+      "target_word": "surge",
+      "context": "market",
+      "run": 2,
+      "text_length": 4789,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.1184937953948975,
+          "max_norm": 2.7954139709472656,
+          "norm_std": 0.22327707707881927,
+          "norm_kurtosis": -0.27500395782812115,
+          "mean_derivative": 0.24055227637290955,
+          "max_derivative": 0.884150505065918,
+          "autocorr_lag1": 0.12237366523805472,
+          "autocorr_lag2": 0.07059663804670259,
+          "spectral_power_low": 5996.74951171875,
+          "spectral_power_mid": 3715.81884765625,
+          "spectral_power_low_per_token": 7.156025670308771,
+          "spectral_power_mid_per_token": 4.434151369518198,
+          "mean_token_similarity": 0.5198619588686303,
+          "token_similarity_std": 0.11023366798298696,
+          "sparsity": 0.9920897563488216,
+          "convergence_ratio": 1.0891156196594238,
+          "n_tokens": 838
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 32,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 31,
+        "ctrl_and": 30,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_market",
+      "target_word": "surge",
+      "context": "market",
+      "run": 3,
+      "text_length": 4374,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.1218700408935547,
+          "max_norm": 2.7538206577301025,
+          "norm_std": 0.2413441389799118,
+          "norm_kurtosis": -0.5103589151658992,
+          "mean_derivative": 0.2571793794631958,
+          "max_derivative": 0.8776295185089111,
+          "autocorr_lag1": 0.12377166794441471,
+          "autocorr_lag2": 0.07168205420503161,
+          "spectral_power_low": 6019.53125,
+          "spectral_power_mid": 3774.568359375,
+          "spectral_power_low_per_token": 7.757127899484536,
+          "spectral_power_mid_per_token": 4.86413448373067,
+          "mean_token_similarity": 0.5214124101581146,
+          "token_similarity_std": 0.11096317452183012,
+          "sparsity": 0.9920728231213757,
+          "convergence_ratio": 1.103934407234192,
+          "n_tokens": 776
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 39,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 30,
+        "ctrl_and": 23,
+        "ctrl_what": 0
+      }
+    },
+    {
+      "prompt_id": "surge_market",
+      "target_word": "surge",
+      "context": "market",
+      "run": 4,
+      "text_length": 4220,
+      "layer_metrics": {
+        "5": {
+          "mean_norm": 2.1088945865631104,
+          "max_norm": 2.7826905250549316,
+          "norm_std": 0.23639526963233948,
+          "norm_kurtosis": -0.41399608764898765,
+          "mean_derivative": 0.26395052671432495,
+          "max_derivative": 0.930279016494751,
+          "autocorr_lag1": 0.07216391027317516,
+          "autocorr_lag2": 0.022559257709327922,
+          "spectral_power_low": 4573.4072265625,
+          "spectral_power_mid": 3594.916748046875,
+          "spectral_power_low_per_token": 6.138801646392618,
+          "spectral_power_mid_per_token": 4.825391608116611,
+          "mean_token_similarity": 0.5230617600157708,
+          "token_similarity_std": 0.10148904841265827,
+          "sparsity": 0.992200444368708,
+          "convergence_ratio": 1.1508557796478271,
+          "n_tokens": 745
+        }
+      },
+      "vocab_counts": {
+        "loop": 0,
+        "surge": 23,
+        "shimmer": 0,
+        "pulse": 0,
+        "void": 0,
+        "ctrl_the": 21,
+        "ctrl_and": 20,
+        "ctrl_what": 0
+      }
+    }
+  ]
+}
